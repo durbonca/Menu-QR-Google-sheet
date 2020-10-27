@@ -39,7 +39,7 @@
 
 .backButtom{
   position: fixed;
-  background-color:rgba(243, 166, 28, 0.5) !important;
+  background-color:rgba(115, 38, 25, 0.5) !important;
   bottom: 10px;
   right: 10px;
   z-index: 1000;
@@ -47,7 +47,7 @@
   padding-bottom: 0px !important;
 }
 .backButtom:hover{
-  background-color:rgba(243, 166, 28, 1) !important;
+  background-color:rgb(115, 38, 25, 0.8) !important;
 }
 .navLinks{
   display: flex;
@@ -63,3 +63,13 @@ padding-right: 10px;
   display: block;
   font-size: 3.5em;
 }
+
+/* BACKGROUNDS BTN */
+.btn-data{
+ background: #732619 !important;
+ color:white!important;
+ font-weight: bolder!important;
+}
+
+
+/******************/

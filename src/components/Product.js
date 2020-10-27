@@ -5,10 +5,9 @@ class Family extends React.Component {
     render (props){
         return  <div>
                  {this.props.product.map(function (product){ 
-                    return  <div className="row d-flex mt-3 item">
-                                <h4 className="col-8 text-left">{product.name}</h4>
-                                <h6 className="col-4 text-right">$ {product.price}</h6>
-                                <span className="col-12">{product.description}</span>
+                    return  <div className="row d-flex mt-1 item">
+                                <p className="col text-left mb-0">{product.name} <small className="col-12">{product.description}</small></p>
+                                <p className="col-auto text-right mb-0">{product.price}</p>
                             </div>
                     })} 
                 </div>
