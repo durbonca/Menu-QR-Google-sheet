@@ -218,13 +218,158 @@ const dataLicor = [{
         description: 'Negron, Tom Collins, Martini Dry, Le Grand Fizz, ...',
         cl: '6',
         products: [{
+                id: 1,
+                name: 'Lüykün',
+                description: 'Chile',
+                price: '4.500'
+            },
+            {
+                id: 2,
+                name: 'Citadelle',
+                description: 'Francia',
+                price: '5.000'
+            },
+            {
+                id: 3,
+                name: 'Barber’s',
+                description: 'Inglaterra',
+                price: '4.500'
+            },
+            {
+                id: 4,
+                name: 'Fifty Pounds',
+                description: 'Inglaterra',
+                price: '6.000'
+            },
+            {
+                id: 5,
+                name: 'The Botanist',
+                description: 'Escocia',
+                price: '7.000'
+            },
+            {
+                id: 6,
+                name: 'Monkey 47',
+                description: 'Alemanía',
+                price: '7.500'
+            },
+            {
+                id: 7,
+                name: 'Mare',
+                description: 'Cataluña',
+                price: '6.000'
+            },
+            {
+                id: 8,
+                name: 'Star Of Bombay',
+                description: 'Inglaterra',
+                price: '5.500'
+            }
+        ]
+    },
+    {
+        title: 'Ron',
+        description: 'Daiquiri, Mojito, ...',
+        cl: '6',
+        products: [{
+                id: 1,
+                name: 'Santiago de Cuba',
+                description: '12 Años',
+                price: '5.000'
+            },
+            {
+                id: 2,
+                name: 'Bacardí',
+                description: '8 Años',
+                price: '4.000'
+            },
+            {
+                id: 3,
+                name: 'Mount Gay',
+                description: 'Black Eclipse',
+                price: '4.000'
+            },
+            {
+                id: 4,
+                name: 'Bacardí',
+                description: 'Carta Blanca',
+                price: '3.500'
+            }
+        ]
+    },
+    {
+        title: 'Cremas',
+        description: '',
+        cl: '6',
+        products: [{
             id: 1,
-            name: 'Lüykün',
-            description: 'Chile',
-            price: '4.500'
+            name: 'Amarula',
+            description: 'Fruta de Marula',
+            price: '3.500'
         }]
+    },
+    {
+        title: 'Licores',
+        description: '',
+        products: [{
+                id: 1,
+                name: 'Araucano',
+                description: '',
+                cl: '6',
+                price: '3.000'
+            },
+            {
+                id: 2,
+                name: 'Amaretto Luxardo',
+                description: '',
+                cl: '6',
+                price: '3.500'
+            },
+            {
+                id: 3,
+                name: 'Drambuie',
+                description: '',
+                cl: '6',
+                price: '4.000'
+            },
+            {
+                id: 4,
+                name: 'Cointreau',
+                description: '',
+                cl: '6',
+                price: '5.500'
+            },
+            {
+                id: 5,
+                name: 'Grand Marnier',
+                description: '',
+                cl: '4',
+                price: '4.500'
+            },
+            {
+                id: 6,
+                name: 'Benedictine',
+                description: '',
+                cl: '4',
+                price: '4.000'
+            },
+            {
+                id: 7,
+                name: 'Chartreuse',
+                description: 'Green',
+                cl: '4',
+                price: '4.000'
+            },
+            {
+                id: 8,
+                name: 'Marie Brizard',
+                description: '',
+                cl: '4',
+                price: '3.000'
+            }
+        ]
     }
-]
 
+]
 
 export default dataLicor

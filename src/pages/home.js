@@ -10,6 +10,9 @@ class Home extends React.Component{
                 <Link className="btn btn-warning rounded shadow" to="/Family"><div><span className="emoji" role="img" aria-label={""}>🍔</span><p>Comidas</p></div></Link>
                 <Link className="btn btn-warning rounded shadow" to="/Beer"><div><span className="emoji" role="img" aria-label={""}>🍻</span><p>Cervezas</p></div></Link>
                 <Link className="btn btn-warning rounded shadow" to="/Licor"><div><span className="emoji" role="img" aria-label={""}>🥃</span><p>Licores</p></div></Link>
+                <Link className="btn btn-warning rounded shadow" to="/Chesse"><div><span className="emoji" role="img" aria-label={""}>🧀</span><p>Quesos</p></div></Link>
+                <Link className="btn btn-warning rounded shadow" to="/Wine"><div><span className="emoji" role="img" aria-label={""}>🍷</span><p>Vinos</p></div></Link>
+                <Link className="btn btn-warning rounded shadow" to="/Coffe"><div><span className="emoji" role="img" aria-label={""}>☕</span><p>Postres</p></div></Link>
             </div>
             </div> 
         )
