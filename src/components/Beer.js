@@ -1,5 +1,6 @@
 import React from "react"
 import dataBeer from '../data/dataBeer';
+import Bars from './bars'
 import Product from './Product'
 import {Link} from "react-router-dom"
 
@@ -11,10 +12,10 @@ class Family extends React.Component {
                 <Link className="btn backButtom" to="/"><span className="emoji" role="img" aria-label={""}>🔙</span></Link>
                 {dataBeer.map(function (dataBeer){
                     return <div>
-                                <div className="row mt-5 d-flex">
-                                    <div className="col bar"></div>
+                                <div className="row mt-5 d-flex align-items-center">                               
+                                    <Bars/>
                                     <h3 className="col-auto text-center">{dataBeer.title}</h3>
-                                    <div className="col bar"></div>
+                                    <Bars/>
                                 </div>
                                 <Product product={dataBeer.products}/>
                             </div>

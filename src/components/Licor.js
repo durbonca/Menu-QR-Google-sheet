@@ -2,6 +2,7 @@ import React from "react"
 import dataLicor from '../data/dataLicor';
 import Product from './Product'
 import {Link} from 'react-router-dom'
+import Bars from './bars'
 
 class Family extends React.Component {
     
@@ -11,10 +12,10 @@ class Family extends React.Component {
                 <Link className="btn backButtom" to="/"><span className="emoji" role="img" aria-label={""}>🔙</span></Link>
                 {dataLicor.map(function (dataLicor){
                     return <div>
-                                <div className="row mt-5 d-flex">
-                                    <div className="col bar"></div>
+                                <div className="row mt-5 d-flex align-items-center">                               
+                                    <Bars/>
                                     <h3 className="col-auto text-center">{dataLicor.title}</h3>
-                                    <div className="col bar"></div>
+                                    <Bars/>
                                 </div>
                                 <Product product={dataLicor.products}/>
                             </div>
