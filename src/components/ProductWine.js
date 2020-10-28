@@ -1,7 +1,6 @@
 import React from "react"
 
 class Family extends React.Component {
-    
     render (props){
         return  <div>
                  {this.props.product.map(function (product){ 
