@@ -8,12 +8,13 @@ import Chesse from './components/Chesse'
 import Wine from './components/Wine'
 import Coffe from './components/Coffe'
 import Home from './pages/home'
+import Postres from './components/Postres'
 
 function App() {
   return (
     <div className="App mb-3">
         <Switch>
-                <Route path="/Family" render={() => <div><h1 className="mt-5">CARTA DE PLATOS</h1><Family/></div>} />
+                <Route path="/Family" render={() => <div><h1 className="mt-5">CARTA DE PLATOS</h1><Family/><Postres/></div>} />
                 <Route path="/Wine" render={() => <div><h1 className="mt-5">CARTA DE VINOS</h1> <Wine/></div>} />
                 <Route path="/Beer" render={() => <div><h1 className="mt-5">CARTA DE BAR</h1><Beer/><Licor/><Coffe/><Chesse/></div>} />
                {/*  <Route path="/Licor" render={() => <div><h1 className="mt-5">CARTA DE LICORES</h1> </div>} />
