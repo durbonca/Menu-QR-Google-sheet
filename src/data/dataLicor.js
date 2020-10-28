@@ -38,40 +38,6 @@ const dataLicor = [{
         ]
     },
     {
-        title: 'VODKA',
-        products: [{
-                id: 1,
-                name: 'SMIRNOFF BOTELLA',
-                description: '',
-                price: ' $140.000 '
-            },
-            {
-                id: 2,
-                name: 'SMIRNOFF 1/2',
-                description: '',
-                price: ' $85.000 '
-            },
-            {
-                id: 3,
-                name: 'SMIRNOFF ICE',
-                description: '',
-                price: '10.000'
-            },
-            {
-                id: 4,
-                name: 'ABSOLUT BOTELLA',
-                description: '',
-                price: '155.000'
-            },
-            {
-                id: 5,
-                name: 'ABSOLUT 1/2',
-                description: '',
-                price: '100.000'
-            }
-        ]
-    },
-    {
         title: 'Los Macerados',
         products: [{
             id: 1,
