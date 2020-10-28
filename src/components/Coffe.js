@@ -20,7 +20,6 @@ class Family extends React.Component {
                                 <Product product={dataProducts.products}/>
                             </div>
                 })}
-
               </div> 
     }
 }
