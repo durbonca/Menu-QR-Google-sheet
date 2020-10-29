@@ -9,6 +9,7 @@ import Wine from './components/Wine'
 import Coffe from './components/Coffe'
 import Home from './pages/home'
 import Postres from './components/Postres'
+import Destilados from './components/Destilados'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Switch>
                 <Route path="/Family" render={() => <div><h1 className="mt-5">CARTA DE PLATOS</h1><Family/><Postres/></div>} />
                 <Route path="/Wine" render={() => <div><h1 className="mt-5">CARTA DE VINOS</h1> <Wine/></div>} />
-                <Route path="/Beer" render={() => <div><h1 className="mt-5">CARTA DE BAR</h1><Beer/><Licor/><Coffe/><Chesse/></div>} />
+                <Route path="/Beer" render={() => <div><h1 className="mt-5">CARTA DE BAR</h1><Beer/><Licor/><Destilados/><Coffe/><Chesse/></div>} />
                {/*  <Route path="/Licor" render={() => <div><h1 className="mt-5">CARTA DE LICORES</h1> </div>} />
                 <Route path="/Chesse" render={() => <div><h1 className="mt-5">CARTA DE QUESOS</h1> </div>} />
                 <Route path="/Coffe" render={() => <div><h1 className="mt-5">CARTA DE POSTRES, CAFÉ E INFUSIONES</h1> </div>} /> */}
