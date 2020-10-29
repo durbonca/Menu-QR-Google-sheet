@@ -182,7 +182,7 @@ const dataLicor = [{
     {
         title: 'Gin',
         description: 'Negron, Tom Collins, Martini Dry, Le Grand Fizz, ...',
-        cl: '6',
+        cl2: '6',
         products: [{
                 id: 1,
                 name: 'Lüykün',
@@ -236,7 +236,7 @@ const dataLicor = [{
     {
         title: 'Ron',
         description: 'Daiquiri, Mojito, ...',
-        cl: '6',
+        cl2: '6',
         products: [{
                 id: 1,
                 name: 'Santiago de Cuba',
@@ -266,7 +266,7 @@ const dataLicor = [{
     {
         title: 'Cremas',
         description: '',
-        cl: '6',
+        cl2: '6',
         products: [{
             id: 1,
             name: 'Amarula',

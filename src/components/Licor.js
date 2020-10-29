@@ -1,6 +1,6 @@
 import React from "react"
 import dataLicor from '../data/dataLicor';
-import Product from './Product'
+import ProductLicor from './ProductLicor'
 import {Link} from 'react-router-dom'
 import Bars from './bars'
 
@@ -17,7 +17,11 @@ class Family extends React.Component {
                                     <h3 className="col-auto text-center">{dataLicor.title}</h3>
                                     <Bars/>
                                 </div>
-                                <Product product={dataLicor.products}/>
+                                <div class="row d-flex justify-content-end">
+                                        <span className="col-3 p-0">{dataLicor.cl} {dataLicor.cl?'cl':''}</span>
+                                        <span className="col-2 p-0">{dataLicor.cl2} {dataLicor.cl2?'cl':''}</span>
+                                </div>
+                                <ProductLicor product={dataLicor.products}/>
                             </div>
                 })}
 
