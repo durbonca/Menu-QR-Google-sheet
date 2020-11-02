@@ -230,6 +230,12 @@ const dataLicor = [{
                 name: 'Star Of Bombay',
                 description: 'Inglaterra',
                 price2: '5.500'
+            },
+            {
+                id: 9,
+                name: 'Hendricks',
+                description: 'Escocia',
+                price2: '5.500'
             }
         ]
     },
