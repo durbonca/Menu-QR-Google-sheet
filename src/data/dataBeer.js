@@ -107,13 +107,13 @@ const dataBeer = [{
             name: 'Agua Tónica',
             description: '1724',
             price: '3.000'
-        },
+        }/* ,
         {
             id: 9,
             name: 'Aguas Minerales',
             description: 'Glenlivet, Perrier',
             price: '3.000'
-        },
+        } */,
         {
             id: 10,
             name: 'Agua Porvenir',
