@@ -148,14 +148,14 @@ const dataLicor = [{
                 description: 'USA',
                 price: '3.000',
                 price2: '5.000'
-            }/* ,
+            },
             {
                 id: 5,
                 name: 'Grey Goose',
-                description: 'Tradicional, Naranja, Limón, Pera - Francia',
+                description: /* 'Tradicional,  */'Naranja, Limón, Pera - Francia',
                 price: '3.000',
                 price2: '5.000'
-            } */
+            }
         ]
     },
     {

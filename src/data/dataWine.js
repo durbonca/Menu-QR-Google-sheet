@@ -214,6 +214,14 @@ const dataWine = [{
                 country: 'Maipo',
                 price: '',
                 price2: '13.000'
+            },
+            {
+                id: 10,
+                name: 'Lago Ranco',
+                description: 'de Casa Silva 2016',
+                country: '',
+                price: '',
+                price2: '23.000'
             }
         ]
     }, {
@@ -662,6 +670,14 @@ const dataWine = [{
                 country: 'Leyda',
                 price: '',
                 price2: '15.000'
+            },
+            {
+                id: 19,
+                name: 'Terramater',
+                description: 'Limited Reserva 2015',
+                country: 'Maipo',
+                price: '',
+                price2: '14.000'
             }
         ]
     }, {
