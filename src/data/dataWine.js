@@ -121,7 +121,7 @@ const dataWine = [{
                 country: 'Uco (AR)',
                 price: '',
                 price2: '19.000'
-            },
+            }/* ,
             {
                 id: 3,
                 name: 'Gemma',
@@ -129,7 +129,7 @@ const dataWine = [{
                 country: 'Limarí',
                 price: '3.500',
                 price2: '17.000'
-            }
+            } */
         ]
     }, {
         title: 'late Harvest',
@@ -191,14 +191,14 @@ const dataWine = [{
                 price: '4.000',
                 price2: '17.000'
             },
-            {
+            /* {
                 id: 7,
                 name: 'Villard',
                 description: 'Expresion 2018',
                 country: 'Casablanca',
                 price: '',
                 price2: '16.000'
-            },
+            }, */
             {
                 id: 8,
                 name: 'Clos Andino',
@@ -1328,7 +1328,7 @@ const dataWine = [{
                 country: 'Colchagua',
                 price: '',
                 price2: '59.000'
-            },
+            }/* ,
             {
                 id: 3,
                 name: 'Montelig',
@@ -1336,7 +1336,7 @@ const dataWine = [{
                 country: 'Aconcagua',
                 price: '',
                 price2: '41.000'
-            },
+            } */,
             {
                 id: 4,
                 name: 'Laku',

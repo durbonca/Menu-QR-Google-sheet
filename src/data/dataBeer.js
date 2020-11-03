@@ -113,7 +113,20 @@ const dataBeer = [{
             name: 'Aguas Minerales',
             description: 'Glenlivet, Perrier',
             price: '3.000'
+        },
+        {
+            id: 10,
+            name: 'Agua Porvenir',
+            description: 'Con gas',
+            price: '3.000'
+        },
+        {
+            id: 9,
+            name: 'Agua Porvenir',
+            description: 'Sin gas',
+            price: '3.000'
         }
+        
     ]
 }]
 

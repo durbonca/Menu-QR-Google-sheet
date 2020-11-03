@@ -53,13 +53,13 @@ const dataLicor = [{
                 name: 'Aperol',
                 description: '',
                 price2: '4.000 '
-            },
+            }/* ,
             {
                 id: 2,
                 name: 'Saint Germain',
                 description: '',
                 price2: '4.000 '
-            },
+            } */,
             {
                 id: 3,
                 name: 'Libertin',
@@ -148,14 +148,14 @@ const dataLicor = [{
                 description: 'USA',
                 price: '3.000',
                 price2: '5.000'
-            },
+            }/* ,
             {
                 id: 5,
                 name: 'Grey Goose',
                 description: 'Tradicional, Naranja, Limón, Pera - Francia',
                 price: '3.000',
                 price2: '5.000'
-            }
+            } */
         ]
     },
     {
@@ -236,6 +236,12 @@ const dataLicor = [{
                 name: 'Hendricks',
                 description: 'Escocia',
                 price2: '5.500'
+            },
+            {
+                id: 10,
+                name: 'Republica',
+                description: 'Bolivia',
+                price2: '4.500'
             }
         ]
     },
