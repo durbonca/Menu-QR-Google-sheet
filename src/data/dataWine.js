@@ -989,14 +989,14 @@ const dataWine = [{
         ]
     }, {
         title: 'Petit Verdot',
-        products: [{
+        products: [/* {
                 id: 1,
                 name: 'Laura Hartwing',
                 description: '2015',
                 country: 'Colchagua',
                 price: '',
                 price2: '18.000'
-            },
+            }, */
             {
                 id: 2,
                 name: 'Casa Silva',
@@ -1353,6 +1353,14 @@ const dataWine = [{
                 price: '',
                 price2: '41.000'
             } */,
+            {
+                id: 31,
+                name: 'Montelig',
+                description: 'de Von Siebenthal 2012',
+                country: 'Aconcagua',
+                price: '',
+                price2: '41.000'
+            },
             {
                 id: 4,
                 name: 'Laku',

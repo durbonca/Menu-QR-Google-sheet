@@ -206,13 +206,13 @@ const dataLicor = [{
                 name: 'Fifty Pounds',
                 description: 'Inglaterra',
                 price2: '6.000'
-            },
+            }/* ,
             {
                 id: 5,
                 name: 'The Botanist',
                 description: 'Escocia',
                 price2: '7.000'
-            },
+            } */,
             {
                 id: 6,
                 name: 'Monkey 47',
@@ -284,7 +284,19 @@ const dataLicor = [{
             name: 'Amarula',
             description: 'Fruta de Marula',
             price2: '3.500'
-        }]
+        },{
+            id: 2,
+            name: 'Kahlúa',
+            description: '',
+            price2: '3.500'
+        },
+         {
+            id: 2,
+            name: 'Saint Germain',
+            description: '',
+            price2: '4.000 '
+         }
+    ]
     },
     {
         title: 'Licores',

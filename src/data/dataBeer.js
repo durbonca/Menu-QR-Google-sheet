@@ -115,6 +115,12 @@ const dataBeer = [{
             price: '3.000'
         } */,
         {
+            id: 91,
+            name: 'Agua Perrier',
+            description: 'Con Gas',
+            price: '3.000'
+        },
+        {
             id: 10,
             name: 'Agua Porvenir',
             description: 'Con gas',

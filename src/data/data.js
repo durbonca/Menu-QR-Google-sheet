@@ -81,8 +81,8 @@ const dataProducts = [{
             {
                 id: 14,
                 name: 'Plato 3 Quesos',
-                description: '',
-                price: '10.000'
+                description: 'Brillat Savarin, Beaufort, Roquefort',
+                price: '9.000'
             }
         ]
     },

@@ -148,14 +148,14 @@ const dataDestilados = [{
                                                     description: '',
                                                     cl: 'Kentucky 6',
                                                     price: '4.000'
-                                                },
+                                                }/* ,
                                                 {
                                                     id: 2,
                                                     name: 'Wild Turkey',
                                                     description: '',
                                                     cl: 'Kentucky 6',
                                                     price: '5.500'
-                                                }]
+                                                } */]
                                         }
                                     ]
                             }
