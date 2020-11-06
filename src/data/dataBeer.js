@@ -10,7 +10,7 @@ const dataBeer = [{
             id: 2,
             name: 'Singha',
             description: 'LAGER - Tailandia - 33 Cl',
-            price: '9.000'
+            price: '3.500'
         },
         {
             id: 3,
