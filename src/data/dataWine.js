@@ -158,7 +158,7 @@ const dataWine = [{
                 country: 'San Antonio',
                 price: '',
                 price2: '22.000'
-            },
+            }/* ,
             {
                 id: 3,
                 name: '20 Barrels',
@@ -166,7 +166,7 @@ const dataWine = [{
                 country: 'Casablanca',
                 price: '',
                 price2: '22.000'
-            },
+            } */,
             {
                 id: 4,
                 name: 'Sol del Sol',
