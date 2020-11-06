@@ -53,13 +53,13 @@ const dataLicor = [{
                 name: 'Aperol',
                 description: '',
                 price2: '4.000 '
-            }/* ,
+            },
             {
                 id: 2,
                 name: 'Saint Germain',
                 description: '',
                 price2: '4.000 '
-            } */,
+            },
             {
                 id: 3,
                 name: 'Libertin',
@@ -289,13 +289,7 @@ const dataLicor = [{
             name: 'Kahlúa',
             description: '',
             price2: '3.500'
-        },
-         {
-            id: 2,
-            name: 'Saint Germain',
-            description: '',
-            price2: '4.000 '
-         }
+        }
     ]
     },
     {
