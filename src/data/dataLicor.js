@@ -58,7 +58,7 @@ const dataLicor = [{
                 id: 2,
                 name: 'Saint Germain',
                 description: '',
-                price2: '4.000 '
+                price2: '5.000 '
             },
             {
                 id: 3,
@@ -295,7 +295,13 @@ const dataLicor = [{
     {
         title: 'Licores',
         description: '',
-        products: [{
+        products: [
+            {
+                id: 0,
+                name: 'Saint Germain',
+                description: '',
+                price2: '5.000 '
+            },{
                 id: 1,
                 name: 'Araucano',
                 description: '',
