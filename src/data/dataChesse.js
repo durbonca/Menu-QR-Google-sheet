@@ -15,7 +15,7 @@ const dataCoffe = [{
             country: '(Francia)',
             gr: '45',
             price: '4.000'
-        },
+        }/* ,
         {
             id: 3,
             name: 'Laguiole',
@@ -23,7 +23,7 @@ const dataCoffe = [{
             country: '(Francia)',
             gr: '45',
             price: '4.000'
-        },
+        } */,
         {
             id: 4,
             name: 'Roquefort',
@@ -31,7 +31,7 @@ const dataCoffe = [{
             country: '(Francia)',
             gr: '45',
             price: '3.000'
-        },
+        }/* ,
         {
             id: 5,
             name: 'P’tit Basque',
@@ -39,7 +39,7 @@ const dataCoffe = [{
             country: '(Francia)',
             gr: '45',
             price: '3.500'
-        },
+        } */,
         {
             id: 6,
             name: 'Cremoso de Callaqui',
@@ -53,7 +53,7 @@ const dataCoffe = [{
             name: 'Nuestra Selección de 3 Cortes',
             description: 'Brillat, Savarin, Beaufort y Roquefort',
             country: '',
-            gr: '20/25',
+            gr: '75',
             price: '9.000'
         }
     ]
