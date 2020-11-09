@@ -42,7 +42,7 @@ const dataBeer = [{
     products: [{
             id: 1,
             name: 'Cerveza Mestra',
-            description: '',
+            description: '33 Cl',
             price: '3.500'
         },
         {

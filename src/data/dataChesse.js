@@ -51,7 +51,7 @@ const dataCoffe = [{
         {
             id: 7,
             name: 'Nuestra Selección de 3 Cortes',
-            description: 'Brillat, Savarin, Beaufort y Roquefort',
+            description: 'Brillat Savarin, Beaufort y Roquefort',
             country: '',
             gr: '75',
             price: '9.000'
