@@ -48,13 +48,13 @@ const dataBeer = [{
         {
             id: 2,
             name: 'Virgin Mary',
-            description: '',
+            description: '33 Cl',
             price: '3.500'
         },
         {
             id: 3,
             name: 'Virgin Mojito',
-            description: '',
+            description: '33 Cl',
             price: '3.500'
         }
     ]

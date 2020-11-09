@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App mb-3">
         <Switch>
-                <Route path="/Family" render={() => <div><h1 className="mt-5">CARTA</h1><Bacoteo/><Chesse/><Family/><Postres/><Chesse/></div>} />
+                <Route path="/Family" render={() => <div><h1 className="mt-5">CARTA</h1><Bacoteo/><Chesse/><Family/><Postres/><Chesse/><Coffe/></div>} />
                 <Route path="/Wine" render={() => <div><h1 className="mt-5">VINOS</h1> <Wine/></div>} />
                 <Route path="/Beer" render={() => <div><h1 className="mt-5">BAR</h1><Beer/><Licor/><Destilados/><Coffe/></div>} />
                {/*  <Route path="/Licor" render={() => <div><h1 className="mt-5">CARTA DE LICORES</h1> </div>} />
