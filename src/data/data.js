@@ -193,9 +193,9 @@ const dataProducts = [
             },
             {
                 id: 3,
-                name: 'Confit de Canard',
+                name: 'Alitas de Canard',
                 description: 'con Papas y Champiñones',
-                price: '13.000'
+                price: '11.000'
             },
             {
                 id: 4,
