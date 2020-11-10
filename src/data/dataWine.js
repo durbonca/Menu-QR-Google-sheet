@@ -307,7 +307,7 @@ const dataWine = [{
                 name: 'Altum',
                 description: 'De Terramater 2017',
                 country: 'Maipo',
-                price: '',
+                price: '4.500',
                 price2: '18.000'
             },
             {
@@ -339,7 +339,7 @@ const dataWine = [{
                 name: 'Vetas Blancas',
                 description: 'De Tabalí 2017',
                 country: 'Limarí',
-                price: '4.000',
+                price: '',
                 price2: '16.000'
             },
             {
@@ -1320,6 +1320,13 @@ const dataWine = [{
     }, {
         title: 'Ensamblaje',
         products: [{
+            id: 0,
+            name: 'Memorias El principal',
+            description: '2015',
+            country: 'Maipo',
+            price: '',
+            price2: '28.000'
+        },{
                 id: 1,
                 name: 'El Principal',
                 description: '2014',
