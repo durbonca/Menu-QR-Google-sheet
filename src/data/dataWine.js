@@ -4,7 +4,7 @@ const dataWine = [{
                 id: 1,
                 name: 'Don Perignon',
                 description: 'Brut 2008 / 2009',
-                country: 'Epérnay (FR)',
+                country: 'Epérnay - FRANCIA',
                 price: '',
                 price2: '240.000'
             },
@@ -12,7 +12,7 @@ const dataWine = [{
                 id: 2,
                 name: 'Ruinart R',
                 description: 'Brut',
-                country: 'Reims (FR)',
+                country: 'Reims - FRANCIA',
                 price: '',
                 price2: '84.000'
             },
@@ -20,7 +20,7 @@ const dataWine = [{
                 id: 3,
                 name: 'Veuve Clicquot',
                 description: 'Brut',
-                country: 'Reims (FR)',
+                country: 'Reims - FRANCIA',
                 price: '',
                 price2: '79.000'
             },
@@ -28,7 +28,7 @@ const dataWine = [{
                 id: 4,
                 name: 'Pommery',
                 description: 'Brut Royal',
-                country: 'Reims (FR)',
+                country: 'Reims - FRANCIA',
                 price: '8.000',
                 price2: '46.000'
             },
@@ -36,7 +36,7 @@ const dataWine = [{
                 id: 5,
                 name: 'Piper Heidsieck',
                 description: 'Brut',
-                country: 'Reims (FR)',
+                country: 'Reims - FRANCIA',
                 price: '',
                 price2: '42.000'
             }
@@ -48,7 +48,7 @@ const dataWine = [{
                 id: 1,
                 name: 'Krug',
                 description: 'Rosé',
-                country: 'Reims (FR)',
+                country: 'Reims - FRANCIA',
                 price: '',
                 price2: '290.000'
             },
@@ -56,7 +56,7 @@ const dataWine = [{
                 id: 2,
                 name: 'Veuve Clicquot',
                 description: 'Rosé Brut',
-                country: 'Reims (FR)',
+                country: 'Reims - FRANCIA',
                 price: '',
                 price2: '70.000'
             }
@@ -67,7 +67,7 @@ const dataWine = [{
                 id: 1,
                 name: 'Baron B',
                 description: 'Brut',
-                country: 'Uco (AR)',
+                country: 'Uco - ARGENTINA',
                 price: '',
                 price2: '29.000'
             },
@@ -110,7 +110,7 @@ const dataWine = [{
                 id: 1,
                 name: 'Chandon',
                 description: 'Rosé',
-                country: 'Uco (AR)',
+                country: 'Uco - ARGENTINA',
                 price: '',
                 price2: '20.000'
             },
@@ -118,7 +118,7 @@ const dataWine = [{
                 id: 2,
                 name: 'Salentein',
                 description: 'Brut Rosé',
-                country: 'Uco (AR)',
+                country: 'Uco - ARGENTINA',
                 price: '',
                 price2: '19.000'
             }/* ,
@@ -1117,7 +1117,7 @@ const dataWine = [{
                 id: 2,
                 name: 'El Enemigo',
                 description: '2016',
-                country: 'Mendoza (AR)',
+                country: 'Mendoza - ARGENTINA',
                 price: '',
                 price2: '27.000'
             },
