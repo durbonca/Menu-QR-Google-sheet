@@ -1320,13 +1320,6 @@ const dataWine = [{
     }, {
         title: 'Ensamblaje',
         products: [{
-            id: 0,
-            name: 'Memorias El principal',
-            description: '2015',
-            country: 'Maipo',
-            price: '',
-            price2: '28.000'
-        },{
                 id: 1,
                 name: 'El Principal',
                 description: '2014',
@@ -1389,6 +1382,14 @@ const dataWine = [{
                 country: 'Maipo',
                 price: '',
                 price2: '31.000'
+            },
+            {
+                id: 71,
+                name: 'Memorias El principal',
+                description: '2015',
+                country: 'Maipo',
+                price: '',
+                price2: '28.000'
             },
             {
                 id: 8,
@@ -1472,7 +1473,7 @@ const dataWine = [{
             }
         ]
     }, {
-        title: 'late Harvest',
+        title: 'Late Harvest',
         products: [{
             id: 1,
             name: 'Erasmo',
@@ -1494,7 +1495,7 @@ const dataWine = [{
             id: 2,
             name: 'Fort de Calyptra',
             description: '2013',
-            country: '',
+            country: 'Cachapoal',
             price: '3.000',
             price2: '24.000'
         }

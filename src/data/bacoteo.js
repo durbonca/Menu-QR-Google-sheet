@@ -1,6 +1,8 @@
 const dataBacoteo = [{
     title: 'Bacoteos',
-    products: [{
+    products: [
+        
+        {
             id: 1,
             name: 'Tártaro de Salmón',
             description: 'al Jengibre',
@@ -83,7 +85,19 @@ const dataBacoteo = [{
             name: 'Plato 3 Quesos',
             description: 'Brillat Savarin, Beaufort, Roquefort',
             price: '9.000'
-        }
+        },
+        {
+            id: 11,
+            name: 'Ostras',
+            description: '15 Unidades',
+            price: '12.000'
+        },
+        {
+            id: 12,
+            name: 'Ostras',
+            description: '30 Unidades',
+            price: '21.000'
+        },
     ]
 }
 ]

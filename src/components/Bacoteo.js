@@ -13,12 +13,12 @@ class Family extends React.Component{
                 
                 {bacoteo.map(function (bacoteo){
                     return  <div>
+                                <Ostras/>
                                 <div className="row mt-5 d-flex align-items-center">                               
                                     <Bars/> 
                                     <h3 className="col-auto text-center">{bacoteo.title}</h3>
                                     <Bars/>
                                 </div>
-                                <Ostras/>
                                     <p><i>{bacoteo.description}</i></p>
                                 <Product product={bacoteo.products}/>
                             </div> 
