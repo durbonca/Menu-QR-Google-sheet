@@ -1490,7 +1490,15 @@ const dataWine = [{
             country: 'Douro (PT)',
             price: '3.500',
             price2: '28.000'
-        }]
+        },{
+            id: 2,
+            name: 'Fort de Calyptra',
+            description: '2013',
+            country: '',
+            price: '3.000',
+            price2: '24.000'
+        }
+    ]
     }
 
 ]

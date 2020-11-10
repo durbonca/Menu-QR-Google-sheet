@@ -206,13 +206,13 @@ const dataLicor = [{
                 name: 'Fifty Pounds',
                 description: 'Inglaterra',
                 price2: '6.000'
-            }/* ,
+            },
             {
                 id: 5,
                 name: 'The Botanist',
                 description: 'Escocia',
-                price2: '7.000'
-            } */,
+                price2: '6.500'
+            },
             {
                 id: 6,
                 name: 'Monkey 47',
