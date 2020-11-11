@@ -80,7 +80,7 @@ const dataBacoteo = [{
             description: 'con Reducción de Vino',
             price: '7.000'
         },
-        {
+       /*  {
             id: 14,
             name: 'Plato 3 Quesos',
             description: 'Brillat Savarin, Beaufort, Roquefort',
@@ -97,7 +97,7 @@ const dataBacoteo = [{
             name: 'Ostras',
             description: '30 Unidades',
             price: '21.000'
-        },
+        }, */
     ]
 }
 ]

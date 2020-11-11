@@ -196,7 +196,7 @@ const dataWine = [{
                 country: 'Curico',
                 price: '',
                 price2: '15.000'
-            },
+            }/* ,
             {
                 id: 9,
                 name: 'Armador',
@@ -204,7 +204,7 @@ const dataWine = [{
                 country: 'Maipo',
                 price: '',
                 price2: '13.000'
-            },
+            } */,
             {
                 id: 10,
                 name: 'Lago Ranco',
