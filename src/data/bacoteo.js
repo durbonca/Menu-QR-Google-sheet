@@ -49,13 +49,13 @@ const dataBacoteo = [{
             name: 'Plato 3 Charcuterias',
             description: 'Serrano- Chorizo- Salchichón',
             price: '6.000'
-        },
+        }/* ,
         {
             id: 9,
             name: 'Jamón Ibérico',
             description: 'de Bellota',
             price: '15.000'
-        },
+        } */,
         {
             id: 10,
             name: 'Terrine de Foie Gras',
