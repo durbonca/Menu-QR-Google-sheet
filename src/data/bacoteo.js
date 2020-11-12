@@ -25,13 +25,13 @@ const dataBacoteo = [{
             name: 'Pulpo',
             description: 'a la Plancha',
             price: '13.000'
-        },
-        {
+        }/*,
+         {
             id: 5,
             name: 'Machas “Meunière”',
             description: '',
             price: '14.000'
-        },
+        } */,
         {
             id: 6,
             name: 'Goujonettes',
