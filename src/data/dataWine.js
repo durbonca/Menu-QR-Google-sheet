@@ -450,7 +450,7 @@ const dataWine = [{
             {
                 id: 4,
                 name: 'Vigno',
-                description: 'De P.S García 2014',
+                description: 'De P.S García 2015',
                 country: 'Maule',
                 price: '5.000',
                 price2: '21.000'

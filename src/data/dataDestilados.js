@@ -81,13 +81,13 @@ const dataDestilados = [{
                                                 description: '105',
                                                 cl: 'Speyside 6',
                                                 price: '5.500'
-                                            },{
+                                            },/* {
                                                 id: 3,
                                                 name: 'The Glenlivet',
                                                 description: '15 Años',
                                                 cl: 'Highland 6',
                                                 price: '6.500'
-                                            }]
+                                            } */]
                                         },
                                         {
                                         title:'Scotch Islay Single Malt',
