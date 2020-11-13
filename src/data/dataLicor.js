@@ -218,13 +218,13 @@ const dataLicor = [{
                 name: 'Monkey 47',
                 description: 'Alemanía',
                 price2: '7.500'
-            },
+            }/* ,
             {
                 id: 7,
                 name: 'Mare',
                 description: 'Cataluña',
                 price2: '6.000'
-            },
+            } */,
             {
                 id: 8,
                 name: 'Star Of Bombay',
