@@ -79,6 +79,17 @@ const dataBacoteo = [{
             name: 'Camembert Apanado',
             description: 'con Reducción de Vino',
             price: '7.000'
+        },{
+            id: 141,
+            name: 'Mixta',
+            description: 'Chorizo, Serrano Y Selección de 3 Quesos',
+            price: ''
+        },
+        {
+            id: 142,
+            name: 'Queso',
+            description: 'Nuestra Selección de 3 Quesos',
+            price: ''
         },
        /*  {
             id: 14,
