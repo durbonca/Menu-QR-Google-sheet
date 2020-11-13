@@ -83,13 +83,13 @@ const dataBacoteo = [{
             id: 141,
             name: 'Mixta',
             description: 'Chorizo, Serrano Y Selección de 3 Quesos',
-            price: ''
+            price: '14.000'
         },
         {
             id: 142,
             name: 'Queso',
             description: 'Nuestra Selección de 3 Quesos',
-            price: ''
+            price: '10.000'
         },
        /*  {
             id: 14,
