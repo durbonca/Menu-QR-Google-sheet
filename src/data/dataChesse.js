@@ -54,7 +54,7 @@ const dataCoffe = [{
             description: 'Brillat Savarin, Beaufort y Roquefort',
             country: '',
             gr: '75',
-            price: '9.000'
+            price: '10.000'
         }
     ]
 }]

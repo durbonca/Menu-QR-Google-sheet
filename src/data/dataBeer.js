@@ -3,7 +3,7 @@ const dataBeer = [{
     products: [{
             id: 1,
             name: 'Peroni',
-            description: 'ALE - Itata - 33 Cl',
+            description: 'ALE - Italia - 33 Cl',
             price: '3.500'
         },
         {
