@@ -1,8 +1,12 @@
 const dataBacoteo = [{
     title: 'Bacoteos',
     products: [
-        
-        {
+       {
+            id:0,
+            name: "Plato Mixto",
+            description: "Serrano, Saucisson, seleccion, Brillat Savarin, Comte, Roquefort 30 gr. de cada producto + pepinillos y mantequilla",
+            price: "12.000"        
+       } ,{
             id: 1,
             name: 'Tártaro de Salmón',
             description: 'al Jengibre',
