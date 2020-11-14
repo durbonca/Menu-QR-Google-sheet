@@ -47,8 +47,8 @@ const dataBacoteo = [{
         {
             id: 8,
             name: 'Plato 3 Charcuterias',
-            description: 'Serrano- Chorizo- Salchichón',
-            price: '6.000'
+            description: 'Serrano - Chorizo - Saucisson / 90Gr',
+            price: '8.000'
         }/* ,
         {
             id: 9,
