@@ -95,13 +95,13 @@ const dataBacoteo = [{
             description: 'Nuestra Selección de 3 Quesos',
             price: '10.000'
         },
-       /*  {
+        {
             id: 14,
             name: 'Plato 3 Quesos',
-            description: 'Brillat Savarin, Beaufort, Roquefort',
-            price: '9.000'
+            description: 'Brillat Savarin, Beaufort, Roquefort, Membrillo. // 90Gr',
+            price: '10.000'
         },
-        {
+        /* {
             id: 11,
             name: 'Ostras',
             description: '15 Unidades',
