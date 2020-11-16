@@ -1,12 +1,12 @@
 const dataBacoteo = [{
     title: 'Bacoteos',
     products: [
-       {
+       /* {
             id:0,
             name: "Plato Mixto Charcuteria y Queso",
             description: "Serrano, Chorizo, Brillat Savarin, Comte y Roquefort",
             price: "13.000"     
-       } ,{
+       } , */{
             id: 1,
             name: 'Tártaro de Salmón',
             description: 'al Jengibre',
@@ -39,27 +39,9 @@ const dataBacoteo = [{
         {
             id: 6,
             name: 'Goujonettes',
-            description: 'Pescado Apanado y su Salsa',
+            description: 'Lamina de Pescado Apanado',
             price: '7.000'
         },
-        {
-            id: 7,
-            name: 'Plato Rosbif',
-            description: 'con Mostaza y Béarnaise',
-            price: '7.000'
-        },
-        {
-            id: 8,
-            name: 'Plato 3 Charcuterias',
-            description: 'Serrano - Chorizo - Saucisson / 90Gr',
-            price: '8.000'
-        }/* ,
-        {
-            id: 9,
-            name: 'Jamón Ibérico',
-            description: 'de Bellota',
-            price: '15.000'
-        } */,
         {
             id: 10,
             name: 'Terrine de Foie Gras',
@@ -78,6 +60,24 @@ const dataBacoteo = [{
             description: '',
             price: '8.000'
         },
+        {
+            id: 7,
+            name: 'Plato Rosbif',
+            description: 'con Mostaza y Béarnaise',
+            price: '7.000'
+        },
+        {
+            id: 8,
+            name: 'Plato 3 Charcuterias',
+            description: 'Serrano - Chorizo - Saucisson',
+            price: '8.000'
+        }/* ,
+        {
+            id: 9,
+            name: 'Jamón Ibérico',
+            description: 'de Bellota',
+            price: '15.000'
+        } */,
         {
             id: 13,
             name: 'Camembert Apanado',
