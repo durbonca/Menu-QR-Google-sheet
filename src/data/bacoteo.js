@@ -37,37 +37,37 @@ const dataBacoteo = [{
             price: '14.000'
         } */,
         {
-            id: 6,
+            id: 5,
             name: 'Goujonettes',
             description: 'Lamina de Pescado Apanado',
             price: '7.000'
         },
         {
-            id: 10,
+            id: 6,
             name: 'Terrine de Foie Gras',
             description: '“Mi - Cuit”',
             price: '7.000'
         },
         {
-            id: 11,
+            id: 7,
             name: 'Tostadas de Foie Gras',
             description: '“Mi - Cuit”',
             price: '8.000'
         },
         {
-            id: 12,
+            id: 8,
             name: 'Tostadas de Queso de Cabra',
             description: '',
             price: '8.000'
         },
         {
-            id: 7,
+            id: 9,
             name: 'Plato Rosbif',
             description: 'con Mostaza y Béarnaise',
             price: '7.000'
         },
         {
-            id: 8,
+            id: 10,
             name: 'Plato 3 Charcuterias',
             description: 'Serrano - Chorizo - Saucisson',
             price: '8.000'
@@ -77,30 +77,31 @@ const dataBacoteo = [{
             name: 'Jamón Ibérico',
             description: 'de Bellota',
             price: '15.000'
-        } */,
-        {
-            id: 13,
-            name: 'Camembert Apanado',
-            description: 'con Reducción de Vino',
-            price: '7.000'
-        },/* {
-            id: 141,
-            name: 'Mixta',
+        } */
+        ,{
+            id: 11,
+            name: 'Mixta de Charcuteria y Queso',
             description: 'Chorizo, Serrano Y Selección de 3 Quesos',
             price: '14.000'
-        }, */
+        },
         {
-            id: 142,
-            name: 'Queso',
+            id: 12,
+            name: 'Camembert Apanado',
+            description: 'Al Vino',
+            price: '7.000'
+        },
+        {
+            id: 13,
+            name: 'Plato de 3 Quesos',
             description: 'Nuestra Selección de 3 Quesos',
             price: '10.000'
         },
-        {
+        /* {
             id: 14,
             name: 'Plato 3 Quesos',
             description: 'Brillat Savarin, Beaufort, Roquefort, Membrillo. // 90Gr',
             price: '10.000'
-        },
+        }, */
         /* {
             id: 11,
             name: 'Ostras',
