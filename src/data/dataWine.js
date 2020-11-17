@@ -327,20 +327,20 @@ const dataWine = [{
                 price2: '18.000'
             },
             {
-                id: 6,
-                name: 'Ritual',
-                description: 'De Veramonte 2017',
-                country: 'Casablanca',
-                price: '',
-                price2: '16.000'
-            },
-            {
                 id: 7,
                 name: 'Locura 1',
                 description: 'de Terroir de Los Andes 2015',
                 country: 'Cachapoal',
                 price: '',
                 price2: '18.000'
+            },
+            {
+                id: 6,
+                name: 'Ritual',
+                description: 'De Veramonte 2017',
+                country: 'Casablanca',
+                price: '',
+                price2: '16.000'
             },
             {
                 id: 8,
