@@ -133,13 +133,14 @@ const dataWine = [{
         ]
     }, {
         title: 'Sauvignon Blanc',
-        products: [{
-                id: 1,
-                name: 'Calyptra',
-                description: '',
-                country: '',
+        products: [
+            {
+                id: 0,
+                name: 'MARINA',
+                description: 'P.S García 2016',
+                country: 'Casablanca',
                 price: '',
-                price2: ''
+                price2: '15.000'
             },
             {
                 id: 2,
@@ -148,6 +149,14 @@ const dataWine = [{
                 country: 'San Antonio',
                 price: '',
                 price2: '22.000'
+            },
+            {
+                id: 1,
+                name: 'Calyptra',
+                description: 'Gran Reserva 2016',
+                country: 'Cachapoal',
+                price: '',
+                price2: '24.000'
             }/* ,
             {
                 id: 3,
