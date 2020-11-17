@@ -136,11 +136,40 @@ const dataWine = [{
         products: [
             {
                 id: 0,
-                name: 'MARINA',
+                name: 'Marina',
                 description: 'P.S García 2016',
                 country: 'Casablanca',
                 price: '',
                 price2: '15.000'
+            },{
+                id: 8,
+                name: 'Clos Andino',
+                description: 'Serie Limitée 2017',
+                country: 'Curico',
+                price: '',
+                price2: '15.000'
+            },{
+                id: 6,
+                name: 'Larkün',
+                description: 'de Pandolfi Price 2018',
+                country: 'Itata',
+                price: '4.000',
+                price2: '17.000'
+            },
+            {
+                id: 5,
+                name: 'Cool Coast',
+                description: 'de Casa Silva 2019',
+                country: 'Colchagua',
+                price: '',
+                price2: '18.000'
+            },{
+                id: 4,
+                name: 'Sol del Sol',
+                description: 'de Aquitania 2015',
+                country: 'Malleco',
+                price: '5.000',
+                price2: '21.000'
             },
             {
                 id: 2,
@@ -149,6 +178,13 @@ const dataWine = [{
                 country: 'San Antonio',
                 price: '',
                 price2: '22.000'
+            },{
+                id: 10,
+                name: 'Lago Ranco',
+                description: 'de Casa Silva 2016',
+                country: '',
+                price: '',
+                price2: '23.000'
             },
             {
                 id: 1,
@@ -165,31 +201,9 @@ const dataWine = [{
                 country: 'Casablanca',
                 price: '',
                 price2: '22.000'
-            } */,
-            {
-                id: 4,
-                name: 'Sol del Sol',
-                description: 'de Aquitania 2015',
-                country: 'Malleco',
-                price: '5.000',
-                price2: '21.000'
-            },
-            {
-                id: 5,
-                name: 'Cool Coast',
-                description: 'de Casa Silva 2019',
-                country: 'Colchagua',
-                price: '',
-                price2: '18.000'
-            },
-            {
-                id: 6,
-                name: 'Larkün',
-                description: 'de Pandolfi Price 2018',
-                country: 'Itata',
-                price: '4.000',
-                price2: '17.000'
-            },
+            } */
+            
+            
             /* {
                 id: 7,
                 name: 'Villard',
@@ -198,14 +212,7 @@ const dataWine = [{
                 price: '',
                 price2: '16.000'
             }, */
-            {
-                id: 8,
-                name: 'Clos Andino',
-                description: 'Serie Limitée 2017',
-                country: 'Curico',
-                price: '',
-                price2: '15.000'
-            }/* ,
+            /* ,
             {
                 id: 9,
                 name: 'Armador',
@@ -213,15 +220,8 @@ const dataWine = [{
                 country: 'Maipo',
                 price: '',
                 price2: '13.000'
-            } */,
-            {
-                id: 10,
-                name: 'Lago Ranco',
-                description: 'de Casa Silva 2016',
-                country: '',
-                price: '',
-                price2: '23.000'
-            }
+            } */
+            
         ]
     }, {
         title: 'Riesling',
