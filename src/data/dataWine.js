@@ -415,7 +415,7 @@ const dataWine = [{
         products: [{
                 id: 1,
                 name: 'Dagaz',
-                description: 'de Hatino 2019',
+                description: 'Itatino 2019',
                 country: 'Itata',
                 price: '5.000',
                 price2: '21.000'
@@ -456,19 +456,19 @@ const dataWine = [{
                 price2: '22.000'
             },
             {
-                id: 3,
-                name: 'Blu',
-                description: '2015',
-                country: 'Maule',
-                price: '',
-                price2: '21.000'
-            },
-            {
                 id: 4,
                 name: 'Vigno',
                 description: 'De P.S García 2015',
                 country: 'Maule',
                 price: '5.000',
+                price2: '23.000'
+            },
+            {
+                id: 3,
+                name: 'Blu',
+                description: 'de Bluwines 2015',
+                country: 'Maule',
+                price: '',
                 price2: '21.000'
             },
             {
