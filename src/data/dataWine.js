@@ -135,6 +135,51 @@ const dataWine = [{
         title: 'Sauvignon Blanc',
         products: [
             {
+                id: 1,
+                name: 'Calyptra',
+                description: 'Gran Reserva 2016',
+                country: 'Cachapoal',
+                price: '',
+                price2: '24.000'
+            },{
+                id: 10,
+                name: 'Lago Ranco',
+                description: 'de Casa Silva 2016',
+                country: '',
+                price: '',
+                price2: '23.000'
+            },
+            {
+                id: 2,
+                name: 'Cipreses',
+                description: 'de Casa Marín 2019',
+                country: 'San Antonio',
+                price: '',
+                price2: '22.000'
+            },{
+                id: 4,
+                name: 'Sol del Sol',
+                description: 'de Aquitania 2015',
+                country: 'Malleco',
+                price: '5.000',
+                price2: '21.000'
+            },
+            {
+                id: 5,
+                name: 'Cool Coast',
+                description: 'de Casa Silva 2019',
+                country: 'Colchagua',
+                price: '',
+                price2: '18.000'
+            },{
+                id: 6,
+                name: 'Larkün',
+                description: 'de Pandolfi Price 2018',
+                country: 'Itata',
+                price: '4.000',
+                price2: '17.000'
+            }
+            ,{
                 id: 0,
                 name: 'Marina',
                 description: 'P.S García 2016',
@@ -148,52 +193,7 @@ const dataWine = [{
                 country: 'Curico',
                 price: '',
                 price2: '15.000'
-            },{
-                id: 6,
-                name: 'Larkün',
-                description: 'de Pandolfi Price 2018',
-                country: 'Itata',
-                price: '4.000',
-                price2: '17.000'
-            },
-            {
-                id: 5,
-                name: 'Cool Coast',
-                description: 'de Casa Silva 2019',
-                country: 'Colchagua',
-                price: '',
-                price2: '18.000'
-            },{
-                id: 4,
-                name: 'Sol del Sol',
-                description: 'de Aquitania 2015',
-                country: 'Malleco',
-                price: '5.000',
-                price2: '21.000'
-            },
-            {
-                id: 2,
-                name: 'Cipreses',
-                description: 'de Casa Marín 2019',
-                country: 'San Antonio',
-                price: '',
-                price2: '22.000'
-            },{
-                id: 10,
-                name: 'Lago Ranco',
-                description: 'de Casa Silva 2016',
-                country: '',
-                price: '',
-                price2: '23.000'
-            },
-            {
-                id: 1,
-                name: 'Calyptra',
-                description: 'Gran Reserva 2016',
-                country: 'Cachapoal',
-                price: '',
-                price2: '24.000'
-            }/* ,
+            },/* ,
             {
                 id: 3,
                 name: '20 Barrels',
