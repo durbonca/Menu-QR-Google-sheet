@@ -156,6 +156,14 @@ const dataWine = [{
                 country: 'San Antonio',
                 price: '',
                 price2: '22.000'
+            },
+            {
+                id: 3,
+                name: '20 Barrels',
+                description: 'de Cono Sur 2017',
+                country: 'Casablanca',
+                price: '',
+                price2: '22.000'
             },{
                 id: 4,
                 name: 'Sol del Sol',
@@ -163,6 +171,13 @@ const dataWine = [{
                 country: 'Malleco',
                 price: '5.000',
                 price2: '21.000'
+            },{
+                id: 41,
+                name: 'Talinay',
+                description: 'de Tabali 2019',
+                country: 'Limarí',
+                price: '',
+                price2: '20.000'
             },
             {
                 id: 5,
@@ -193,15 +208,7 @@ const dataWine = [{
                 country: 'Curico',
                 price: '',
                 price2: '15.000'
-            },/* ,
-            {
-                id: 3,
-                name: '20 Barrels',
-                description: 'de Cono Sur 2017',
-                country: 'Casablanca',
-                price: '',
-                price2: '22.000'
-            } */
+            },
             
             
             /* {
@@ -239,7 +246,7 @@ const dataWine = [{
                 description: 'de Casa Silva 2017',
                 country: 'Futrono',
                 price: '',
-                price2: '19.000'
+                price2: '20.000'
             },
             {
                 id: 3,
