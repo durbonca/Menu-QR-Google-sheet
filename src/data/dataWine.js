@@ -361,7 +361,7 @@ const dataWine = [{
             {
                 id: 10,
                 name: 'Vivendo',
-                description: 'Reserva 2018',
+                description: 'Calyptra 2018',
                 country: 'Cachapoal',
                 price: '',
                 price2: '16.000'
