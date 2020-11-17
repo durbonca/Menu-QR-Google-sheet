@@ -87,7 +87,7 @@ const dataBacoteo = [{
         {
             id: 12,
             name: 'Camembert Apanado',
-            description: 'Con su reducción de Vino',
+            description: 'Y su reducción de Vino',
             price: '7.000'
         },
         {
