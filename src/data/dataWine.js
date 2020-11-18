@@ -1117,6 +1117,14 @@ const dataWine = [{
                 country: 'Maipo',
                 price: '',
                 price2: '16.000'
+            },
+            {
+                id: 14,
+                name: 'Teillery',
+                description: 'Reserva 2018',
+                country: 'Maipo',
+                price: '',
+                price2: '16.000'
             }
         ]
     }, {
