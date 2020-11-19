@@ -58,7 +58,7 @@ const dataWine = [{
                 description: 'Rosé Brut',
                 country: 'Reims - FRANCIA',
                 price: '',
-                price2: '70.000'
+                price2: '89.000'
             }
         ]
     }, {
