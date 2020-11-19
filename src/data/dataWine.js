@@ -772,11 +772,11 @@ const dataWine = [{
         title: 'Pinot Noir',
         products: [{
                 id: 1,
-                name: 'Pucalán',
-                description: 'De Clos Des Fous 2015',
-                country: 'Aconcagua',
+                name: 'Los Parientes',
+                description: 'de Baettig 2019',
+                country: '',
                 price: '',
-                price2: '27.000'
+                price2: '26.000'
             },
             {
                 id: 2,
@@ -1005,6 +1005,22 @@ const dataWine = [{
             }, */
             {
                 id: 2,
+                name: 'Toknar',
+                description: 'de Von Siebenthal 2011',
+                country: '',
+                price: '',
+                price2: '49.000'
+            }
+            ,{
+                id: 3,
+                name: 'Chaski',
+                description: 'de Peréz Cruz 2016',
+                country: '',
+                price: '',
+                price2: '28.000'
+            }
+            ,{
+                id: 4,
                 name: 'Casa Silva',
                 description: 'Edición Limitada 2016',
                 country: 'Colchagua',
