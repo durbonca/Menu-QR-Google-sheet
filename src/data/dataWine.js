@@ -1236,14 +1236,14 @@ const dataWine = [{
                 price: '',
                 price2: '59.000'
             },
-            {
+           /*  {
                 id: 4,
                 name: 'Manso de Velasco',
                 description: 'de Miguel Torres 2013',
                 country: 'Curico',
                 price: '',
                 price2: '49.000'
-            },
+            }, */
             {
                 id: 5,
                 name: 'Cabo de Horno',
