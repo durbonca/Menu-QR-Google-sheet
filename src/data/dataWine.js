@@ -121,7 +121,7 @@ const dataWine = [{
                 country: 'Uco - ARGENTINA',
                 price: '',
                 price2: '19.000'
-            }/* ,
+            },
             {
                 id: 3,
                 name: 'Gemma',
@@ -129,7 +129,7 @@ const dataWine = [{
                 country: 'Limarí',
                 price: '3.500',
                 price2: '17.000'
-            } */
+            }
         ]
     }, {
         title: 'Sauvignon Blanc',
