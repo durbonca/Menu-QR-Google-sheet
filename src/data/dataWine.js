@@ -1007,7 +1007,7 @@ const dataWine = [{
                 id: 2,
                 name: 'Toknar',
                 description: 'de Von Siebenthal 2011',
-                country: '',
+                country: 'Aconcagua',
                 price: '',
                 price2: '49.000'
             }
@@ -1015,7 +1015,7 @@ const dataWine = [{
                 id: 3,
                 name: 'Chaski',
                 description: 'de Peréz Cruz 2016',
-                country: '',
+                country: 'Maipo',
                 price: '',
                 price2: '28.000'
             }
