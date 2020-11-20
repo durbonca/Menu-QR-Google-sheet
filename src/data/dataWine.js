@@ -1217,14 +1217,14 @@ const dataWine = [{
                 price: '4.000',
                 price2: '16.000'
             },
-            {
+            /* {
                 id: 10,
                 name: 'Millaman',
                 description: 'Limited Reserve 2017',
                 country: 'Curico',
                 price: '',
                 price2: '13.000'
-            }
+            } */
         ]
     }, {
         title: 'Cabernet Sauvignon',
