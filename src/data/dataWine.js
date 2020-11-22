@@ -825,7 +825,7 @@ const dataWine = [{
                 country: 'Casablanca',
                 price: '',
                 price2: '19.000'
-            },
+            }/* ,
             {
                 id: 8,
                 name: 'Trapi',
@@ -833,7 +833,7 @@ const dataWine = [{
                 country: 'Osorno',
                 price: '',
                 price2: '19.000'
-            },
+            } */,
             {
                 id: 9,
                 name: 'Veneris',
