@@ -8,14 +8,14 @@ const dataWine = [{
                 price: '',
                 price2: '240.000'
             },
-            {
+            /* {
                 id: 2,
                 name: 'Ruinart R',
                 description: 'Brut',
                 country: 'Reims - FRANCIA',
                 price: '',
                 price2: '84.000'
-            },
+            } ,*/
             {
                 id: 3,
                 name: 'Veuve Clicquot',
@@ -86,6 +86,14 @@ const dataWine = [{
                 country: 'Limarí',
                 price: '',
                 price2: '44.000'
+            },
+            {
+                id: 31,
+                name: 'Tatie',
+                description: 'Brut de Tabali',
+                country: 'Limarí',
+                price: '',
+                price2: '21.000'
             },
             {
                 id: 4,
@@ -167,7 +175,7 @@ const dataWine = [{
             },{
                 id: 4,
                 name: 'Sol del Sol',
-                description: 'de Aquitania 2015',
+                description: 'de Aquitania 2018',
                 country: 'Malleco',
                 price: '5.000',
                 price2: '21.000'
@@ -286,14 +294,14 @@ const dataWine = [{
         ]
     }, {
         title: 'Chardonnay',
-        products: [{
+        products: [/* {
                 id: 1,
                 name: 'Amelia',
                 description: '2017',
                 country: 'Casablanca',
                 price: '',
                 price2: '26.000'
-            },
+            }, */
             {
                 id: 2,
                 name: 'Calyptra',
