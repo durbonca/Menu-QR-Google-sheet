@@ -71,7 +71,16 @@ const dataWine = [{
         ]
     }, {
         title: 'Espumante',
-        products: [{
+        products: [
+            {
+                id: 0,
+                name: 'Casa Marin',
+                description: 'Brut de Maria Luz',
+                country: 'San Antonio',
+                price: '',
+                price2: '37.000'
+            },
+            {
                 id: 1,
                 name: 'Baron B',
                 description: 'Brut',
@@ -148,8 +157,29 @@ const dataWine = [{
             }
         ]
     }, {
+        title: 'Sauvignon Gris',
+        products: [
+            {
+                id: 10,
+                name: 'Casa Marin',
+                description: 'Estero 2019',
+                country: 'San Antonio',
+                price:'',
+                price2:'25.000'
+            }
+        ]
+    },
+    {
         title: 'Sauvignon Blanc',
         products: [
+            {
+                id: 0,
+                name: 'Casa Marin',
+                description: 'Cipreses 2020',
+                country: 'San Antonio',
+                price: '',
+                price2: '25.000'
+            },
             {
                 id: 1,
                 name: 'Calyptra',
