@@ -3,14 +3,22 @@ const dataWine = [{
         products: [{
                 id: 1,
                 name: 'Don Perignon',
-                description: 'Brut 2008 / 2009',
+                description: 'Vintange 2008',
+                country: 'Epérnay - FRANCIA',
+                price: '',
+                price2: '240.000'
+            },
+            {
+                id: 2,
+                name: 'Don Perignon',
+                description: 'Vintange 2009',
                 country: 'Epérnay - FRANCIA',
                 price: '',
                 price2: '240.000'
             },
             /* {
                 id: 2,
-                name: 'Ruinart R',
+                name: 'Ruinart "R"',
                 description: 'Brut',
                 country: 'Reims - FRANCIA',
                 price: '',
@@ -29,16 +37,16 @@ const dataWine = [{
                 name: 'Pommery',
                 description: 'Brut Royal',
                 country: 'Reims - FRANCIA',
-                price: '8.000',
-                price2: '46.000'
+                price: '',
+                price2: '45.000'
             },
             {
                 id: 5,
                 name: 'Piper Heidsieck',
                 description: 'Brut',
                 country: 'Reims - FRANCIA',
-                price: '',
-                price2: '42.000'
+                price: '8.000',
+                price2: '43.000'
             }
         ]
 
@@ -55,7 +63,7 @@ const dataWine = [{
             {
                 id: 2,
                 name: 'Veuve Clicquot',
-                description: 'Rosé Brut',
+                description: 'Rosé',
                 country: 'Reims - FRANCIA',
                 price: '',
                 price2: '89.000'
