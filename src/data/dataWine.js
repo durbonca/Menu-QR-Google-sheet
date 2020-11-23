@@ -3,22 +3,22 @@ const dataWine = [{
         products: [{
                 id: 1,
                 name: 'Don Perignon',
-                description: 'Vintange 2008',
-                country: 'Epérnay - FRANCIA',
+                description: 'Vintage 2008',
+                country: 'Epernay - FRANCIA',
                 price: '',
                 price2: '240.000'
             },
             {
                 id: 2,
                 name: 'Don Perignon',
-                description: 'Vintange 2009',
-                country: 'Epérnay - FRANCIA',
+                description: 'Vintage 2009',
+                country: 'Epernay - FRANCIA',
                 price: '',
                 price2: '240.000'
             },
             /* {
                 id: 2,
-                name: 'Ruinart "R"',
+                name: 'Ruinard "R"',
                 description: 'Brut',
                 country: 'Reims - FRANCIA',
                 price: '',
@@ -34,7 +34,7 @@ const dataWine = [{
             },
             {
                 id: 4,
-                name: 'Pommery',
+                name: 'Pommery Brut Royal',
                 description: 'Brut Royal',
                 country: 'Reims - FRANCIA',
                 price: '',
@@ -49,7 +49,6 @@ const dataWine = [{
                 price2: '43.000'
             }
         ]
-
     }, {
         title: 'Champagne Rosé',
         products: [{
@@ -195,14 +194,14 @@ const dataWine = [{
                 price: '',
                 price2: '23.000'
             },
-            {
+           /*  {
                 id: 2,
                 name: 'Cipreses',
                 description: 'de Casa Marín 2019',
                 country: 'San Antonio',
                 price: '',
                 price2: '22.000'
-            },
+            } ,*/
             {
                 id: 3,
                 name: '20 Barrels',
