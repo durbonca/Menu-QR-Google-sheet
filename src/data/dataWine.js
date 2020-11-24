@@ -71,50 +71,50 @@ const dataWine = [{
     }, {
         title: 'Espumante',
         products: [
-            {
+            /* {
                 id: 0,
                 name: 'Casa Marin',
                 description: 'Brut de Maria Luz',
                 country: 'San Antonio',
                 price: '',
                 price2: '37.000'
-            },
+            }, */
             {
                 id: 1,
-                name: 'Baron B',
+                name: 'Baron "B"',
                 description: 'Brut',
-                country: 'Uco - ARGENTINA',
+                country: '',
                 price: '',
                 price2: '29.000'
             },
             {
                 id: 2,
-                name: 'Azur',
-                description: 'Brut',
-                country: 'Limarí',
-                price: '4.500',
-                price2: '22.000'
-            },
-            {
-                id: 3,
-                name: 'Azur',
-                description: 'Brut “Magnum” 1500 ml',
-                country: 'Limarí',
+                name: 'Azur "Magnum"',
+                description: 'Brut 1.500 cl',
+                country: 'Limari',
                 price: '',
                 price2: '44.000'
             },
             {
+                id: 3,
+                name: 'Azur',
+                description: 'Brut 750 cl',
+                country: 'Limari',
+                price: '4.500',
+                price2: '22.000'
+            }/* ,
+            {
                 id: 31,
                 name: 'Tatie',
                 description: 'Brut de Tabali',
-                country: 'Limarí',
+                country: 'Limari',
                 price: '',
                 price2: '21.000'
-            },
+            } */,
             {
                 id: 4,
                 name: 'Fervor',
-                description: 'Brut',
+                description: 'Brut de Casa Silva',
                 country: 'Colchagua',
                 price: '',
                 price2: '20.000'
@@ -123,7 +123,7 @@ const dataWine = [{
                 id: 5,
                 name: 'Cono Sur',
                 description: 'Brut',
-                country: 'Bío Bío',
+                country: 'Bio - Bio',
                 price: '',
                 price2: '14.000'
             }
@@ -134,15 +134,15 @@ const dataWine = [{
                 id: 1,
                 name: 'Chandon',
                 description: 'Rosé',
-                country: 'Uco - ARGENTINA',
+                country: '',
                 price: '',
                 price2: '20.000'
             },
             {
                 id: 2,
                 name: 'Salentein',
-                description: 'Brut Rosé',
-                country: 'Uco - ARGENTINA',
+                description: 'Rosé',
+                country: 'Uco Arg.',
                 price: '',
                 price2: '19.000'
             },
@@ -150,7 +150,7 @@ const dataWine = [{
                 id: 3,
                 name: 'Gemma',
                 description: 'Rosé',
-                country: 'Limarí',
+                country: 'Central',
                 price: '3.500',
                 price2: '17.000'
             }
