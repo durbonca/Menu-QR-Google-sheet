@@ -155,18 +155,6 @@ const dataWine = [{
                 price2: '17.000'
             }
         ]
-    }, {
-        title: 'Sauvignon Gris',
-        products: [
-            {
-                id: 10,
-                name: 'Casa Marin',
-                description: 'Estero 2019',
-                country: 'San Antonio',
-                price:'',
-                price2:'25.000'
-            }
-        ]
     },
     {
         title: 'Sauvignon Blanc',
@@ -274,6 +262,18 @@ const dataWine = [{
                 price2: '13.000'
             } */
             
+        ]
+    }, {
+        title: 'Sauvignon Gris',
+        products: [
+            {
+                id: 10,
+                name: 'Casa Marin',
+                description: 'Estero 2019',
+                country: 'San Antonio',
+                price:'',
+                price2:'25.000'
+            }
         ]
     }, {
         title: 'Riesling',
