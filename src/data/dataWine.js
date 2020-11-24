@@ -174,50 +174,44 @@ const dataWine = [{
                 country: 'Cachapoal',
                 price: '',
                 price2: '24.000'
-            },{
-                id: 10,
-                name: 'Lago Ranco',
-                description: 'de Casa Silva 2016',
-                country: '',
-                price: '',
-                price2: '23.000'
             },
-           /*  {
-                id: 2,
-                name: 'Cipreses',
-                description: 'de Casa Marín 2019',
-                country: 'San Antonio',
-                price: '',
-                price2: '22.000'
-            } ,*/
             {
                 id: 3,
                 name: '20 Barrels',
-                description: 'de Cono Sur 2017',
+                description: 'de Cono Sur - 2017',
                 country: 'Casablanca',
+                price: '',
+                price2: '23.000'
+            },
+            {
+                id: 41,
+                name: 'Talinay',
+                description: 'de Tabali 2019',
+                country: 'Limari',
                 price: '',
                 price2: '22.000'
             },{
                 id: 4,
-                name: 'Sol del Sol',
+                name: 'Sol de Sol',
                 description: 'de Aquitania 2018',
                 country: 'Malleco',
                 price: '5.000',
                 price2: '21.000'
-            },{
-                id: 41,
-                name: 'Talinay',
-                description: 'de Tabali 2019',
-                country: 'Limarí',
+            }/* ,
+            {
+                id: 51,
+                name: 'Koyle Costa',
+                description: '2018',
+                country: 'Colcagua',
                 price: '',
-                price2: '20.000'
-            },
+                price2: ''
+            } */,
             {
                 id: 5,
                 name: 'Cool Coast',
                 description: 'de Casa Silva 2019',
                 country: 'Colchagua',
-                price: '',
+                price: '4.500',
                 price2: '18.000'
             },{
                 id: 6,
@@ -227,17 +221,26 @@ const dataWine = [{
                 price: '4.000',
                 price2: '17.000'
             }
+            
+            {
+                id: 7,
+                name: 'Little quino',
+                description: 'de William Fèvre 2019',
+                country: 'Malleco',
+                price: '',
+                price2: '16.000'
+            }
             ,{
-                id: 0,
+                id: 8,
                 name: 'Marina',
-                description: 'P.S García 2016',
+                description: 'de P.S Garcia 2016',
                 country: 'Casablanca',
                 price: '',
-                price2: '15.000'
+                price2: '16.000'
             },{
-                id: 8,
+                id: 9,
                 name: 'Clos Andino',
-                description: 'Serie Limitée 2017',
+                description: 'Serie Limiteé 2017',
                 country: 'Curico',
                 price: '',
                 price2: '15.000'
@@ -245,7 +248,7 @@ const dataWine = [{
             
             
             /* {
-                id: 7,
+                id: 10,
                 name: 'Villard',
                 description: 'Expresion 2018',
                 country: 'Casablanca',
@@ -254,7 +257,7 @@ const dataWine = [{
             }, */
             /* ,
             {
-                id: 9,
+                id: 11,
                 name: 'Armador',
                 description: 'de Odjfell 2018',
                 country: 'Maipo',
