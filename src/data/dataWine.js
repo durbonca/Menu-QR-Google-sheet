@@ -213,15 +213,15 @@ const dataWine = [{
                 country: 'Colchagua',
                 price: '4.500',
                 price2: '18.000'
-            },{
+            },
+            {
                 id: 6,
                 name: 'Larkün',
                 description: 'de Pandolfi Price 2018',
                 country: 'Itata',
                 price: '4.000',
                 price2: '17.000'
-            }
-            
+            },
             {
                 id: 7,
                 name: 'Little quino',
