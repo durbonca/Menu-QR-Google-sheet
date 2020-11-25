@@ -197,15 +197,15 @@ const dataWine = [{
                 country: 'Malleco',
                 price: '5.000',
                 price2: '21.000'
-            }/* ,
+            },
             {
                 id: 51,
                 name: 'Koyle Costa',
                 description: '2018',
                 country: 'Colcagua',
                 price: '',
-                price2: ''
-            } */,
+                price2: '19.000'
+            },
             {
                 id: 5,
                 name: 'Cool Coast',
@@ -1173,7 +1173,7 @@ const dataWine = [{
                 country: 'Itata',
                 price: '4.000',
                 price2: '16.000'
-            },
+            }/* ,
             {
                 id: 13,
                 name: 'De Martino',
@@ -1181,7 +1181,7 @@ const dataWine = [{
                 country: 'Maipo',
                 price: '',
                 price2: '16.000'
-            },
+            } */,
             {
                 id: 14,
                 name: 'Teillery',
