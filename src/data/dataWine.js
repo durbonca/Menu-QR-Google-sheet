@@ -71,14 +71,14 @@ const dataWine = [{
     }, {
         title: 'Espumante',
         products: [
-            /* {
+            {
                 id: 0,
                 name: 'Casa Marin',
                 description: 'Brut de Maria Luz',
                 country: 'San Antonio',
                 price: '',
                 price2: '37.000'
-            }, */
+            },
             {
                 id: 1,
                 name: 'Baron "B"',
