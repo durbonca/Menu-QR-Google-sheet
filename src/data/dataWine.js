@@ -1412,7 +1412,7 @@ const dataWine = [{
                 country: 'Cachapoal',
                 price: '',
                 price2: '17.000'
-            },
+            }/* ,
             {
                 id: 16,
                 name: 'Hussonet',
@@ -1420,7 +1420,7 @@ const dataWine = [{
                 country: 'Maipo',
                 price: '3.500',
                 price2: '16.000'
-            }
+            } */
         ]
     }, {
         title: 'Ensamblaje',
