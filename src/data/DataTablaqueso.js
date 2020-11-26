@@ -3,7 +3,7 @@ const DataTablaqueso = [{
         {
             id: 1,
             name: 'Nuestra selección 3 Quesos',
-            description: 'Brillat Sabarin, Beaufort, Roquefort.',
+            description: 'Brillat Sabarin, Comté, Roquefort.',
             price: '9.000'
         },
         {
