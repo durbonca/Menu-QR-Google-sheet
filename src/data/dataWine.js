@@ -334,14 +334,15 @@ const dataWine = [{
         ]
     }, {
         title: 'Chardonnay',
-        products: [/* {
+        products: [ 
+            {
                 id: 1,
-                name: 'Amelia',
-                description: '2017',
-                country: 'Casablanca',
+                name: 'Los Parientes',
+                description: 'de Baettig 2019',
+                country: 'Traiguén',
                 price: '',
                 price2: '26.000'
-            }, */
+            },
             {
                 id: 2,
                 name: 'Calyptra',
@@ -352,6 +353,14 @@ const dataWine = [{
             },
             {
                 id: 3,
+                name: 'Aconcagua Costa',
+                description: 'de Errazuriz 2019',
+                country: 'Aconcagua',
+                price: '',
+                price2: '23.000'
+            },
+            {
+                id: 4,
                 name: 'Villard',
                 description: 'Gran Vin 2018',
                 country: 'Casablanca',
@@ -359,23 +368,31 @@ const dataWine = [{
                 price2: '20.000'
             },
             {
-                id: 4,
-                name: 'Lunae',
-                description: 'De Callma 2018',
-                country: 'Casablanca',
-                price: '',
-                price2: '18.000'
-            },
-            {
                 id: 5,
-                name: 'Altum',
-                description: 'De Terramater 2017',
-                country: 'Maipo',
+                name: 'Lunae',
+                description: 'de Callma 2018',
+                country: 'Casa Blanca',
                 price: '4.500',
                 price2: '18.000'
             },
             {
+                id: 6,
+                name: 'T.H. Limari',
+                description: 'de Undurraga 2017',
+                country: 'Limari',
+                price: '',
+                price2: '18.000'
+            },
+            {
                 id: 7,
+                name: 'Altum',
+                description: 'de Terramater 2017',
+                country: 'Maipo',
+                price: '',
+                price2: '18.000'
+            },
+            {
+                id: 8,
                 name: 'Locura 1',
                 description: 'de Terroir de Los Andes 2015',
                 country: 'Cachapoal',
@@ -383,44 +400,44 @@ const dataWine = [{
                 price2: '18.000'
             },
             {
-                id: 6,
-                name: 'Ritual',
-                description: 'De Veramonte 2017',
-                country: 'Casablanca',
-                price: '',
-                price2: '16.000'
-            },
-            {
-                id: 8,
-                name: 'Larkün',
-                description: 'De Pandolfi price 2017',
-                country: 'Itata',
-                price: '',
-                price2: '16.000'
-            },
-            {
                 id: 9,
                 name: 'Vetas Blancas',
-                description: 'De Tabalí 2017',
-                country: 'Limarí',
-                price: '',
-                price2: '16.000'
+                description: 'de Tabali 2017',
+                country: 'Limari',
+                price: '4.000',
+                price2: '17.000'
             },
             {
                 id: 10,
-                name: 'Vivendo',
-                description: 'Calyptra 2018',
-                country: 'Cachapoal',
+                name: 'Ritual',
+                description: 'de Veramonte 2017',
+                country: 'Casablanca',
                 price: '',
                 price2: '16.000'
             },
             {
                 id: 11,
+                name: 'Larkün',
+                description: 'de Pandolfi Price 2017',
+                country: 'Itata',
+                price: '',
+                price2: '16.000'
+            },
+            {
+                id: 12,
                 name: 'Novas',
                 description: 'Gran Reserva de Emiliana 2018',
                 country: 'Casablanca',
                 price: '',
                 price2: '15.000'
+            },
+            {
+                id: 10,
+                name: 'Corralillo',
+                description: 'de Matetic 2018',
+                country: 'San Antonio',
+                price: '',
+                price2: '14.000'
             },
             {
                 id: 12,
