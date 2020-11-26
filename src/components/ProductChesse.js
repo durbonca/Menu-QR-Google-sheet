@@ -11,8 +11,9 @@ class Family extends React.Component {
                                 <small className="col-2 p-0">{product.country}</small>
                                 <small className="col-2 p-0">{product.gr}{product.gr?'Gr':''}</small>
                                 <p className="col-2 p-0 text-right mb-0">{product.price}</p>
-                            </div>
-                    })} 
+                            </div> 
+                    })}
+
                 </div>
         }
 }

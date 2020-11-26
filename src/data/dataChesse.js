@@ -74,7 +74,7 @@ const dataCoffe = [{
             gr: '45',
             price: '3.000'
         },
-        {
+       /*  {
             id: 8,
             name: 'Nuestra selección 3 Quesos',
             description: 'Brillat Sabarin, Beaufort, Roquefort.',
@@ -85,7 +85,7 @@ const dataCoffe = [{
             name: 'Nuestra Selección 4 Quesos',
             description: 'Soumaintrain, Brillat Savarin, Beaufort, Saint Nectaire.',
             price: '12.000'
-        }
+        } */
         /* {
             id: 7,
             name: 'Nuestra Selección de 3 Cortes',
