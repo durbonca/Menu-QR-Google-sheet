@@ -90,18 +90,18 @@ const dataBacoteo = [{
             description: 'Y su reducción de Vino',
             price: '7.000'
         },
-        {
+        /* {
             id: 13,
             name: 'Nuestra selección 3 Quesos',
             description: 'Brillat Sabarin, Beaufort, Roquefort.',
-            price: '9.000'
+            price: '9.000' 
         },
         {
             id: 14,
             name: 'Nuestra Selección 4 Quesos',
             description: 'Soumaintrain, Brillat Savarin, Beaufort, Saint Nectaire.',
             price: '12.000'
-        }, 
+        }, */ 
         /* {
             id: 11,
             name: 'Ostras',
