@@ -739,7 +739,7 @@ const dataWine = [{
                 name: 'Villard',
                 description: 'Expresion 2017',
                 country: 'Casablanca',
-                price: '4.000',
+                price: '',
                 price2: '16.000'
             },
             {
