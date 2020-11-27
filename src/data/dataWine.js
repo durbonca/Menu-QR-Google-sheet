@@ -735,6 +735,14 @@ const dataWine = [{
                 price2: '16.000'
             },
             {
+                id: 171,
+                name: 'Villard',
+                description: 'Expresion 2017',
+                country: 'Casablanca',
+                price: '4.000',
+                price2: '16.000'
+            },
+            {
                 id: 18,
                 name: 'Leyda',
                 description: 'Single Vineyard Canelo 2015',
