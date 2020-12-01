@@ -85,7 +85,7 @@ const dataWine = [{
                 description: 'Brut',
                 country: '',
                 price: '',
-                price2: '29.000'
+                price2: '33.000'
             },
             {
                 id: 2,
