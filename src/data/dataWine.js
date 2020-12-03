@@ -193,7 +193,7 @@ const dataWine = [
             { id: 2, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '6.000', price2: '24.000' }, 
             { id: 3, name: 'Talinay', description: 'De Tabalí 2015', country: 'Limarí', price: '', price2: '23.000' }, 
             { id: 4, name: 'Loma Larga', description: '2015', country: 'Casablanca', price: '', price2: '22.000' },
-            /* , { id: 5, name: 'Gran Vin', description: 'De Villard 2017', country: 'Casablanca', price: '5.500', price2: '22.000' } */ 
+            { id: 5, name: 'Gran Vin', description: 'De Villard 2018', country: 'Casablanca', price: '5.500', price2: '22.000' },
             { id: 6, name: 'Los Patricios', description: 'De Pandolfi Price 2016', country: 'Itata', price: '', price2: '20.000' }, 
             { id: 7, name: 'Signos De Origen', description: 'De Emiliana 2018', country: 'Casablanca', price: '', price2: '19.000' },
             /* , { id: 8, name: 'Trapi', description: '2017', country: 'Osorno', price: '', price2: '19.000' } */ 
