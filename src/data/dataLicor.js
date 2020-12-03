@@ -96,12 +96,12 @@ const dataLicor = [{
                 description: 'Limarí',
                 price2: '5.000'
             },
-            {
+           /*  {
                 id: 4,
                 name: 'Horcón Quemado',
                 description: 'San Félix',
                 price2: '4.000'
-            },
+            }, */
             {
                 id: 5,
                 name: 'Mulet',

@@ -45,7 +45,7 @@ const dataWine = [{
                 name: 'Piper Heidsieck',
                 description: 'Brut',
                 country: 'Reims - FRANCIA',
-                price: '8.000',
+                price: '7.000',
                 price2: '43.000'
             }
         ]
@@ -1003,7 +1003,7 @@ const dataWine = [{
                 name: 'Armador',
                 description: 'de Odjfell 2017',
                 country: 'Maipo',
-                price: '3.500',
+                price: '4.000',
                 price2: '15.000'
             }
         ]

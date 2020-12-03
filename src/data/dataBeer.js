@@ -45,12 +45,12 @@ const dataBeer = [{
             description: '33 Cl',
             price: '3.500'
         },
-        {
+       /*  {
             id: 2,
             name: 'Virgin Mary',
             description: '33 Cl',
             price: '3.500'
-        },
+        }, */
         {
             id: 3,
             name: 'Virgin Mojito',
@@ -90,12 +90,12 @@ const dataBeer = [{
             description: 'Fever Tree',
             price: '3.000'
         },
-        {
+       /*  {
             id: 6,
             name: 'Tónica Light',
             description: 'Fever Tree',
             price: '3.000'
-        },
+        }, */
         {
             id: 7,
             name: 'Eldelflower',
