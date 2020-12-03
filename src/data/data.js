@@ -1,71 +1,23 @@
 const dataProducts = [
     {
         title: 'Fantasías',
-        products: [{
-                id: 1,
-                name: 'Chupe de Locos',
-                description: '',
-                price: '12.000'
-            },
-            {
-                id: 2,
-                name: 'Cogote de Merluza',
-                description: 'al Ajillo',
-                price: '8.000'
-            },
-            {
-                id: 3,
-                name: 'Foie Gras “Poêlé”',
-                description: '',
-                price: '14.000'
-            },
-            {
-                id: 4,
-                name: 'Huevo Meurette',
-                description: 'con Salsa de Vino y Tocino',
-                price: '9.000'
-            },
-            {
-                id: 5,
-                name: 'Médula de Res',
-                description: '4 Unidades',
-                price: '9.000'
-            },
-            {
-                id: 6,
-                name: 'Bacotillas',
-                description: '4 “Feuilletes” de Champiñon',
-                price: '8.000'
-            },
-            {
-                id: 7,
-                name: 'Quiche Lorraine',
-                description: 'con Tocino y Emmental',
-                price: '7.000'
-            },
-            {
-                id: 8,
-                name: 'Quiche de Puerro',
-                description: 'con Emmental',
-                price: '7.000'
-            },
-            {
-                id: 9,
-                name: 'Quiche de Cebolla',
-                description: '',
-                price: '7.000'
-            },
-            {
-                id: 10,
-                name: 'Quiche de Champiñon',
-                description: '',
-                price: '7.000'
-            }
+        products: [
+            { id: 1, name: 'Chupe de Locos',description: '', price: '12.000' },
+            { id: 2,name: 'Cogote de Merluza', description: 'al Ajillo',price: '8.000' },
+            { id: 3,name: 'Foie Gras “Poêlé”', description: '',price: '14.000' },
+            { id: 4, name: 'Huevo Meurette', description: 'con Salsa de Vino y Tocino', price: '9.000' },
+            { id: 5, name: 'Médula de Res', description: '4 Unidades', price: '9.000' },
+            { id: 6, name: 'Bacotillas', description: '4 “Feuilletes” de Champiñon', price: '8.000' },
+            { id: 7, name: 'Quiche Lorraine', description: 'con Tocino y Emmental', price: '7.000' },
+            { id: 8, name: 'Quiche de Puerro', description: 'con Emmental', price: '7.000' },
+            { id: 9, name: 'Quiche de Cebolla', description: '', price: '7.000' },
+            { id: 10, name: 'Quiche de Champiñon', description: '', price: '7.000' }
         ]
     },
     {
         title: 'Cremas y Sopas',
-        products: [{
+        products: 
+        [{
                 id: 1,
                 name: 'Crema de Locos',
                 description: 'con Crutones',
