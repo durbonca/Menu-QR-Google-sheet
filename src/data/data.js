@@ -64,6 +64,28 @@ const dataProducts = [
         ]
     },
     {
+        title: 'Cremas y Sopas',
+        products: [{
+                id: 1,
+                name: 'Crema de Locos',
+                description: 'con Crutones',
+                price: '7.000'
+            },
+            {
+                id: 2,
+                name: 'Caldo del Mar',
+                description: 'con Pescado, Mariscos y Piure',
+                price: '6.000'
+            },
+            {
+                id: 3,
+                name: 'Sopa de Cebolla',
+                description: '',
+                price: '6.000'
+            }
+        ]
+    },
+    {
         title: 'Ensaladas',
         description: '“Con su Dressing”',
         products: [{
@@ -117,28 +139,6 @@ const dataProducts = [
                 name: 'Lasaña del Huerto',
                 description: 'con Zapallo Italiano, Berenjena, Champiñones, Espinaca, Tomate, Pimientos y Pestos',
                 price: '9.000'
-            }
-        ]
-    },
-    {
-        title: 'Cremas y Sopas',
-        products: [{
-                id: 1,
-                name: 'Crema de Locos',
-                description: 'con Crutones',
-                price: '7.000'
-            },
-            {
-                id: 2,
-                name: 'Caldo del Mar',
-                description: 'con Pescado, Mariscos y Piure',
-                price: '6.000'
-            },
-            {
-                id: 3,
-                name: 'Sopa de Cebolla',
-                description: '',
-                price: '6.000'
             }
         ]
     },
