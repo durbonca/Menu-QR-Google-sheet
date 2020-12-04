@@ -85,7 +85,7 @@ const dataWine = [
             { id: 3, name: 'Aconcagua Costa', description: 'de Errazuriz 2019', country: 'Aconcagua', price: '', price2: '23.000' }, 
             { id: 4, name: 'Villard', description: 'Gran Vin 2018', country: 'Casablanca', price: '', price2: '20.000' }, 
             { id: 5, name: 'Lunae', description: 'de Callma 2018', country: 'Casa Blanca', price: '4.500', price2: '18.000' }, 
-            { id: 6, name: 'T.H. Limari', description: 'de Undurraga 2017', country: 'Limari', price: '', price2: '18.000' }, 
+            /* { id: 6, name: 'T.H. Limari', description: 'de Undurraga 2017', country: 'Limari', price: '', price2: '18.000' },  */
             { id: 7, name: 'Altum', description: 'de Terramater 2017', country: 'Maipo', price: '', price2: '18.000' }, 
             { id: 8, name: 'Locura 1', description: 'de Terroir de Los Andes 2015', country: 'Cachapoal', price: '', price2: '18.000' }, 
             { id: 9, name: 'Vetas Blancas', description: 'de Tabali 2017', country: 'Limari', price: '4.000', price2: '17.000' }, 
