@@ -189,6 +189,7 @@ const dataWine = [
         title: 'Pinot Noir', 
         products: 
         [
+            { id: 0, name: 'Pucalan', description: 'de Clos des Fous 2015', country: 'Aconcagua', price: '', price2: '27.000' },
             { id: 1, name: 'Los Parientes', description: 'de Baettig 2019', country: '', price: '', price2: '26.000' }, 
             { id: 2, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '6.000', price2: '24.000' }, 
             { id: 3, name: 'Talinay', description: 'De Tabalí 2015', country: 'Limarí', price: '', price2: '23.000' }, 
