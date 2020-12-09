@@ -201,7 +201,7 @@ const dataWine = [
             { id: 9, name: 'Veneris', description: 'De Callma 2018', country: 'Casablanca', price: '4.500', price2: '18.000' }, 
             { id: 10, name: 'Sofia', description: 'P.S De Garcia 2017', country: 'Casablanca', price: '', price2: '18.000' }, 
             { id: 11, name: 'Schwaderer 2017', description: '2017', country: 'Itata Y Casablanca', price: '', price2: '18.000' }, 
-            { id: 12, name: 'Corralillo', description: 'De Matetic 2017', country: 'Casablanca', price: '', price2: '17.000' }, 
+            /* { id: 12, name: 'Corralillo', description: 'De Matetic 2017', country: 'Casablanca', price: '', price2: '17.000' }, */ 
             { id: 13, name: 'Grey Glacier', description: 'De Ventisquero 2017', country: 'Leyda', price: '', price2: '17.000' },
         ]
     }, { 
