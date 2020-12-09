@@ -8,8 +8,8 @@ const dataDestilados = [
                 title:'Cognac', 
                 products: 
                 [
-                    { id: 1, name: 'Charles Gabriel V.S', description: '', cl: '4', price: '5.500'},
-                    { id: 2, name: 'Hennessy V.S.O.P.', description: '', cl: '4', price: '3.500'}, 
+                    { id: 1, name: 'Charles Gabriel V.S', description: '', cl: '4', price: '3.500'},
+                    { id: 2, name: 'Hennessy V.S.O.P.', description: '', cl: '4', price: '5.000'}, 
                 ]
                 }, { 
                 title:'Armagnac', 
