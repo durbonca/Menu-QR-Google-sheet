@@ -216,7 +216,7 @@ const dataWine = [
             { id: 2, name: 'Dueño de la Luna', description: 'de Meli 2015', country: 'Maule', price: '', price2: '22.000' }, 
             { id: 4, name: 'Vigno', description: 'De P.S García 2015', country: 'Maule', price: '5.000', price2: '23.000' }, 
             { id: 3, name: 'Blu', description: 'de Bluwines 2015', country: 'Maule', price: '', price2: '21.000' }, 
-            { id: 5, name: 'Vigno', description: 'De Bouchon 2017', country: 'Maule', price: '', price2: '20.000' }, 
+            /* { id: 5, name: 'Vigno', description: 'De Bouchon 2017', country: 'Maule', price: '', price2: '20.000' }, */ 
             { id: 6, name: 'Vigno', description: 'De Emiliana 2015', country: 'Maule', price: '', price2: '19.000' }, 
             { id: 7, name: 'Vigno', description: 'De Gillmore 2012', country: 'Maule', price: '', price2: '18.000' }, 
             { id: 8, name: 'Vigno', description: 'De Miguel Torres 2015', country: 'Maule', price: '', price2: '17.000' }, 
