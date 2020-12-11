@@ -329,6 +329,13 @@ const dataWine = [
             { id: 1, name: 'Dow’s LBV', description: '2008', country: 'Douro (PT)', price: '3.500', price2: '28.000' },
             { id: 2, name: 'Fort de Calyptra', description: '2013', country: 'Cachapoal', price: '3.000', price2: '24.000' },
         ]
+    },
+    { 
+        title: 'Tempranillo', 
+        products: 
+        [
+            { id: 1, name: 'Koyle Royal', description: '2015', country: 'Colchagua', price: '', price2: '20.000' },
+        ]
     }
 ]
 export default dataWine
