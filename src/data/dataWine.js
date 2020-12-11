@@ -379,6 +379,13 @@ const dataWine = [
         [
             { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' },
         ]
-    }
+    },
+    /* { 
+        title: 'Fortificados', 
+        products: 
+        [
+            { id: 1, name: '', description: '', country: '', price: '', price2: '' },
+        ]
+    }, */
 ]
 export default dataWine
