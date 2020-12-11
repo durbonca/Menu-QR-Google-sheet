@@ -104,8 +104,15 @@ const dataWine = [
             { id: 1, name: 'Casona', description: 'de Casa Marín 2019', country: 'San Antonio', price: '', price2: '22.000' }, 
             { id: 2, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '16.000' },
         ]
+    },{ 
+        title: 'Rosé', 
+        products: 
+        [
+            { id: 1, name: 'Vivendo', description: 'de Calyptra 2018', country: 'Cachapoal', price: '4.000', price2: '17.000' }, 
+            { id: 2, name: 'Pedregoso', description: 'de Tabalí 2019', country: 'Limarí', price: '', price2: '15.000' }, 
+            { id: 3, name: 'Calcu', description: 'Reserva Especial 2018', country: 'Colchagua', price: '', price2: '13.000' },
+        ]
     },
-
     /* { 
         title: 'Vi', 
         products: 
@@ -244,14 +251,6 @@ const dataWine = [
         ]
     }, 
     { 
-        title: 'Rosé', 
-        products: 
-        [
-            { id: 1, name: 'Vivendo', description: 'de Calyptra 2018', country: 'Cachapoal', price: '4.000', price2: '17.000' }, 
-            { id: 2, name: 'Pedregoso', description: 'de Tabalí 2019', country: 'Limarí', price: '', price2: '15.000' }, 
-            { id: 3, name: 'Calcu', description: 'Reserva Especial 2018', country: 'Colchagua', price: '', price2: '13.000' },
-        ]
-    }, { 
         title: 'Merlot', 
         products: 
         [
@@ -263,28 +262,8 @@ const dataWine = [
             { id: 6, name: 'Valdivieso', description: 'Single Vineyard 2013', country: 'Lontué', price: '', price2: '16.000' }, 
             { id: 7, name: 'Armador', description: 'de Odjfell 2017', country: 'Maipo', price: '4.000', price2: '15.000' },
         ]
-    }, { 
-        title: 'Cabernet Franc', 
-        products: 
-        [
-            { id: 1, name: 'El Padre', description: 'de Morande 2016', country: 'Maipo', price: '', price2: '21.000' }, 
-            { id: 2, name: 'Private', description: 'de Valle Secreto 2015', country: 'Cachapoal', price: '', price2: '20.000' }, 
-            { id: 3, name: 'Antu', description: 'Limited de Mongras 2015', country: 'Maipo', price: '', price2: '19.000' }, 
-            { id: 4, name: 'Lomas del Valle', description: 'de Lomas Larga 2015', country: 'Casablanca', price: '4.500', price2: '18.000' }, 
-            { id: 5, name: 'Gillmore', description: 'Hacedor de Mundos 2014', country: 'Maule', price: '', price2: '18.000' }, 
-            { id: 6, name: 'Vetas Blancas', description: 'de Tabalí 2016', country: 'Limarí', price: '', price2: '17.000' }, 
-            { id: 7, name: 'Maquis', description: 'Gran Reserva 2016', country: 'Colchagua', price: '4.000', price2: '16.000' },
-        ]
-    }, { 
-        title: 'Petit Verdot', 
-        products: 
-        [
-            /* { id: 1, name: 'Laura Hartwing', description: '2015', country: 'Colchagua', price: '', price2: '18.000' }, */
-            { id: 2, name: 'Toknar', description: 'de Von Siebenthal 2011', country: 'Aconcagua', price: '', price2: '49.000' },
-            { id: 3, name: 'Chaski', description: 'de Peréz Cruz 2016', country: 'Maipo', price: '', price2: '28.000' },
-            { id: 4, name: 'Casa Silva', description: 'Edición Limitada 2016', country: 'Colchagua', price: '', price2: '17.000' },
-        ]
-    }, { 
+    }, 
+    { 
         title: 'Carménère', 
         products: 
         [
@@ -302,6 +281,29 @@ const dataWine = [
             { id: 12, name: 'Reserva Ancestral', description: 'de Miguel Torres 2015', country: 'Itata', price: '4.000', price2: '16.000' },
             /* , { id: 13, name: 'De Martino', description: 'Legado 2018', country: 'Maipo', price: '', price2: '16.000' } */ 
             { id: 14, name: 'Teillery', description: 'Reserva 2018', country: 'Maipo', price: '', price2: '16.000' },
+        ]
+    },
+    { 
+        title: 'Cabernet Franc', 
+        products: 
+        [
+            { id: 1, name: 'El Padre', description: 'de Morande 2016', country: 'Maipo', price: '', price2: '21.000' }, 
+            { id: 2, name: 'Private', description: 'de Valle Secreto 2015', country: 'Cachapoal', price: '', price2: '20.000' }, 
+            { id: 3, name: 'Antu', description: 'Limited de Mongras 2015', country: 'Maipo', price: '', price2: '19.000' }, 
+            { id: 4, name: 'Lomas del Valle', description: 'de Lomas Larga 2015', country: 'Casablanca', price: '4.500', price2: '18.000' }, 
+            { id: 5, name: 'Gillmore', description: 'Hacedor de Mundos 2014', country: 'Maule', price: '', price2: '18.000' }, 
+            { id: 6, name: 'Vetas Blancas', description: 'de Tabalí 2016', country: 'Limarí', price: '', price2: '17.000' }, 
+            { id: 7, name: 'Maquis', description: 'Gran Reserva 2016', country: 'Colchagua', price: '4.000', price2: '16.000' },
+        ]
+    }, 
+    { 
+        title: 'Petit Verdot', 
+        products: 
+        [
+            /* { id: 1, name: 'Laura Hartwing', description: '2015', country: 'Colchagua', price: '', price2: '18.000' }, */
+            { id: 2, name: 'Toknar', description: 'de Von Siebenthal 2011', country: 'Aconcagua', price: '', price2: '49.000' },
+            { id: 3, name: 'Chaski', description: 'de Peréz Cruz 2016', country: 'Maipo', price: '', price2: '28.000' },
+            { id: 4, name: 'Casa Silva', description: 'Edición Limitada 2016', country: 'Colchagua', price: '', price2: '17.000' },
         ]
     }, { 
         title: 'Malbec', 
@@ -364,18 +366,18 @@ const dataWine = [
             { id: 17, name: 'Codegua', description: 'de Lagar de Codegua 2017', country: 'Cachapoal', price: '', price2: '18.000' },
             { id: 18, name: 'Sincerity', description: 'de Emiliana 2005', country: 'Colchagua', price: '', price2: '18.000' },
         ]
-    }, { 
-        title: 'Late Harvest', 
-        products: 
-        [
-            { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' },
-        ]
     },{ 
         title: 'Oporto', 
         products: 
         [
             { id: 1, name: 'Dow’s LBV', description: '2008', country: 'Douro (PT)', price: '3.500', price2: '28.000' },
             { id: 2, name: 'Fort de Calyptra', description: '2013', country: 'Cachapoal', price: '3.000', price2: '24.000' },
+        ]
+    }, { 
+        title: 'Late Harvest', 
+        products: 
+        [
+            { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' },
         ]
     }
 ]
