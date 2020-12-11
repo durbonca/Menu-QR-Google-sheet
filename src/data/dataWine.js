@@ -373,12 +373,6 @@ const dataWine = [
             { id: 1, name: 'Dow’s LBV', description: '2008', country: 'Douro (PT)', price: '3.500', price2: '28.000' },
             { id: 2, name: 'Fort de Calyptra', description: '2013', country: 'Cachapoal', price: '3.000', price2: '24.000' },
         ]
-    }, { 
-        title: 'Late Harvest', 
-        products: 
-        [
-            { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' },
-        ]
     },
     /* { 
         title: 'Fortificados', 
@@ -387,5 +381,12 @@ const dataWine = [
             { id: 1, name: '', description: '', country: '', price: '', price2: '' },
         ]
     }, */
+    { 
+        title: 'Late Harvest', 
+        products: 
+        [
+            { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' },
+        ]
+    },
 ]
 export default dataWine
