@@ -60,23 +60,14 @@ const dataWine = [
         [
             { id: 10, name: 'Casa Marin', description: 'Estero 2019', country: 'San Antonio', price:'', price2:'25.000' }
         ]
-    }, { 
-        title: 'Riesling', 
+    },/* { 
+        title: 'Semillon', 
         products: 
         [
-            { id: 1, name: 'Felicia', description: 'de Clos des fous 2017', country: 'Malleco', price: '5.000', price2: '27.000' }, 
-            { id: 2, name: 'Lago Ranco', description: 'de Casa Silva 2017', country: 'Futrono', price: '', price2: '20.000' }, 
-            { id: 3, name: 'Block 23', description: 'de Cono Sur 2017', country: 'Bio Bio', price: '', price2: '16.000' }, 
-            { id: 4, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '', price2: '16.000' },
+            { id: 1, name: '', description: '', country: '', price:'', price2:'' }
         ]
-    }, { 
-        title: 'Gewürztraminer', 
-        products: 
-        [
-            { id: 1, name: 'Casona', description: 'de Casa Marín 2019', country: 'San Antonio', price: '', price2: '22.000' }, 
-            { id: 2, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '16.000' },
-        ]
-    }, { 
+    }, */
+    { 
         title: 'Chardonnay', 
         products: 
         [ 
@@ -95,7 +86,24 @@ const dataWine = [
             { id: 10, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '14.000' }, 
             { id: 12, name: 'Terramater', description: 'Limited Reserve 2017', country: 'Maipo', price: '', price2: '13.000' }
         ]
+    },
+    { 
+        title: 'Riesling', 
+        products: 
+        [
+            { id: 1, name: 'Felicia', description: 'de Clos des fous 2017', country: 'Malleco', price: '5.000', price2: '27.000' }, 
+            { id: 2, name: 'Lago Ranco', description: 'de Casa Silva 2017', country: 'Futrono', price: '', price2: '20.000' }, 
+            { id: 3, name: 'Block 23', description: 'de Cono Sur 2017', country: 'Bio Bio', price: '', price2: '16.000' }, 
+            { id: 4, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '', price2: '16.000' },
+        ]
     }, { 
+        title: 'Gewürztraminer', 
+        products: 
+        [
+            { id: 1, name: 'Casona', description: 'de Casa Marín 2019', country: 'San Antonio', price: '', price2: '22.000' }, 
+            { id: 2, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '16.000' },
+        ]
+    },{ 
         title: 'Rosé', 
         products: 
         [
