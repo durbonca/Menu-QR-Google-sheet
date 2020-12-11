@@ -315,6 +315,7 @@ const dataWine = [
             { id: 15, name: 'L’Assemblage', description: 'de Villard 2018', country: 'Casablanca', price: '4.500', price2: '19.000' }, 
             { id: 16, name: 'Gryphus', description: 'de Vultur 2015', country: 'Colchagua', price: '', price2: '19.000' }, 
             { id: 17, name: 'Codegua', description: 'de Lagar de Codegua 2017', country: 'Cachapoal', price: '', price2: '18.000' },
+            { id: 18, name: 'Sincerity', description: 'de Emiliana 2005', country: 'Colchagua', price: '', price2: '18.000' },
         ]
     }, { 
         title: 'Late Harvest', 
