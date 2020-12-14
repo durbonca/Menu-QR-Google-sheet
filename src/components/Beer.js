@@ -1,7 +1,7 @@
 import React from "react"
 import dataBeer from '../data/dataBeer';
 import Bars from './bars'
-import Product from './Product'
+import ProductBeer from './ProductBeer'
 import {Link} from "react-router-dom"
 
 class Family extends React.Component {
@@ -11,12 +11,20 @@ class Family extends React.Component {
                 <Link className="btn backButtom" to="/"><span className="emoji" role="img" aria-label={""}>🔙</span></Link>
                 {dataBeer.map(function (dataBeer){
                     return <div>
-                                <div className="row mt-5 d-flex align-items-center">                               
+                               { dataBeer.title &&
+                                <div  className="row mt-5 d-flex align-items-center">                               
                                     <Bars/>
                                     <h3 className="col-auto text-center">{dataBeer.title}</h3>
                                     <Bars/>
-                                </div>
-                                <Product product={dataBeer.products}/>
+                                </div> }
+                                <h4 className="col-auto mt-3 text-center">{dataBeer.subtitle}</h4>
+                                {dataBeer.subtitle === 'Barril' &&  
+                               <div className="d-flex justify-content-end">
+                                   <p className="col-auto m-0 pr-0">Caña<br/>20 cl</p>
+                                   <p className="col-auto m-0 pr-0 pl-4">Shop<br/>40 Cl</p> 
+                               </div>
+                                }
+                                <ProductBeer product={dataBeer.products}/>
                             </div>
                 })}
               </div> 

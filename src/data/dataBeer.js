@@ -1,6 +1,7 @@
 const dataBeer = [
     { 
-        title: 'Cervezas', 
+        title: 'Cervezas',
+        subtitle: 'Botella', 
         products: 
         [
             { id: 1, name: 'Peroni', description: 'ALE - Italia - 33 Cl', price: '3.500'}, 
@@ -10,7 +11,16 @@ const dataBeer = [
             { id: 5, name: 'La Montaña', description: 'IPA - Chile - 33 Cl', price: '4.000'}, 
             { id: 6, name: 'Mestra', description: 'AMBER ALE - Chile - 33 Cl', price: '4.000'}
         ]
-    }, { 
+    }, 
+    { 
+        subtitle: 'Barril', 
+        products: 
+        [
+            { id: 4, name: 'Mestra', description: 'LAGER PILSEN - Chile', price: '3.000', price2:'1.500'},  
+            { id: 6, name: 'Mestra', description: 'AMBER ALE - Chile', price: '3.000', price2:'1.500'}
+        ]
+    },
+    { 
         title: 'Sin Alcohol', 
         products: 
         [
