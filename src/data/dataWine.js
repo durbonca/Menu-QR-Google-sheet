@@ -46,7 +46,7 @@ const dataWine = [
             { id: 41, name: 'Talinay', description: 'de Tabali 2019', country: 'Limari', price: '', price2: '22.000' }, 
             { id: 4, name: 'Sol de Sol', description: 'de Aquitania 2018', country: 'Malleco', price: '5.000', price2: '21.000' }, 
             { id: 51, name: 'Koyle Costa', description: '2018', country: 'Colcagua', price: '', price2: '19.000' }, 
-            { id: 5, name: 'Cool Coast', description: 'de Casa Silva 2019', country: 'Colchagua', price: '4.500', price2: '18.000' }, 
+            /* { id: 5, name: 'Cool Coast', description: 'de Casa Silva 2019', country: 'Colchagua', price: '4.500', price2: '18.000' }, */ 
             { id: 6, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '4.000', price2: '17.000' }, 
             { id: 7, name: 'Little quino', description: 'de William Fèvre 2019', country: 'Malleco', price: '', price2: '16.000' }, 
             { id: 8, name: 'Marina', description: 'de P.S Garcia 2016', country: 'Casablanca', price: '', price2: '16.000'}, 
