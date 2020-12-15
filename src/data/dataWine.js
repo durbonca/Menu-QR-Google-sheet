@@ -324,7 +324,8 @@ const dataWine = [
         title: 'Cabernet Sauvignon', 
         products: 
         [
-            { id: 1, name: 'Don Melchor', description: 'de Concha y Toro 2015', country: 'Maipo', price: '', price2: '93.000' }, 
+            { id: 1, name: 'Don Melchor', description: 'de Concha y Toro 2015', country: 'Maipo', price: '', price2: '93.000' },
+            { id: 101, name: 'Le Dix', description: 'Viña Los Vascos 2014', country: 'Colchagua', price: '', price2: '72.000' }, 
             { id: 2, name: 'Las 3 Marias', description: 'de Gandolini 2013', country: 'Maipo', price: '', price2: '85.000' }, 
             { id: 3, name: 'Zahir', description: 'de Calyptra 2011', country: 'Cachapoal', price: '', price2: '59.000' }, 
             /*{ id: 4, name: 'Manso de Velasco', description: 'de Miguel Torres 2013', country: 'Curico', price: '', price2: '49.000' }, */
