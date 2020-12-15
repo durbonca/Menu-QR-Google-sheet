@@ -49,7 +49,7 @@ const dataWine = [
             /* { id: 5, name: 'Cool Coast', description: 'de Casa Silva 2019', country: 'Colchagua', price: '4.500', price2: '18.000' }, */ 
             { id: 6, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '4.000', price2: '17.000' }, 
             { id: 7, name: 'Little quino', description: 'de William Fèvre 2019', country: 'Malleco', price: '', price2: '16.000' }, 
-            { id: 8, name: 'Marina', description: 'de P.S Garcia 2016', country: 'Casablanca', price: '4.000', price2: '16.000'}, 
+            { id: 8, name: 'Marina', description: 'de P.S Garcia 2016', country: 'Casablanca', price: '', price2: '16.000'}, 
             { id: 9, name: 'Clos Andino', description: 'Serie Limiteé 2017', country: 'Curico', price: '', price2: '15.000' }, 
             /* { id: 10, name: 'Villard', description: 'Expresion 2018', country:'Casablanca', price: '', price2: '16.000' }, */
             /*{ id: 11, name: 'Armador', description: 'de Odjfell 2018', country: 'Maipo', price: '', price2: '13.000' }, */      
@@ -164,7 +164,7 @@ const dataWine = [
         title: 'País', 
         products: 
         [
-            { id: 3, name: 'Vinista', description: 'de Pedro Parra 2019', country: 'Itata', price: '', price2: '20.000' }, 
+            /* { id: 3, name: 'Vinista', description: 'de Pedro Parra 2019', country: 'Itata', price: '', price2: '20.000' }, */ 
             { id: 1, name: 'Carmen de Cuchacucha', description: '2019', country: 'Itata', price: '', price2: '18.000' },
             { id: 2, name: 'Pais del Maule', description: 'de Gillmore 2019', country: 'Loncomilla', price: '', price2: '16.000' },
         ]
@@ -225,7 +225,7 @@ const dataWine = [
             { id: 6, name: 'Vigno', description: 'De Emiliana 2015', country: 'Maule', price: '', price2: '19.000' }, 
             { id: 7, name: 'Vigno', description: 'De Gillmore 2012', country: 'Maule', price: '', price2: '18.000' }, 
             { id: 8, name: 'Vigno', description: 'De Miguel Torres 2015', country: 'Maule', price: '', price2: '17.000' }, 
-            { id: 9, name: 'Meli', description: '2015', country: 'Maule', price: '', price2: '15.000' }
+            /* { id: 9, name: 'Meli', description: '2015', country: 'Maule', price: '', price2: '15.000' } */
         ]
     },
     { 
