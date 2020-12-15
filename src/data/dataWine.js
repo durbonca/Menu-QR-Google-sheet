@@ -7,7 +7,7 @@ const dataWine = [
             { id: 2, name: 'Don Perignon', description: 'Vintage 2009', country: 'Epernay - FRANCIA', price: '', price2: '240.000' }, 
             /* {id: 2, name: 'Ruinard "R"', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '84.000' } ,*/
             { id: 3, name: 'Veuve Clicquot', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '79.000' }, 
-            { id: 4, name: 'Pommery Brut Royal', description: 'Brut Royal', country: 'Reims - FRANCIA', price: '', price2: '45.000' }, 
+            { id: 4, name: 'Pommery Brut Royal', description: 'Brut Royal', country: 'Reims - FRANCIA', price: '', price2: '46.000' }, 
             { id: 5, name: 'Piper Heidsieck', description: 'Brut', country: 'Reims - FRANCIA', price: '7.000', price2: '43.000' },
         ]
     },{
@@ -22,10 +22,10 @@ const dataWine = [
         products: 
         [
             { id: 2, name: 'Azur "Magnum"', description: 'Brut 1.500 cl', country: 'Limari', price: '', price2: '44.000' }, 
-            { id: 0, name: 'Casa Marin', description: 'Brut de Maria Luz', country: 'San Antonio', price: '', price2: '37.000' }, 
-            { id: 1, name: 'Baron "B"', description: 'Brut', country: '', price: '', price2: '33.000' }, 
-            { id: 3, name: 'Azur', description: 'Brut 750 cl', country: 'Limari', price: '4.500', price2: '22.000' },
-            { id: 31, name: 'Tatie', description: 'Brut de Tabali', country: 'Limari', price: '', price2: '21.000' }, 
+            { id: 0, name: 'Casa Marin', description: 'Brut Nature', country: 'San Antonio', price: '', price2: '37.000' }, 
+            { id: 1, name: 'Baron B', description: 'Brut de Chandon', country: 'Mendoza', price: '', price2: '33.000' }, 
+            { id: 3, name: 'Azur', description: 'Brut 750 cl', country: 'Limari', price: '', price2: '22.000' },
+            { id: 31, name: 'Tatie', description: 'Brut de Tabali  y Thiénot', country: 'Limari', price: '4.000', price2: '21.000' }, 
             { id: 4, name: 'Fervor', description: 'Brut de Casa Silva', country: 'Colchagua', price: '', price2: '20.000' }, 
             { id: 5, name: 'Cono Sur', description: 'Brut', country: 'Bio - Bio', price: '', price2: '14.000' },
         ]
@@ -33,23 +33,23 @@ const dataWine = [
         title: 'Espumante Rosé', 
         products: 
         [
-            { id: 1, name: 'Chandon', description: 'Rosé', country: '', price: '', price2: '20.000' }, 
+            { id: 1, name: 'Chandon', description: 'Rosé', country: 'Mendoza', price: '', price2: '20.000' }, 
             { id: 2, name: 'Salentein', description: 'Rosé', country: 'Uco Arg.', price: '', price2: '19.000' }, 
             { id: 3, name: 'Gemma', description: 'Rosé', country: 'Central', price: '3.500', price2: '17.000' },
         ]
     },{ title: 'Sauvignon Blanc', 
         products: 
         [
-            { id: 0, name: 'Casa Marin', description: 'Cipreses 2020', country: 'San Antonio', price: '', price2: '25.000' }, 
+            { id: 0, name: 'Casa Marin', description: 'Cipreses 2020', country: 'San Antonio', price: '6.000', price2: '25.000' }, 
             { id: 1, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '', price2: '24.000' }, 
             { id: 3, name: '20 Barrels', description: 'de Cono Sur - 2017', country: 'Casablanca', price: '', price2: '23.000' }, 
             { id: 41, name: 'Talinay', description: 'de Tabali 2019', country: 'Limari', price: '', price2: '22.000' }, 
-            { id: 4, name: 'Sol de Sol', description: 'de Aquitania 2018', country: 'Malleco', price: '5.000', price2: '21.000' }, 
+            { id: 4, name: 'Sol de Sol', description: 'de Aquitania 2018', country: 'Malleco', price: '', price2: '21.000' }, 
             { id: 51, name: 'Koyle Costa', description: '2018', country: 'Colcagua', price: '', price2: '19.000' }, 
             /* { id: 5, name: 'Cool Coast', description: 'de Casa Silva 2019', country: 'Colchagua', price: '4.500', price2: '18.000' }, */ 
             { id: 6, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '4.000', price2: '17.000' }, 
             { id: 7, name: 'Little quino', description: 'de William Fèvre 2019', country: 'Malleco', price: '', price2: '16.000' }, 
-            { id: 8, name: 'Marina', description: 'de P.S Garcia 2016', country: 'Casablanca', price: '', price2: '16.000'}, 
+            { id: 8, name: 'Marina', description: 'de P.S Garcia 2016', country: 'Casablanca', price: '4.000', price2: '16.000'}, 
             { id: 9, name: 'Clos Andino', description: 'Serie Limiteé 2017', country: 'Curico', price: '', price2: '15.000' }, 
             /* { id: 10, name: 'Villard', description: 'Expresion 2018', country:'Casablanca', price: '', price2: '16.000' }, */
             /*{ id: 11, name: 'Armador', description: 'de Odjfell 2018', country: 'Maipo', price: '', price2: '13.000' }, */      
@@ -58,7 +58,8 @@ const dataWine = [
         title: 'Sauvignon Gris', 
         products: 
         [
-            { id: 10, name: 'Casa Marin', description: 'Estero 2019', country: 'San Antonio', price:'', price2:'25.000' }
+            { id: 1, name: 'Casa Marin', description: 'Estero 2019', country: 'San Antonio', price:'6.000', price2:'25.000' },
+            { id: 2, name: 'Cool Coast', description: 'de Casa Silva 2019', country: 'Colchagua', price: '', price2: '18.000' },
         ]
     },{ 
         title: 'Semillón', 
@@ -157,13 +158,15 @@ const dataWine = [
             { id: 3, name: 'Gallardia', description: 'de Martino 2018', country: 'Itata', price: '', price2: '15.000' },
         ]
     },
-    /* { 
+    { 
         title: 'País', 
         products: 
         [
-            { id: 1, name: '', description: '', country: '', price: '', price2: '' }, 
+            { id: 3, name: 'Vinista', description: 'de Pedro Parra 2019', country: 'Itata', price: '', price2: '20.000' }, 
+            { id: 1, name: 'Carmen de Cuchacucha', description: '2019', country: 'Itata', price: '', price2: '18.000' },
+            { id: 2, name: 'Pais del Maule', description: 'de Gillmore 2019', country: 'Loncomilla', price: '', price2: '16.000' },
         ]
-    }, */
+    },
     { 
         title: 'Syrah', 
         products: 
