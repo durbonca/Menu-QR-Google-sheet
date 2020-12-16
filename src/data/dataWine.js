@@ -94,7 +94,7 @@ const dataWine = [
         products: 
         [
             { id: 1, name: 'Felicia', description: 'de Clos des fous 2017', country: 'Malleco', price: '5.000', price2: '27.000' }, 
-            { id: 11, name: 'Casa Marin', description: 'Estero 2019', country: 'San Antonio', price: '6.000', price2: '25.000' }, 
+            { id: 11, name: 'Casa Marin', description: 'Miramar 2019', country: 'San Antonio', price: '6.000', price2: '25.000' }, 
             { id: 2, name: 'Lago Ranco', description: 'de Casa Silva 2017', country: 'Futrono', price: '', price2: '20.000' }, 
             { id: 3, name: 'Block 23', description: 'de Cono Sur 2017', country: 'Bio Bio', price: '', price2: '16.000' }, 
             { id: 4, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '', price2: '16.000' },
