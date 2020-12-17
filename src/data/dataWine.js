@@ -94,7 +94,7 @@ const dataWine = [
         products: 
         [
             { id: 1, name: 'Felicia', description: 'de Clos des fous 2017', country: 'Malleco', price: '5.000', price2: '27.000' }, 
-            { id: 11, name: 'Casa Marin', description: 'Miramar 2019', country: 'San Antonio', price: '6.000', price2: '25.000' }, 
+            { id: 11, name: 'Casa Marin', description: 'Miramar 2019', country: 'San Antonio', price: '', price2: '25.000' }, 
             { id: 2, name: 'Lago Ranco', description: 'de Casa Silva 2017', country: 'Futrono', price: '', price2: '20.000' }, 
             { id: 3, name: 'Block 23', description: 'de Cono Sur 2017', country: 'Bio Bio', price: '', price2: '16.000' }, 
             { id: 4, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '', price2: '16.000' },
@@ -165,7 +165,7 @@ const dataWine = [
         products: 
         [
             { id: 3, name: 'Vinista', description: 'de Pedro Parra 2019', country: 'Itata', price: '', price2: '20.000' },
-            { id: 1, name: 'Carmen de Cuchacucha', description: '2019', country: 'Itata', price: '', price2: '18.000' },
+            { id: 1, name: 'Carmen de Cuchacucha', description: '2019', country: 'Itata', price: '4.500', price2: '18.000' },
             { id: 2, name: 'Pais del Maule', description: 'de Gillmore 2019', country: 'Loncomilla', price: '', price2: '16.000' },
             { id: 3, name: 'Las Veletas', description: '2018', country: 'Maule', price: '', price2: '15.000' }, 
         ]
