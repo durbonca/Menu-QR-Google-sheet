@@ -243,7 +243,7 @@ const dataWine = [
         title: 'Romano', 
         products: 
         [
-            { id: 1, name: 'Romano', description: 'de Casa Silva 2015', country: 'Colchagua', price: '4.500', price2: '18.000' },
+            { id: 1, name: 'Romano', description: 'de Casa Silva 2015', country: 'Colchagua', price: '', price2: '18.000' },
         ]
     }, { 
         title: 'Garnacha', 
