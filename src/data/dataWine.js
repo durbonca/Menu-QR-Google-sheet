@@ -228,7 +228,7 @@ const dataWine = [
             /* { id: 5, name: 'Vigno', description: 'De Bouchon 2017', country: 'Maule', price: '', price2: '20.000' }, */ 
             { id: 6, name: 'Vigno', description: 'De Emiliana 2015', country: 'Maule', price: '', price2: '19.000' }, 
             { id: 7, name: 'Vigno', description: 'De Gillmore 2012', country: 'Maule', price: '', price2: '19.000' }, 
-            { id: 8, name: 'Vigno', description: 'De Miguel Torres 2015', country: 'Maule', price: '', price2: '17.000' }, 
+            /* { id: 8, name: 'Vigno', description: 'De Miguel Torres 2015', country: 'Maule', price: '', price2: '17.000' }, */ 
             /* { id: 9, name: 'Meli', description: '2015', country: 'Maule', price: '', price2: '15.000' } */
         ]
     },
