@@ -299,7 +299,7 @@ const dataWine = [
             { id: 1, name: 'El Padre', description: 'de Morande 2016', country: 'Maipo', price: '', price2: '21.000' }, 
             { id: 2, name: 'Valle Secreto', description: 'Private 2015', country: 'Cachapoal', price: '', price2: '20.000' }, 
             { id: 3, name: 'Antu', description: 'Limited de Mongras 2015', country: 'Maipo', price: '', price2: '19.000' }, 
-            { id: 4, name: 'Lomas del Valle', description: 'de Lomas Larga 2015', country: 'Casablanca', price: '4.500', price2: '18.000' }, 
+            /* { id: 4, name: 'Lomas del Valle', description: 'de Lomas Larga 2015', country: 'Casablanca', price: '4.500', price2: '18.000' }, */ 
             { id: 6, name: 'Vetas Blancas', description: 'de Tabalí 2016', country: 'Limarí', price: '', price2: '18.000' }, 
             { id: 5, name: 'Gillmore', description: 'Hacedor de Mundos 2014', country: 'Maule', price: '', price2: '18.000' }, 
             { id: 7, name: 'Maquis', description: 'Gran Reserva 2016', country: 'Colchagua', price: '4.000', price2: '16.000' },
