@@ -21,7 +21,7 @@ const dataWine = [
         title: 'Espumante', 
         products: 
         [
-            { id: 2, name: 'Azur "Magnum"', description: 'Brut 1.500 cl', country: 'Limari', price: '', price2: '44.000' }, 
+           /*  { id: 2, name: 'Azur "Magnum"', description: 'Brut 1.500 cl', country: 'Limari', price: '', price2: '44.000' }, */ 
             { id: 0, name: 'Casa Marin', description: 'Brut Nature', country: 'San Antonio', price: '', price2: '37.000' }, 
             { id: 1, name: 'Baron B', description: 'Brut de Chandon', country: 'Mendoza', price: '', price2: '33.000' }, 
             { id: 3, name: 'Azur', description: 'Brut 750 cl', country: 'Limari', price: '', price2: '22.000' },
