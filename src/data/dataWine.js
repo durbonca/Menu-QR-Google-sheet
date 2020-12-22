@@ -137,7 +137,7 @@ const dataWine = [
             { id: 0, name: 'Pucalan', description: 'de Clos des Fous 2015', country: 'Aconcagua', price: '', price2: '27.000' },
             { id: 1, name: 'Los Parientes', description: 'de Baettig 2019', country: 'Traiguén', price: '', price2: '26.000' }, 
             { id: 2, name: 'Calyptra', description: 'Gran Reserva 2017', country: 'Cachapoal', price: '6.000', price2: '24.000' }, 
-            { id: 3, name: 'Talinay', description: 'De Tabalí 2015', country: 'Limarí', price: '', price2: '23.000' }, 
+            /* { id: 3, name: 'Talinay', description: 'De Tabalí 2015', country: 'Limarí', price: '', price2: '23.000' }, */ 
             { id: 4, name: 'Loma Larga', description: '2015', country: 'Casablanca', price: '', price2: '23.000' },
             { id: 5, name: 'Gran Vin', description: 'De Villard 2018', country: 'Casablanca', price: '', price2: '22.000' },
             { id: 6, name: 'Los Patricios', description: 'De Pandolfi Price 2016', country: 'Itata', price: '', price2: '21.000' }, 
