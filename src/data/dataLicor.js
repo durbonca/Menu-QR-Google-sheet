@@ -19,7 +19,7 @@ const dataLicor =
             title: 'Los Spritz', 
             products: 
             [
-                { id: 1, name: 'Aperol', description: '', price2: '4.000 '}, 
+                /* { id: 1, name: 'Aperol', description: '', price2: '4.000 '},  */
                 { id: 2, name: 'Saint Germain', description: '', price2: '5.000 '}, 
                 { id: 3, name: 'Libertin', description: 'Vodka, Chartreuse, Saint Germain', price2: '4.000 '}, 
                 { id: 4, name: 'Piscina', description: 'Espumante, Triple Sec, Limón', price2: '4.000'} 
