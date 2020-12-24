@@ -281,7 +281,7 @@ const dataWine = [
             { id: 3, name: 'Microterroir', description: 'de Casa Silva 2006 - 2012', country: 'Colchagua', price: '', price2: '45.000' }, 
             { id: 4, name: 'CA 2', description: 'Costa de Terranoble 2016', country: 'Colchagua', price: '6.500', price2: '27.000' }, 
             { id: 5, name: 'Pura Fe', description: 'de Antiyal 2016', country: 'Maipo', price: '', price2: '23.000' }, 
-            /* { id: 6, name: 'De Martino', description: 'Alto de Piedras 2017', country: 'Maipo', price: '', price2: '23.000' }, */ 
+            { id: 6, name: 'De Martino', description: 'Alto de Piedras 2017', country: 'Maipo', price: '', price2: '23.000' }, 
             { id: 7, name: 'Micas', description: 'de Tabalí 2015', country: 'Cachapoal', price: '', price2: '19.000' }, 
             { id: 8, name: 'Orzada', description: 'de Odjfell 2018', country: 'Maule', price: '', price2: '19.000' }, 
             { id: 10, name: 'Von Siebenthal', description: 'Gran Reserva 2017', country: 'Aconcagua', price: '', price2: '18.000' }, 
