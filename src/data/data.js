@@ -54,7 +54,7 @@ const dataProducts = [
             /* { id: 11, name: 'Corvina', description: 'en su salsa y Sémola', price: '14.000' }, */
             { id: 2, name: 'Merluza Frita', description: 'con Base de Puerro y Tomate', price: '12.000' },
             { id: 3,  name: 'Merluza a la Vasca',description: 'con Piperrada y Arroz', price: '12.000' },
-            { id: 4, name: 'Reineta “Meunière”', description: 'con Piperrada y Aligot', price: '13.000' },
+            /* { id: 4, name: 'Reineta “Meunière”', description: 'con Piperrada y Aligot', price: '13.000' }, */
             { id: 5, name: 'Salmón Sellado', description: 'con Gratín de Zapallo y Tomates Provenzal', price: '14.000'}
         ]
     },
