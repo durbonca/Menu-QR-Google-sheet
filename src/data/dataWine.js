@@ -346,6 +346,7 @@ const dataWine = [
             { id: 81, name: 'S 38 Los Lingues', description: 'de casa Silva 2015', country: 'Colchagua', price: '', price2: '25.000' }, 
             { id: 9, name: 'De Martino', description: 'La Cancha 2017', country: 'Maipo', price: '', price2: '23.000' }, 
             { id: 10, name: 'Koyle Royal', description: '2016', country: 'Colchagua', price: '', price2: '20.000' }, 
+            { id: 112, name: 'Orzada', description: 'de Odjfell 2018', country: 'Maule', price: '', price2: '19.000' },
             { id: 11, name: 'Signos de Origen', description: 'de Emiliana 2016', country: 'Maipo', price: '', price2: '19.000' }, 
             { id: 111, name: 'Orzada', description: 'de Odjfell 2018', country: 'Maule', price: '', price2: '19.000' }, 
             { id: 12, name: 'Gillmore', description: 'Hacedor de Mundos 2012', country: 'Maule', price: '4.500', price2: '18.000' }, 
