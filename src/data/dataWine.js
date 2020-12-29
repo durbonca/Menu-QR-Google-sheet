@@ -34,7 +34,7 @@ const dataWine = [
         products: 
         [
             { id: 1, name: 'Chandon', description: 'Rosé', country: 'Mendoza', price: '', price2: '20.000' }, 
-            { id: 2, name: 'Salentein', description: 'Rosé', country: 'Uco Arg.', price: '', price2: '19.000' }, 
+            /* { id: 2, name: 'Salentein', description: 'Rosé', country: 'Uco Arg.', price: '', price2: '19.000' }, */ 
             { id: 3, name: 'Gemma', description: 'Rosé', country: 'Central', price: '3.500', price2: '17.000' },
         ]
     },{ title: 'Sauvignon Blanc', 
@@ -348,7 +348,7 @@ const dataWine = [
             { id: 11, name: 'Signos de Origen', description: 'de Emiliana 2016', country: 'Maipo', price: '', price2: '19.000' }, 
             { id: 111, name: 'Orzada', description: 'de Odjfell 2018', country: 'Maule', price: '', price2: '19.000' }, 
             { id: 12, name: 'Gillmore', description: 'Hacedor de Mundos 2012', country: 'Maule', price: '4.500', price2: '18.000' }, 
-            { id: 13, name: 'Gran Cuvée', description: 'de William Fèvre 2017', country: 'Maipo', price: '', price2: '18.000' },
+            /* { id: 13, name: 'Gran Cuvée', description: 'de William Fèvre 2017', country: 'Maipo', price: '', price2: '18.000' }, */
             { id: 131, name: 'Corralillo', description: 'de Matetic 2016', country: 'Maipo', price: '', price2: '18.000' }, 
             { id: 14, name: 'Aquitania', description: '2016', country: 'Maipo', price: '', price2: '16.000' }, 
             { id: 15, name: 'Clos Andino', description: 'Serie Limitée 2014', country: 'Alto Cachapoal', price: '', price2: '17.000' },
