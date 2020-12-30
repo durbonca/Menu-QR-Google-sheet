@@ -3,7 +3,7 @@ const dataProducts = [
         title: 'Fantasías',
         products: 
         [
-            { id: 1, name: 'Chupe de Locos',description: '', price: '12.000' },
+            /* { id: 1, name: 'Chupe de Locos',description: '', price: '12.000' }, */
             { id: 2,name: 'Cogote de Merluza', description: 'al Ajillo',price: '8.000' },
             { id: 3,name: 'Foie Gras “Poêlé”', description: '',price: '14.000' },
             { id: 4, name: 'Huevo Meurette', description: 'con Salsa de Vino y Tocino', price: '9.000' },
@@ -19,7 +19,7 @@ const dataProducts = [
         title: 'Cremas y Sopas',
         products: 
         [   
-            {id: 1,name: 'Crema de Locos',description: 'con Crutones',price: '7.000'},
+            /* {id: 1,name: 'Crema de Locos',description: 'con Crutones',price: '7.000'}, */
             {id: 2, name: 'Caldo del Mar',description: 'con Pescado, Mariscos y Piure',price: '6.000' },
             {id: 3, name: 'Sopa de Cebolla', description: '', price: '6.000' }
         ]
