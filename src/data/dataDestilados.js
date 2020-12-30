@@ -48,17 +48,17 @@ const dataDestilados = [
                 products: 
                 [
                     { id: 1, name: 'Dewar’s', description: '18 Años', cl: 'Highland 6', price: '6.500'},
-                    { id: 2, name: 'Chivas Regal', description: '18 Años', cl: 'Islay 6', price: '7.000'} ]}, 
+                    /* { id: 2, name: 'Chivas Regal', description: '18 Años', cl: 'Islay 6', price: '7.000'} */ ]}, 
                     { 
                 title:'Japones', 
                 products: 
                 [
                     { id: 1, name: 'Akashi Black', description: '', cl: 'Hyogo 6', price: '6.500'} ]}, 
-                { 
+               /*  { 
                 title:'Whisky de Tennessee', 
                 products: 
                 [
-                    { id: 1, name: 'Jack Daniel’s N°7', description: '', cl: 'Tennessee 6', price: '4.500'} ]}, 
+                     { id: 1, name: 'Jack Daniel’s N°7', description: '', cl: 'Tennessee 6', price: '4.500'}  ]},  */
                 { 
                 title:'Bourbon (U.S.A)', 
                 products: 
