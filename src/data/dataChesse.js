@@ -1,4 +1,4 @@
-const dataCoffe = 
+const dataChesse = 
 [
     { 
         title: 'Quesos', 
@@ -18,4 +18,4 @@ const dataCoffe =
             /* { id: 7, name: 'Nuestra Selección de 3 Cortes', description: 'Brillat Savarin, Beaufort y Roquefort', country: '', gr: '75', price: '10.000' }, */
         ]
 }]
-export default dataCoffe
+export default dataChesse
