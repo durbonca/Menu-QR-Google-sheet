@@ -4,7 +4,7 @@ const dataProducts = [
         products: 
         [
             /* { id: 1, name: 'Chupe de Locos',description: '', price: '12.000' }, */
-            /* { id: 2,name: 'Cogote de Merluza', description: 'al Ajillo',price: '8.000' }, */
+            { id: 2,name: 'Cogote de Merluza', description: 'al Ajillo',price: '8.000' },
             { id: 3,name: 'Foie Gras “Poêlé”', description: '',price: '14.000' },
             { id: 4, name: 'Huevo Meurette', description: 'con Salsa de Vino y Tocino', price: '9.000' },
             { id: 5, name: 'Médula de Res', description: '4 Unidades', price: '9.000' },
