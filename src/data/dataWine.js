@@ -320,7 +320,7 @@ const dataWine = [
         products: 
         [
             { id: 1, name: 'Roca Madre', description: 'de Tabalí 2015', country: 'Limarí', price: '', price2: '53.000' }, 
-            { id: 2, name: 'El Enemigo', description: '2016', country: 'Mendoza - ARGENTINA', price: '', price2: '27.000' }, 
+            /* { id: 2, name: 'El Enemigo', description: '2016', country: 'Mendoza - ARGENTINA', price: '', price2: '27.000' }, */ 
             { id: 3, name: 'Loma Larga', description: '2012', country: 'Casablanca', price: '5.500', price2: '23.000' }, 
             { id: 4, name: 'Koyle Royal', description: '2015', country: 'Colchagua', price: '', price2: '20.000' }, 
             { id: 5, name: 'Chocalan', description: 'Vitrum 2015', country: 'Maipo', price: '', price2: '19.000' }, 
