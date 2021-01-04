@@ -6,7 +6,7 @@ const dataChesse =
         [
             { id: 1, name: 'Brillat Savarin', description: 'Vaca', country: '(Francia)', gr: '45', price: '4.500' }, 
             { id: 2, name: 'Soumaintrain', description: 'Vaca', country: '(Francia)', gr: '45', price: '4.500' },
-            { id: 3, name: 'Saint Nectaire', description: 'Vaca', country: '(Francia)', gr: '45', price: '4.500' }, 
+            /* { id: 3, name: 'Saint Nectaire', description: 'Vaca', country: '(Francia)', gr: '45', price: '4.500' }, */ 
             { id: 4, name: 'Beaufort', description: 'Vaca', country: '(Francia)', gr: '45', price: '4.500' }, 
             { id: 5, name: 'Comté', description: 'Vaca', country: '(Francia)', gr: '45', price: '4.500' },
             /* , { id: 3, name: 'Laguiole', description: 'Vaca', country: '(Francia)', gr: '45', price: '4.000'} */ 
