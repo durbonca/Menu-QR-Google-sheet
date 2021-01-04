@@ -297,6 +297,7 @@ const dataWine = [
         title: 'Cabernet Franc', 
         products: 
         [
+            { id: 0, name: 'Loma Larga', description: '2017', country:'Casablanca',price: '5.000', price2: '22.000' },
             { id: 1, name: 'El Padre', description: 'de Morande 2016', country: 'Maipo', price: '', price2: '21.000' }, 
             { id: 2, name: 'Valle Secreto', description: 'Private 2015', country: 'Cachapoal', price: '', price2: '20.000' }, 
             { id: 3, name: 'Antu', description: 'Limited de Mongras 2015', country: 'Maipo', price: '', price2: '19.000' }, 
