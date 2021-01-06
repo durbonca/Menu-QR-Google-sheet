@@ -388,7 +388,7 @@ const dataWine = [
         title: 'Oporto', 
         products: 
         [
-            { id: 1, name: 'Dow’s LBV', description: '2008', country: 'Douro (PT)', price: '3.000', price2: '28.000' },
+            { id: 1, name: 'DOWS OTP', description: '10 Años', country: 'Potugal', price: '3.000', price2: '28.000' },
             { id: 2, name: 'Fort de Calyptra', description: '2013', country: 'Cachapoal', price: '3.000', price2: '26.000' },
         ]
     },
