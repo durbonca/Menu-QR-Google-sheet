@@ -148,7 +148,7 @@ const dataWine = [
             { id: 10, name: 'Sofia', description: 'P.S De Garcia 2017', country: 'Casablanca', price: '', price2: '18.000' }, 
             { id: 11, name: 'Schwaderer', description: '2017', country: 'Itata', price: '', price2: '18.000' }, 
             { id: 12, name: 'Corralillo', description: 'De Matetic 2017', country: 'San Antonio', price: '', price2: '17.000' }, 
-            { id: 13, name: 'Grey', description: 'De Ventisquero 2017', country: 'Leyda', price: '', price2: '17.000' },
+            /* { id: 13, name: 'Grey', description: 'De Ventisquero 2017', country: 'Leyda', price: '', price2: '17.000' }, */
         ]
     },
     { 
