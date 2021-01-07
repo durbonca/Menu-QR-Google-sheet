@@ -33,8 +33,11 @@ const dataPostres = [
         }, {
             id: 14, name: '“Mi Coronel”', description: 'Sorbet Limón de Pica y Vodka', price: '4.000'
         }, {
-            id: 15, name: '“Mi Comandante”', description: 'Sorbet Frutos Rojos con Licor de Cassis', price: '4.500'
-        }
+            id: 15, name: 'Centurión', description: 'Sorbet de limón y Frutos Rojos, Arándanos - Frambuesa con licor de Cassis.', price: '4.500'
+        },
+         /* {
+            id: 16, name: '“Mi Comandante”', description: 'Sorbet Frutos Rojos con Licor de Cassis', price: '4.500'
+        } */
     ]
 }
 ]
