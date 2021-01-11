@@ -12,9 +12,9 @@ const dataPostres = [
             id: 3, name: 'Crême Brûlée', description: '', price: '4.000'
         }, {
             id: 4, name: 'Leche Asada', description: '', price: '3.000'
-        }, /* {
+        }, {
             id: 5, name: 'Arroz con Leche y Tofi', description: '', price: '3.500'
-        }, */ {
+        }, {
             id: 6, name: 'Isla Flotante', description: '', price: '4.000'
         }, {
             id: 7, name: 'Mousse au Chocolat', description: '', price: '3.500'
