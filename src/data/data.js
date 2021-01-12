@@ -4,7 +4,7 @@ const dataProducts = [
         products: 
         [
             /* { id: 1, name: 'Chupe de Locos',description: '', price: '12.000' }, */
-            /* { id: 2,name: 'Cogote de Merluza', description: 'al Ajillo',price: '8.000' }, */
+            { id: 2,name: 'Cogote de Merluza', description: 'al Ajillo',price: '8.000' },
             { id: 3,name: 'Foie Gras “Poêlé”', description: '',price: '14.000' },
             { id: 4, name: 'Huevo Meurette', description: 'con Salsa de Vino y Tocino', price: '9.000' },
             { id: 5, name: 'Médula de Res', description: '4 Unidades', price: '9.000' },
@@ -52,8 +52,8 @@ const dataProducts = [
         [
             { id: 1, name: 'Creole del Mar', description: 'con Arroz', price: '13.000' },
             { id: 11, name: 'Corvina', description: 'en su salsa y Sémola', price: '14.000' },
-            /* { id: 2, name: 'Merluza Frita', description: 'con Base de Puerro y Tomate', price: '12.000' },
-            { id: 3,  name: 'Merluza a la Vasca',description: 'con Piperrada y Arroz', price: '12.000' }, */
+            { id: 2, name: 'Merluza Frita', description: 'con Base de Puerro y Tomate', price: '12.000' },
+            { id: 3,  name: 'Merluza a la Vasca',description: 'con Piperrada y Arroz', price: '12.000' },
             { id: 4, name: 'Reineta “Meunière”', description: 'con Piperrada y Aligot', price: '13.000' },
             { id: 5, name: 'Salmón Sellado', description: 'con Gratín de Zapallo y Tomates Provenzal', price: '14.000'}
         ]
