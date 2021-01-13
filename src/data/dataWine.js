@@ -341,7 +341,7 @@ const dataWine = [
             { id: 3, name: 'Zahir', description: 'de Calyptra 2011', country: 'Cachapoal', price: '', price2: '59.000' }, 
             /*{ id: 4, name: 'Manso de Velasco', description: 'de Miguel Torres 2013', country: 'Curico', price: '', price2: '49.000' }, */
             { id: 5, name: 'Cabo de Hornos', description: 'de San Pedro 2016', country: 'Cachapoal', price: '', price2: '49.000' }, 
-            { id: 6, name: 'Pirca', description: 'de Peréz Cruz 2015', country: 'Maipo', price: '', price2: '30.000' }, 
+            /* { id: 6, name: 'Pirca', description: 'de Peréz Cruz 2015', country: 'Maipo', price: '', price2: '30.000' }, */ 
             { id: 7, name: 'Antologia', description: 'de Emiliana 2013', country: 'Maipo', price: '7.000', price2: '29.000' }, 
             { id: 8, name: 'De José', description: 'de José Guilisasti 2016', country: 'Maipo', price: '', price2: '28.000' }, 
             { id: 81, name: 'S 38 Los Lingues', description: 'de casa Silva 2015', country: 'Colchagua', price: '', price2: '25.000' }, 
