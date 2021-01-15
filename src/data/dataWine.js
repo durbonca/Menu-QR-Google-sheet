@@ -43,7 +43,7 @@ const dataWine = [
             { id: 0, name: 'Casa Marin', description: 'Cipreses 2020', country: 'San Antonio', price: '6.000', price2: '25.000' }, 
             { id: 1, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '', price2: '24.000' }, 
             { id: 3, name: '20 Barrels', description: 'de Cono Sur - 2017', country: 'Casablanca', price: '', price2: '23.000' }, 
-            { id: 41, name: 'Talinay', description: 'de Tabali 2019', country: 'Limari', price: '', price2: '22.000' }, 
+            { id: 41, name: 'Talinay', description: 'de Tabali 2020', country: 'Limari', price: '', price2: '22.000' }, 
             { id: 4, name: 'Sol de Sol', description: 'de Aquitania 2018', country: 'Malleco', price: '', price2: '21.000' }, 
             { id: 51, name: 'Koyle Costa', description: '2018', country: 'Colcagua', price: '', price2: '19.000' }, 
             /* { id: 5, name: 'Cool Coast', description: 'de Casa Silva 2019', country: 'Colchagua', price: '4.500', price2: '18.000' }, */ 
