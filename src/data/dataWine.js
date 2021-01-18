@@ -340,7 +340,7 @@ const dataWine = [
             { id: 101, name: 'Le Dix', description: 'Viña Los Vascos 2014', country: 'Colchagua', price: '', price2: '72.000' }, 
             { id: 2, name: 'Las 3 Marias', description: 'de Gandolini 2013', country: 'Maipo', price: '', price2: '85.000' }, 
             { id: 3, name: 'Zahir', description: 'de Calyptra 2011', country: 'Cachapoal', price: '', price2: '59.000' }, 
-            /*{ id: 4, name: 'Manso de Velasco', description: 'de Miguel Torres 2013', country: 'Curico', price: '', price2: '49.000' }, */
+            { id: 4, name: 'Manso de Velasco', description: 'de Miguel Torres 2010', country: 'Curico', price: '', price2: '49.000' },
             { id: 5, name: 'Cabo de Hornos', description: 'de San Pedro 2016', country: 'Cachapoal', price: '', price2: '49.000' }, 
             /* { id: 6, name: 'Pirca', description: 'de Peréz Cruz 2015', country: 'Maipo', price: '', price2: '30.000' }, */ 
             { id: 7, name: 'Antologia', description: 'de Emiliana 2013', country: 'Maipo', price: '7.000', price2: '29.000' }, 
