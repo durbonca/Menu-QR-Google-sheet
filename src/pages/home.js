@@ -1,6 +1,6 @@
 import React from "react"
 import {Link} from "react-router-dom"
-import bike from '../icons/delivery.svg'
+/* import bike from '../icons/delivery.svg' */
 
 class Home extends React.Component{
     render(){
