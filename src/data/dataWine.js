@@ -103,7 +103,7 @@ const dataWine = [
         title: 'Gewürztraminer', 
         products: 
         [
-            { id: 1, name: 'Casa Marin', description: 'Miramar 2019', country: 'San Antonio', price: '', price2: '25.000' }, 
+            { id: 1, name: 'Casa Marin', description: 'Casona 2019', country: 'San Antonio', price: '', price2: '25.000' }, 
             { id: 2, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '16.000' },
         ]
     },{ 
