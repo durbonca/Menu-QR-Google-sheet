@@ -5,7 +5,7 @@ const dataBacoteo = [{
        { id: 2, name: 'Salmón al Eneldo', description: '', price: '7.000' }, 
        /* { id: 3, name: 'Locos', description: 'Al Natural', price: '13.000' }, */ 
        { id: 4, name: 'Pulpo', description: 'a la Plancha', price: '13.000' },
-       /* { id: 5, name: 'Machas “Meunière”', description: '', price: '14.000'}, */ 
+       { id: 5, name: 'Machas “Meunière”', description: '', price: '14.000'}, 
        { id: 5, name: 'Goujonettes', description: 'Lamina de Pescado Apanado', price: '7.000' }, 
        { id: 6, name: 'Terrine de Foie Gras', description: '“Mi - Cuit”', price: '7.000' }, 
        { id: 7, name: 'Tostadas de Foie Gras', description: '“Mi - Cuit”', price: '8.000' }, 
