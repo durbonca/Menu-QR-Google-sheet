@@ -337,8 +337,8 @@ const dataWine = [
         products: 
         [
             { id: 1, name: 'Don Melchor', description: 'de Concha y Toro 2015', country: 'Maipo', price: '', price2: '93.000' },
-            { id: 101, name: 'Le Dix', description: 'Viña Los Vascos 2014', country: 'Colchagua', price: '', price2: '72.000' }, 
             { id: 2, name: 'Las 3 Marias', description: 'de Gandolini 2013', country: 'Maipo', price: '', price2: '85.000' }, 
+            { id: 101, name: 'Le Dix', description: 'Viña Los Vascos 2014', country: 'Colchagua', price: '', price2: '72.000' }, 
             { id: 3, name: 'Zahir', description: 'de Calyptra 2011', country: 'Cachapoal', price: '', price2: '59.000' }, 
             { id: 4, name: 'Manso de Velasco', description: 'de Miguel Torres 2010', country: 'Curico', price: '', price2: '49.000' },
             { id: 5, name: 'Cabo de Hornos', description: 'de San Pedro 2016', country: 'Cachapoal', price: '', price2: '49.000' }, 
@@ -354,8 +354,8 @@ const dataWine = [
             { id: 12, name: 'Gillmore', description: 'Hacedor de Mundos 2012', country: 'Maule', price: '4.500', price2: '18.000' }, 
             /* { id: 13, name: 'Gran Cuvée', description: 'de William Fèvre 2017', country: 'Maipo', price: '', price2: '18.000' }, */
             { id: 131, name: 'Corralillo', description: 'de Matetic 2016', country: 'Maipo', price: '', price2: '18.000' }, 
-            { id: 14, name: 'Aquitania', description: '2016', country: 'Maipo', price: '', price2: '16.000' }, 
             { id: 15, name: 'Clos Andino', description: 'Serie Limitée 2014', country: 'Alto Cachapoal', price: '', price2: '17.000' },
+            { id: 14, name: 'Aquitania', description: '2016', country: 'Maipo', price: '', price2: '16.000' }, 
             /*{ id: 16, name: 'Hussonet', description: 'de Haras de Pirque 2013', country: 'Maipo', price: '3.500', price2: '16.000' }, */
         ]
     }, { 

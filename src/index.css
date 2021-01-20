@@ -44,13 +44,20 @@ code {
 
 .delivery-button{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
   color:white;
   text-decoration: none;
-  position: fixed;
-  bottom: .5em;
-  left: .5em;
-  background-color: rgba(10,10,10,.5);
-  font-size: .5em;
+  position: absolute;
+  background-color: rgba(115,38,25,.8);
+  font-size: .4em;
+  border-radius: 15px;
+  padding: 1em;
+}
+.delivery-button img{
+  margin-top: 0;
+}
+.delivery-button:hover{
+  text-decoration: none;
+  color: white;  
 }
