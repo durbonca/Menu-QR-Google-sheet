@@ -28,13 +28,13 @@ const dataDestilados = [
                 products: 
                 [
                     { id: 1, name: 'G.E. Massenez', description: 'Destilado de Ciruela', cl: '4', price: '4.000'} 
-                ]}, { 
+                ]}, /* { 
                 title:'Poire Williams', 
                 products: 
                 [
                     { id: 1, name: 'G.E. Massenez', description: 'Destilado de Pera', cl: '4', price: '4.000'} 
                 ]
-                } ]} ,{ 
+                } */ ]} ,{ 
                 title: 'Whisky', 
                 description:'Manhattan, El Padrino, Clavo Oxidado, Sour, Old Fashioned', 
                 family:[{ 
