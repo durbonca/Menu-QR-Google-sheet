@@ -8,33 +8,35 @@ const dataDestilados = [
                 title:'Cognac', 
                 products: 
                 [
-                    { id: 1, name: 'Charles Gabriel V.S', description: '', cl: '4', price: '3.500'},
-                    { id: 2, name: 'Hennessy V.S.O.P.', description: '', cl: '4', price: '5.000'}, 
+                    { id: 1, name: 'Charles Gabriel V.S', description: '', cl: '4', price: '5.000'},
+                    { id: 2, name: 'Hennessy V.S.O.P.', description: '', cl: '4', price: '7.000'},
+                    { id: 3, name: 'Remy Martin V.S.O.P.', description: '', cl: '4', price: '8.000'},
                 ]
                 }, { 
                 title:'Armagnac', 
                 products: 
                 [
-                    { id: 1, name: 'Lapostolle X.O', description: '', cl: '4', price: '5.500'} 
+                    { id: 1, name: 'Lapostolle X.O', description: '', cl: '4', price: '7.000'},
+                    { id: 1, name: 'Laubade V.S.O.P.', description: '', cl: '4', price: '5.000'} 
                 ]
                 }, { 
                 title:'Calvados', 
                 products: 
                 [
-                    { id: 1, name: 'G.E. Massenez', description: 'Destilado de Manzana', cl: '4', price: '4.000'} 
+                    { id: 1, name: 'G.E. Massenez', description: 'Destilado de Manzana', cl: '4', price: '5.000'} 
                 ]
                 } , { 
                 title:'Vieille Prune', 
                 products: 
                 [
-                    { id: 1, name: 'G.E. Massenez', description: 'Destilado de Ciruela', cl: '4', price: '4.000'} 
-                ]}, /* { 
+                    { id: 1, name: 'G.E. Massenez', description: 'Destilado de Ciruela', cl: '4', price: '5.000'} 
+                ]}, { 
                 title:'Poire Williams', 
                 products: 
                 [
-                    { id: 1, name: 'G.E. Massenez', description: 'Destilado de Pera', cl: '4', price: '4.000'} 
+                    { id: 1, name: 'G.E. Massenez', description: 'Destilado de Pera', cl: '4', price: '5.000'} 
                 ]
-                } */ ]} ,{ 
+                } ]} ,{ 
                 title: 'Whisky', 
                 description:'Manhattan, El Padrino, Clavo Oxidado, Sour, Old Fashioned', 
                 family:[{ 
