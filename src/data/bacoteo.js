@@ -4,8 +4,8 @@ const dataBacoteo = [{
         /* {id:0, name: "Plato Mixto Charcuteria y Queso", description: "Serrano, Chorizo, Brillat Savarin, Comte y Roquefort", price: "13.000"},*/
         { id: 1, name: 'Tártaro de Salmón', description: 'al Jengibre', price: '9.000' },
         { id: 2, name: 'Salmón al Eneldo', description: '', price: '7.000' },
-        { id: 22, name: 'Erizos', description: 'con Salsa Verde', price: '14.000' },
-        { id: 21, name: 'Tostadas de Erizos', description: '', price: '9.000' },
+        /* { id: 22, name: 'Erizos', description: 'con Salsa Verde', price: '14.000' }, */
+        /* { id: 21, name: 'Tostadas de Erizos', description: '', price: '9.000' }, */
         /* { id: 3, name: 'Locos', description: 'Al Natural', price: '13.000' }, */
         { id: 4, name: 'Pulpo', description: 'a la Plancha', price: '13.000' },
         { id: 5, name: 'Machas “Meunière”', description: '', price: '14.000' },
