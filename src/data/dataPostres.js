@@ -3,9 +3,9 @@ const dataPostres = [
     title: 'Postres', products: [{
             id: 1, name: 'Frutilla Melba', description: '', price: '4.000'
         },
-        {
+        /* {
             id: 11, name: 'Sabayon', description: '', price: '4.000'
-        },
+        }, */
          {
             id: 2, name: 'Café Liegeois', description: '', price: '4.000'
         }, {
