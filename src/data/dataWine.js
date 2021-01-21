@@ -4,7 +4,7 @@ const dataWine = [
         products: 
         [
             { id: 1, name: 'Dom Pérignon', description: 'Vintage 2008', country: 'Epernay - FRANCIA', price: '', price2: '240.000' }, 
-            { id: 2, name: 'Dom Pérignon', description: 'Vintage 2009', country: 'Epernay - FRANCIA', price: '', price2: '240.000' }, 
+            /* { id: 2, name: 'Dom Pérignon', description: 'Vintage 2009', country: 'Epernay - FRANCIA', price: '', price2: '240.000' }, */ 
             /* {id: 2, name: 'Ruinard "R"', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '84.000' } ,*/
             { id: 3, name: 'Veuve Clicquot', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '79.000' }, 
             { id: 4, name: 'Pommery Brut Royal', description: 'Brut Royal', country: 'Reims - FRANCIA', price: '', price2: '46.000' }, 
