@@ -10,7 +10,7 @@ const dataCoffe =
             { id: 5, name: 'Cortado', description: '70 ml', price: '1.000'} , 
             { id: 6, name: 'Espresso Doble', description: '70 ml', price: '2.000'}, 
             { id: 7, name: 'Cortado Doble', description: '200 ml', price: '2.000'} , 
-            { id: 8, name: 'Americano', description: '200 ml', price: '2.000'} 
+            { id: 8, name: 'Capuccino', description: '200 ml', price: '2.000'} 
         ]
     }, { 
         title: 'Teteras', 
