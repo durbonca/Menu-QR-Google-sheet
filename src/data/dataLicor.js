@@ -66,7 +66,7 @@ const dataLicor =
             products: [
                 { id: 1, name: 'Bicho Raro Citrix', description: 'Chile', price2: '5.000'} ,
                 { id: 1, name: 'Bicho Raro Pepinot', description: 'Chile', price2: '5.000'} ,
-                { id: 1, name: 'Lüykün', description: 'Chile', price2: '4.500'} , 
+                { id: 1, name: 'Lüykün', description: 'Chile', price2: '5.000'} , 
                 { id: 2, name: 'Citadelle', description: 'Francia', price2: '5.000'} , 
                 { id: 3, name: 'Barber’s', description: 'Inglaterra', price2: '4.500'} , 
                 { id: 4, name: 'Fifty Pounds', description: 'Inglaterra', price2: '6.000'} , 
