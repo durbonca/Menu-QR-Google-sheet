@@ -17,7 +17,7 @@ const dataCoffe =
         products: 
         [
             { id: 1, name: 'Té de Hoja', description: 'Verde, Akbar Earl Grey Akbar Royal, Akbar Gold', price: '2.000'} , 
-            { id: 2, name: 'Infución Natural', description: 'Menta, Limón, Jengibre Manzanilla, Hierbabuena', price: '2.000'} 
+            { id: 2, name: 'Infución Natural', description: 'Hierbabuena, Melisa, Salvia, Menta, Limón, Jengibre Manzanilla', price: '2.000'} 
         ]
     } 
 ]
