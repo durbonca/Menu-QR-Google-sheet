@@ -64,8 +64,8 @@ const dataLicor =
             description: 'Negron, Tom Collins, Martini Dry, Le Grand Fizz, ...', 
             cl2: '6', 
             products: [
-                { id: 1, name: 'Bicho Raro CITRIX', description: '', price2: '5.000'} ,
-                { id: 1, name: 'Bicho Raro Pepinot', description: '', price2: '5.000'} ,
+                { id: 1, name: 'Bicho Raro Citrix', description: 'Chile', price2: '5.000'} ,
+                { id: 1, name: 'Bicho Raro Pepinot', description: 'Chile', price2: '5.000'} ,
                 { id: 1, name: 'Lüykün', description: 'Chile', price2: '4.500'} , 
                 { id: 2, name: 'Citadelle', description: 'Francia', price2: '5.000'} , 
                 { id: 3, name: 'Barber’s', description: 'Inglaterra', price2: '4.500'} , 
@@ -81,7 +81,7 @@ const dataLicor =
             description: 'Daiquiri, Mojito, ...', 
             cl2: '6', 
             products: [
-                { id: 0, name: 'Diplomático', description: '', price2: '5.000'} ,
+                { id: 0, name: 'Diplomático', description: '12 Años', price2: '5.000'} ,
                 { id: 1, name: 'Santiago de Cuba', description: '12 Años', price2: '5.000'} , 
                 { id: 2, name: 'Bacardí', description: '8 Años', price2: '4.000'} , 
                 { id: 3, name: 'Mount Gay', description: 'Black Eclipse', price2: '4.000'} , 
