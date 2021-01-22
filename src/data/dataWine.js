@@ -305,7 +305,7 @@ const dataWine = [
             /* { id: 4, name: 'Lomas del Valle', description: 'de Lomas Larga 2015', country: 'Casablanca', price: '4.500', price2: '18.000' }, */ 
             { id: 6, name: 'Vetas Blancas', description: 'de Tabalí 2016', country: 'Limarí', price: '', price2: '18.000' }, 
             { id: 5, name: 'Gillmore', description: 'Hacedor de Mundos 2014', country: 'Maule', price: '', price2: '18.000' }, 
-            { id: 7, name: 'Maquis', description: 'Gran Reserva 2016', country: 'Colchagua', price: '4.000', price2: '16.000' },
+            { id: 7, name: 'Maquis', description: 'Gran Reserva 2016', country: 'Colchagua', price: '', price2: '16.000' },
         ]
     }, 
     { 
