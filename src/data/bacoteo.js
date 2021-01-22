@@ -15,7 +15,7 @@ const dataBacoteo = [{
         { id: 8, name: 'Tostadas de Queso de Cabra', description: '', price: '8.000' },
         { id: 9, name: 'Plato Rosbif', description: 'con Mostaza y Béarnaise', price: '7.000' },
         { id: 10, name: 'Plato 3 Charcuterias', description: 'Serrano - Chorizo - Saucisson', price: '8.000' },
-        /* { id: 9, name: 'Jamón Ibérico', description: 'de Bellota', price: '15.000' }, */
+        { id: 9, name: 'Jamón Ibérico', description: 'de Bellota', price: '15.000' },
         { id: 11, name: 'Mixta de Charcuteria y Queso', description: 'Chorizo, Serrano Y Selección de 3 Quesos', price: '14.000' },
         { id: 12, name: 'Camembert Apanado', description: 'Y su reducción de Vino', price: '7.000' },
         /* { id: 13, name: 'Nuestra selección 3 Quesos', description: 'Brillat Sabarin, Beaufort, Roquefort.', price: '9.000' }, */
