@@ -110,7 +110,7 @@ const dataWine = [
         title: 'Rosé', 
         products: 
         [
-            { id: 0, name: 'Vivendo', description: 'de Calyptra 2019', country: 'Cachapoal', price: '', price2: '17.000' },
+            { id: 0, name: 'Vivendo', description: 'de Calyptra 2019', country: 'Cachapoal', price: '4.000', price2: '17.000' },
             /* { id: 1, name: 'Vivendo', description: 'de Calyptra 2018', country: 'Cachapoal', price: '4.000', price2: '17.000' }, */ 
             { id: 2, name: 'Pedregoso', description: 'de Tabalí 2019', country: 'Limarí', price: '', price2: '15.000' }, 
             { id: 3, name: 'Calcu', description: 'Reserva Especial 2018', country: 'Colchagua', price: '', price2: '13.000' },
@@ -200,7 +200,7 @@ const dataWine = [
         ]
     },
     { 
-        title: 'Petit Syrah', 
+        title: 'Petite Syrah', 
         products: 
         [
             { id: 1, name: 'Orzada', description: 'de Odfjell 2016', country: 'Maule', price: '', price2: '14.000' }, 
