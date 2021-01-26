@@ -18,7 +18,7 @@ class Landing extends React.Component{
                         className="d-flex justify-content-center items-center | sm:h-1/5 "
                         style={{backgroundColor: "#732619"}}
                     >
-                        <h1 className="text-white text-xl">Carta QR</h1>
+                        <h1 className="text-white text-xl">Restaurante Baco</h1>
                     </div>
                 </a>
                 <a className="btn btn-data col-10 col-md-5 h-25 | 
@@ -31,7 +31,7 @@ class Landing extends React.Component{
                         className="d-flex justify-content-center items-center"
                         style={{backgroundColor: "#732619"}}
                     >
-                        <h1 className="text-white text-xl">Delivery</h1>
+                        <h1 className="text-white text-xl">Delivery Baco</h1>
                     </div>
                 </a>
             </div> 
