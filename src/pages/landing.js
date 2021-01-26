@@ -8,9 +8,9 @@ class Landing extends React.Component{
                      alt="Baco logo" 
                      src={process.env.PUBLIC_URL + "logo-baco.svg"} />
                 <a
-                className="btn col-10 col-md-5 h-25 | 
+                className="btn btn-data col-10 col-md-5 h-25 | 
                 d-flex justify-content-center align-items-center | 
-                mx-3 overflow-hidden rounded shadow-lg"
+                mx-3 overflow-hidden rounded"
                 style={{backgroundColor: "#732619"}}
                 href={process.env.PUBLIC_URL + "/home"}
                 >
@@ -21,14 +21,14 @@ class Landing extends React.Component{
                         <h1 className="text-white text-xl">Carta QR</h1>
                     </div>
                 </a>
-                <a className="btn col-10 col-md-5 h-25 | 
+                <a className="btn btn-data col-10 col-md-5 h-25 | 
                 d-flex justify-content-center align-items-center | 
-                mx-3 overflow-hidden rounded shadow-lg"
+                mx-3 overflow-hidden rounded"
                 style={{backgroundColor: "#732619"}}
                 href="https://baco.rest/" >
                     
                     <div
-                        className="d-flex justify-content-center items-center | h-md-25 "
+                        className="d-flex justify-content-center items-center"
                         style={{backgroundColor: "#732619"}}
                     >
                         <h1 className="text-white text-xl">Delivery</h1>
