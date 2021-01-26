@@ -8,6 +8,7 @@ import Chesse from './components/Chesse'
 import Wine from './components/Wine'
 import Coffe from './components/Coffe'
 import Home from './pages/home'
+import Landing from './pages/landing'
 import Postres from './components/Postres'
 import Destilados from './components/Destilados'
 import Bacoteo from './components/Bacoteo'
@@ -22,7 +23,8 @@ function App() {
                {/*  <Route path="/Licor" render={() => <div><h1 className="mt-5">CARTA DE LICORES</h1> </div>} />
                 <Route path="/Chesse" render={() => <div><h1 className="mt-5">CARTA DE QUESOS</h1> </div>} />
                 <Route path="/Coffe" render={() => <div><h1 className="mt-5">CARTA DE POSTRES, CAFÉ E INFUSIONES</h1> </div>} /> */}
-                <Route path="/" render={() => <div><h1 className="mt-5"><Home/></h1></div>}/>
+                <Route path="/home" render={() => <div><h1 className="mt-5"><Home/></h1></div>}/>
+                <Route path="/" render={() => <div><h1 className="mt-5"><Landing/></h1></div>}/>
         </Switch>
         <br/>
     </div>
