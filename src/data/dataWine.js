@@ -398,7 +398,7 @@ const dataWine = [
         products: 
         [
             { id: 1, name: "Oporto DOW'S OTP", description: '10 Años', country: 'Potugal', price: '', price2: '28.000' },
-            { id: 2, name: 'Fort de Calyptra', description: '2013 - Copa 6Cl', country: 'Cachapoal', price: '3.000', price2: '26.000' },
+            { id: 2, name: 'Fort de Calyptra', description: '2013', country: 'Cachapoal', price: '3.000', price2: '26.000' },
         ]
     },
     /* { 
