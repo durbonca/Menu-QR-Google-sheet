@@ -399,14 +399,12 @@ const dataWine = [
             { id: 8, name: 'Cerro Basalto', description: 'de Koyle 2015', country: 'Colchagua', price: '', price2: '27.000' }, 
             { id: 11, name: 'Donum', description: 'de Massenez 2015', country: 'Alto Rapel', price: '', price2: '26.000' }, 
             { id: 10, name: 'Transversal', description: 'de Tabalí 2016', country: 'Maipo', price: '', price2: '26.000' }, 
-            /* { id: 100, name: 'Sincerity', description: 'de Emiliana 2005', country: 'Colchagua', price: '', price2: '21.000' } */ 
+            { id: 100, name: 'Sincerity', description: 'de Emiliana 2005', country: 'Colchagua', price: '', price2: '21.000' }, 
             { id: 12, name: 'Coyam', description: 'de Emiliana 2014', country: 'Colchagua', price: '5.000', price2: '21.000' },
             { id: 161, name: 'Petit Inedito', description: 'de Calyptra 2018', country: 'Cachapoal', price: '', price2: '20.000' },
             { id: 14, name: '3 Monos', description: '2016', country: 'Maule', price: '', price2: '20.000' },
-
-            /* { id: 15, name: 'L’Assemblage', description: 'de Villard 2018', country: 'Casablanca', price: '4.500', price2: '19.000' }, */ 
+            { id: 15, name: 'L’Assemblage', description: 'de Villard 2018', country: 'Casablanca', price: '', price2: '19.000' }, 
             { id: 16, name: 'Vultur Gryphus', description: 'de Vultur Wines 2015', country: 'Colchagua', price: '', price2: '19.000' }, 
-            { id: 18, name: 'Sincerity', description: 'de Emiliana 2005', country: 'Colchagua', price: '', price2: '18.000' },
             { id: 17, name: 'Codegua', description: 'de Lagar de Codegua 2017', country: 'Cachapoal', price: '', price2: '18.000' },
         ]
     },{ 
@@ -414,8 +412,9 @@ const dataWine = [
         description:'Copa 6cl',
         products: 
         [
-            { id: 1, name: "Oporto DOW'S OTP", description: '10 Años', country: 'Potugal', price: '', price2: '28.000' },
-            { id: 2, name: 'Fort de Calyptra', description: '2013', country: 'Cachapoal', price: '3.000', price2: '26.000' },
+            /* { id: 0, name: "DOWS LBV", description: '2009', country: 'Potugal', price: '', price2: '29.000' }, */
+            { id: 1, name: "Oporto DOW'S OTP", description: '10 Años', country: 'Potugal', price: '', price2: '29.000' },
+            { id: 2, name: 'Fort de Calyptra', description: '2013', country: 'Cachapoal', price: '3.000', price2: '27.000' },
         ]
     },
     { 
@@ -424,6 +423,7 @@ const dataWine = [
         products: 
         [
             { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' },
+           /*{ id: 2, name: 'Errazuriz', description: '2016', country: 'Aconcagua', price: '', price2: '14.000' }, */
         ]
     },
 ]
