@@ -401,11 +401,10 @@ const dataWine = [
             { id: 10, name: 'Transversal', description: 'de Tabalí 2016', country: 'Maipo', price: '', price2: '26.000' }, 
             /* { id: 100, name: 'Sincerity', description: 'de Emiliana 2005', country: 'Colchagua', price: '', price2: '21.000' } */ 
             { id: 12, name: 'Coyam', description: 'de Emiliana 2014', country: 'Colchagua', price: '5.000', price2: '21.000' },
-
             { id: 161, name: 'Petit Inedito', description: 'de Calyptra 2018', country: 'Cachapoal', price: '', price2: '20.000' },
-            /* { id: 13, name: 'Encierra', description: '2016', country: 'Colchagua', price: '', price2: '21.000' }, */ 
-            { id: 14, name: '3 Monos', description: '2016', country: 'Maule', price: '', price2: '20.000' }, 
-            { id: 15, name: 'L’Assemblage', description: 'de Villard 2018', country: 'Casablanca', price: '4.500', price2: '19.000' }, 
+            { id: 14, name: '3 Monos', description: '2016', country: 'Maule', price: '', price2: '20.000' },
+
+            /* { id: 15, name: 'L’Assemblage', description: 'de Villard 2018', country: 'Casablanca', price: '4.500', price2: '19.000' }, */ 
             { id: 16, name: 'Vultur Gryphus', description: 'de Vultur Wines 2015', country: 'Colchagua', price: '', price2: '19.000' }, 
             { id: 18, name: 'Sincerity', description: 'de Emiliana 2005', country: 'Colchagua', price: '', price2: '18.000' },
             { id: 17, name: 'Codegua', description: 'de Lagar de Codegua 2017', country: 'Cachapoal', price: '', price2: '18.000' },
