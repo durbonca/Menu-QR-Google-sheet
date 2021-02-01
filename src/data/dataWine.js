@@ -219,21 +219,21 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Orzada', description: 'de Odfjell 2016', country: 'Maule', price: '', price2: '14.000' }, 
-            { id: 2, name: 'Carmen', description: 'Gran Reserva 2016', country: 'Maipo', price: '', price2: '14.000' },
+            { id: 1, name: 'Orzada', description: 'de Odfjell 2016', country: 'Maule', price: '', price2: '16.000' }, 
+            { id: 2, name: 'Carmen', description: 'Gran Reserva 2016', country: 'Maipo', price: '', price2: '16.000' },
         ]
     },
     { 
         title: 'Ensamblajes Mediterraneos', 
         description:'',
         products: [
-            { id: 1, name: 'Grus', description: 'de Alcohuaz 2017', country: 'Elqui', price: '', price2: '23.000' }, 
-            { id: 2, name: 'Polkura GSM+T', description: '2016', country: 'Colchagua', price: '', price2: '22.000' }, 
-            { id: 3, name: 'Mediterráneo', description: 'de Morandé 2013', country: 'Maule', price: '', price2: '20.000' }, 
+            { id: 1, name: 'Grus', description: 'de Alcohuaz 2017', country: 'Elqui', price: '', price2: '24.000' }, 
+            { id: 2, name: 'Polkura GSM+T', description: '2016', country: 'Colchagua', price: '5.000', price2: '23.000' }, 
+            { id: 3, name: 'Mediterráneo', description: 'de Morandé 2013', country: 'Maule', price: '', price2: '21.000' }, 
+            { id: 4, name: 'Matorral Chileno', description: 'de Carmen 2016', country: 'Maule', price: '', price2: '20.000' },
             { id: 5, name: 'Signos de Origen', description: 'de Emiliana 2014', country: 'Colcagua', price: '', price2: '19.000' },
-            { id: 4, name: 'Matorral Chileno', description: 'de Carmen 2016', country: 'Maule', price: '4.500', price2: '18.000' },
-            { id: 6, name: 'Collezione', description: 'de Gillmore 2018', country: 'Maule', price: '', price2: '18.000' },
-            { id: 7, name: 'Total Organic', description: 'de Teillery 2019', country: 'Maipo', price: '', price2: '17.000' }, 
+            { id: 6, name: 'Collezione', description: 'de Gillmore 2018', country: 'Maule', price: '', price2: '19.000' },
+            { id: 7, name: 'Total Organic', description: 'de Teillery 2019', country: 'Maipo', price: '', price2: '18.000' }, 
         ]
     },
     { 
@@ -243,13 +243,10 @@ const dataWine = [
         [
             { id: 1, name: 'Cien', description: 'de L.F. Edwards 2012', country: 'Maule', price: '', price2: '32.000' }, 
             { id: 2, name: 'Dueño de la Luna', description: 'de Meli 2015', country: 'Maule', price: '', price2: '23.000' }, 
-            { id: 3, name: 'Blu', description: 'de Bluwines 2015', country: 'Maule', price: '', price2: '23.000' }, 
-            { id: 4, name: 'Vigno', description: 'De P.S García 2015', country: 'Maule', price: '5.000', price2: '23.000' }, 
-            /* { id: 5, name: 'Vigno', description: 'De Bouchon 2017', country: 'Maule', price: '', price2: '20.000' }, */ 
+            { id: 4, name: 'Vigno', description: 'De P.S García 2015', country: 'Maule', price: '5.500', price2: '23.000' }, 
+            { id: 3, name: 'Blu', description: 'de Bluwines 2015', country: 'Maule', price: '', price2: '22.000' }, 
             { id: 6, name: 'Vigno', description: 'De Emiliana 2015', country: 'Maule', price: '', price2: '19.000' }, 
             { id: 7, name: 'Vigno', description: 'De Gillmore 2012', country: 'Maule', price: '', price2: '19.000' }, 
-            /* { id: 8, name: 'Vigno', description: 'De Miguel Torres 2015', country: 'Maule', price: '', price2: '17.000' }, */ 
-            /* { id: 9, name: 'Meli', description: '2015', country: 'Maule', price: '', price2: '15.000' } */
         ]
     },
     { 
@@ -257,7 +254,7 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Mourvèdre', description: 'de P.S. Garcia 2016', country: 'Itata', price: '', price2: '19.000' }, 
+            { id: 1, name: 'Mourvèdre', description: 'de P.S. Garcia 2016', country: 'Itata', price: '', price2: '20.000' }, 
             { id: 2, name: 'Lagar', description: 'de Codegua 2017', country: 'Cachapoal', price: '', price2: '18.000' }
         ]
     },{ 
@@ -265,7 +262,7 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Romano', description: 'de Casa Silva 2015', country: 'Colchagua', price: '', price2: '18.000' },
+            { id: 1, name: 'Romano', description: 'de Casa Silva 2015', country: 'Colchagua', price: '4.500', price2: '19.000' },
         ]
     }, { 
         title: 'Garnacha', 
