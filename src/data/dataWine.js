@@ -138,7 +138,7 @@ const dataWine = [
             { id: 0, name: 'Vivendo', description: 'de Calyptra 2019', country: 'Cachapoal', price: '4.500', price2: '18.000' },
             { id: 2, name: 'Pedegoso', description: 'de Tabalí 2019', country: 'Limarí', price: '', price2: '16.000' }, 
             /* { id: 1, name: 'BOYA', description: 'de Garses Silva - 2019', country: 'Leyda', price: '', price2: '16.000' }, */ 
-            { id: 3, name: 'Calcu', description: 'Reserva Especial 2018', country: 'Colchagua', price: '', price2: '13.000' },
+            { id: 3, name: 'Calcu', description: 'Reserva Especial 2018', country: 'Colchagua', price: '', price2: '15.000' },
         ]
     },
     { 
@@ -146,22 +146,20 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 0, name: 'Pucalán', description: 'de Clos des Fous 2015', country: 'Aconcagua', price: '', price2: '27.000' },
-            { id: 1, name: 'Los Parientes', description: 'de Baettig 2019', country: 'Traiguén', price: '', price2: '26.000' }, 
-            { id: 2, name: 'Calyptra', description: 'Gran Reserva 2017', country: 'Cachapoal', price: '6.000', price2: '24.000' }, 
+            { id: 0, name: 'Pucalán', description: 'de Clos des Fous 2015', country: 'Aconcagua', price: '7.000', price2: '29.000' },
+            { id: 1, name: 'Los Parientes', description: 'de Baettig 2019', country: 'Traiguén', price: '', price2: '28.000' }, 
+            { id: 2, name: 'Calyptra', description: 'Gran Reserva 2017', country: 'Cachapoal', price: '6.000', price2: '25.000' }, 
+            /* { id: 3, name: 'Amayna', description: 'de Garses Silva 2018', country: 'Leyda', price: '', price2: '24.000' }, */ 
             { id: 41, name: 'Talinay', description: 'de Tabali 2017', country: 'Limari', price: '', price2: '23.000' },
-            /* { id: 3, name: 'Talinay', description: 'De Tabalí 2015', country: 'Limarí', price: '', price2: '23.000' }, */ 
             { id: 4, name: 'Loma Larga', description: '2015', country: 'Casablanca', price: '', price2: '23.000' },
-            /* { id: 5, name: 'Gran Vin', description: 'De Villard 2018', country: 'Casablanca', price: '', price2: '22.000' }, */
-            { id: 6, name: 'Los Patricios', description: 'De Pandolfi Price 2016', country: 'Itata', price: '', price2: '21.000' }, 
+            { id: 6, name: 'Los Patricios', description: 'De Pandolfi Price 2016', country: 'Itata', price: '5.500', price2: '22.000' }, 
+            /* , { id: 8, name: 'Trapi', description: '2017', country: 'Osorno', price: '', price2: '21.000' } */ 
             { id: 7, name: 'Signos De Origen', description: 'De Emiliana 2018', country: 'Casablanca', price: '', price2: '19.000' },
-            /* , { id: 8, name: 'Trapi', description: '2017', country: 'Osorno', price: '', price2: '19.000' } */ 
-            { id: 9, name: 'Veneris', description: 'De Callma 2018', country: 'Casablanca', price: '4.500', price2: '18.000' }, 
-            { id: 10, name: 'Sofía', description: 'P.S De García 2017', country: 'Casablanca', price: '', price2: '18.000' }, 
+            { id: 9, name: 'Veneris', description: 'De Callma 2018', country: 'Casablanca', price: '', price2: '19.000' }, 
+            { id: 10, name: 'Sofía', description: 'P.S De García 2017', country: 'Casablanca', price: '', price2: '19.000' }, 
             { id: 11, name: 'Schwaderer', description: '2017', country: 'Itata', price: '', price2: '18.000' }, 
-            { id: 12, name: 'Corralillo', description: 'De Matetic 2017', country: 'San Antonio', price: '', price2: '17.000' }, 
-            { id: 13, name: 'Villard', description: 'Expresion 2017', country: 'Casablanca', price: '', price2: '15.000' },
-            /* { id: 14, name: 'Grey', description: 'De Ventisquero 2017', country: 'Leyda', price: '', price2: '17.000' }, */
+            { id: 12, name: 'Corralillo', description: 'De Matetic 2017', country: 'San Antonio', price: '', price2: '18.000' }, 
+            { id: 13, name: 'Villard', description: 'Expresion 2017', country: 'Casablanca', price: '', price2: '16.000' },
         ]
     },
     { 
