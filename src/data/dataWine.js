@@ -344,16 +344,14 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Roca Madre', description: 'de Tabalí 2015', country: 'Limarí', price: '', price2: '53.000' }, 
-            /* { id: 2, name: 'El Enemigo', description: '2016', country: 'Mendoza - ARGENTINA', price: '', price2: '27.000' }, */ 
-            { id: 3, name: 'Loma Larga', description: '2012', country: 'Casablanca', price: '5.500', price2: '23.000' }, 
-            { id: 4, name: 'Koyle Royale', description: '2015', country: 'Colchagua', price: '', price2: '20.000' }, 
-            { id: 5, name: 'Chocalán', description: 'Vitrum 2015', country: 'Maipo', price: '', price2: '19.000' }, 
-            { id: 6, name: 'Polkura', description: '2016', country: 'Colchagua', price: '', price2: '19.000' },
-            { id: 7, name: 'Vultur Circus', description: 'de Vultur Wines 2015', country: 'Cachapoal', price: '', price2: '19.000' }, 
-            { id: 8, name: 'La Cancha', description: 'de Carmen 2016', country: 'Colchagua', price: '', price2: '17.000' }, 
-            { id: 9, name: 'Chamán', description: 'Gr. Rsa de Santa Cruz 2017', country: 'Colchagua', price: '4.000', price2: '16.000' }, 
-            /* { id: 10, name: 'Millaman', description: 'Limited Reserve 2017', country: 'Curico', price: '', price2: '13.000' } */
+            { id: 1, name: 'Roca Madre', description: 'de Tabalí 2015', country: 'Limarí', price: '', price2: '59.000' }, 
+            { id: 3, name: 'Loma Larga', description: '2012', country: 'Casablanca', price: '6.000', price2: '24.000' }, 
+            { id: 4, name: 'Koyle Royale', description: '2015', country: 'Colchagua', price: '', price2: '21.000' }, 
+            { id: 8, name: 'La Cancha', description: 'de Carmen 2016', country: 'Colchagua', price: '', price2: '21.000' }, 
+            { id: 5, name: 'Chocalán', description: 'Vitrum 2015', country: 'Maipo', price: '', price2: '21.000' }, 
+            { id: 6, name: 'Polkura', description: '2016', country: 'Colchagua', price: '', price2: '20.000' },
+            { id: 7, name: 'Vultur Circus', description: 'de Vultur Wines 2015', country: 'Cachapoal', price: '', price2: '20.000' }, 
+            { id: 9, name: 'Chamán', description: 'Gr. Rsa de Santa Cruz 2017', country: 'Colchagua', price: '', price2: '17.000' }, 
         ]
     }, { 
         title: 'Cabernet Sauvignon', 
