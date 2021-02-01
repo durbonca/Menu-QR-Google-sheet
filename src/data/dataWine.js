@@ -360,18 +360,19 @@ const dataWine = [
         [
             { id: 1, name: 'Don Melchor', description: 'de Concha y Toro 2015', country: 'Maipo', price: '', price2: '93.000' },
             { id: 2, name: 'Las 3 Marías', description: 'de Gandolini 2013', country: 'Maipo', price: '', price2: '85.000' }, 
-            { id: 101, name: 'Le Dix', description: 'Viña Los Vascos 2014', country: 'Colchagua', price: '', price2: '72.000' }, 
+            /* { id: 101, name: 'Le Dix', description: 'Viña Los Vascos 2014', country: 'Colchagua', price: '', price2: '72.000' }, */ 
             { id: 3, name: 'Zahir', description: 'de Calyptra 2011', country: 'Cachapoal', price: '', price2: '59.000' }, 
             { id: 4, name: 'Manso de Velasco', description: 'de Miguel Torres 2010', country: 'Curico', price: '', price2: '49.000' },
             { id: 5, name: 'Cabo de Hornos', description: 'de San Pedro 2016', country: 'Cachapoal', price: '', price2: '49.000' }, 
-            /* { id: 6, name: 'Pirca', description: 'de Peréz Cruz 2015', country: 'Maipo', price: '', price2: '30.000' }, */ 
-            { id: 7, name: 'Antología', description: 'de Emiliana 2013', country: 'Maipo', price: '7.000', price2: '29.000' }, 
-            { id: 8, name: 'De José', description: 'de José Guilisasti 2016', country: 'Maipo', price: '', price2: '28.000' }, 
+            { id: 7, name: 'Antología', description: 'de Emiliana 2013', country: 'Maipo', price: '', price2: '30.000' }, 
+            { id: 8, name: 'De José', description: 'de José Guilisasti 2016', country: 'Maipo', price: '7.000', price2: '28.000' }, 
             { id: 81, name: 'S 38 Los Lingues', description: 'de casa Silva 2015', country: 'Colchagua', price: '', price2: '25.000' }, 
-            { id: 9, name: 'De Martino', description: 'La Cancha 2017', country: 'Maipo', price: '', price2: '23.000' }, 
-            { id: 10, name: 'Koyle Royale', description: '2016', country: 'Colchagua', price: '', price2: '20.000' }, 
-            { id: 112, name: 'Orzada', description: 'de Odfjell 2018', country: 'Maule', price: '', price2: '19.000' },
+            { id: 9, name: 'De Martino', description: 'La Cancha 2017', country: 'Maipo', price: '', price2: '24.000' }, 
+            /* { id: 100, name: 'Surreal', description: 'de 3 Monos 2014', country: 'Itata', price: '', price2: '24.000' } */
+            
+            { id: 10, name: 'Koyle Royale', description: '2016', country: 'Colchagua', price: '', price2: '20.000' },
             { id: 11, name: 'Signos de Origen', description: 'de Emiliana 2016', country: 'Maipo', price: '', price2: '19.000' },  
+            { id: 112, name: 'Orzada', description: 'de Odfjell 2018', country: 'Maule', price: '', price2: '19.000' },
             { id: 12, name: 'Gillmore', description: 'Hacedor de Mundos 2012', country: 'Maule', price: '4.500', price2: '18.000' }, 
             /* { id: 13, name: 'Gran Cuvée', description: 'de William Fèvre 2017', country: 'Maipo', price: '', price2: '18.000' }, */
             { id: 131, name: 'Corralillo', description: 'de Matetic 2016', country: 'Maipo', price: '', price2: '18.000' }, 
