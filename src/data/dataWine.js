@@ -369,37 +369,39 @@ const dataWine = [
             { id: 81, name: 'S 38 Los Lingues', description: 'de casa Silva 2015', country: 'Colchagua', price: '', price2: '25.000' }, 
             { id: 9, name: 'De Martino', description: 'La Cancha 2017', country: 'Maipo', price: '', price2: '24.000' }, 
             /* { id: 100, name: 'Surreal', description: 'de 3 Monos 2014', country: 'Itata', price: '', price2: '24.000' } */
-            
-            { id: 10, name: 'Koyle Royale', description: '2016', country: 'Colchagua', price: '', price2: '20.000' },
-            { id: 11, name: 'Signos de Origen', description: 'de Emiliana 2016', country: 'Maipo', price: '', price2: '19.000' },  
+            /* { id: 101, name: 'Teillery', description: 'Gran Reserva 2017', country: 'Maipo', price: '5.500', price2: '22.000' } */
+            { id: 10, name: 'Koyle Royale', description: '2016', country: 'Colchagua', price: '', price2: '21.000' },
+            { id: 11, name: 'Signos de Origen', description: 'de Emiliana 2016', country: 'Maipo', price: '', price2: '20.000' },
+            /* { id: 10, name: 'Cordillera', description: 'de Miguel Torres 2018', country: 'Cachapoal', price: '', price2: '20.000' } */
             { id: 112, name: 'Orzada', description: 'de Odfjell 2018', country: 'Maule', price: '', price2: '19.000' },
-            { id: 12, name: 'Gillmore', description: 'Hacedor de Mundos 2012', country: 'Maule', price: '4.500', price2: '18.000' }, 
-            /* { id: 13, name: 'Gran Cuvée', description: 'de William Fèvre 2017', country: 'Maipo', price: '', price2: '18.000' }, */
-            { id: 131, name: 'Corralillo', description: 'de Matetic 2016', country: 'Maipo', price: '', price2: '18.000' }, 
-            { id: 15, name: 'Clos Andino', description: 'Serie Limitée 2014', country: 'Alto Cachapoal', price: '', price2: '17.000' },
-            { id: 14, name: 'Aquitania', description: '2016', country: 'Maipo', price: '', price2: '16.000' }, 
-            /*{ id: 16, name: 'Hussonet', description: 'de Haras de Pirque 2013', country: 'Maipo', price: '3.500', price2: '16.000' }, */
+            { id: 12, name: 'Gillmore', description: 'Hacedor de Mundos 2012', country: 'Maule', price: '', price2: '19.000' },           
+            { id: 131, name: 'Corralillo', description: 'de Matetic 2016', country: 'Maipo', price: '', price2: '19.000' }, 
+            { id: 14, name: 'Aquitania', description: '2016', country: 'Maipo', price: '', price2: '18.000' }, 
+            { id: 15, name: 'Clos Andino', description: 'Serie Limitée 2014', country: 'Alto Cachapoal', price: '', price2: '18.000' },
+            /* { id: 10, name: 'In Situ', description: 'Single Parcel 2017', country: 'Aconcagua', price: '', price2: '17.000' } */
         ]
     }, { 
         title: 'Ensamblaje', 
         description:'',
         products: 
         [
-            { id: 1, name: 'El Principal', description: '2014', country: 'Maipo', price: '', price2: '81.000' }, 
+            { id: 1, name: 'El Principal', description: '2014', country: 'Maipo', price: '', price2: '81.000' },
             { id: 2, name: 'Auma', description: 'Los Lingues de Koyle 2013', country: 'Colchagua', price: '', price2: '59.000' },
-            /* , { id: 3, name: 'Montelig', description: 'de Von Siebenthal 2011', country: 'Aconcagua', price: '', price2: '41.000' }, */ 
+            /* { id: 10, name: 'Quelen', description: 'de Peréz Cruz 2011', country: 'Maipo', price: '', price2: '48.000' } */ 
             { id: 31, name: 'Montelig', description: 'de Von Siebenthal 2012', country: 'Aconcagua', price: '', price2: '41.000' }, 
             { id: 4, name: 'Laku', description: 'de Requingua 2012', country: 'Maule', price: '', price2: '39.000' }, 
             { id: 5, name: 'Le Petit Clos', description: 'de Clos Apalta 2016', country: 'Colchagua', price: '', price2: '33.000' }, 
-            { id: 6, name: 'Inédito', description: 'de Calyptra 2016', country: 'Coya', price: '', price2: '31.000' }, 
+            { id: 6, name: 'Inédito', description: 'de Calyptra 2016', country: 'Coya', price: '7.500', price2: '31.000' }, 
+            { id: 91, name: 'Milla Cala', description: 'de Vik 2017', country: 'Millahue', price: '', price2: '31.000' },
             { id: 7, name: 'Liguai', description: 'de Perez Cruz 2015', country: 'Maipo', price: '', price2: '31.000' }, 
-            { id: 91, name: 'Milla Cala', description: 'de Vik 2017', country: 'Millahue', price: '', price2: '30.000' },
+            { id: 71, name: 'Memorias El principal', description: '2015', country: 'Maipo', price: '', price2: '28.000' }, 
+            { id: 9, name: 'Tupu', description: 'de Santa Cruz 2016', country: 'Colchagua', price: '', price2: '28.000' }, 
             { id: 8, name: 'Cerro Basalto', description: 'de Koyle 2015', country: 'Colchagua', price: '', price2: '27.000' }, 
-            { id: 9, name: 'Tupu', description: 'de Santa Cruz 2016', country: 'Colchagua', price: '', price2: '27.000' }, 
-            { id: 71, name: 'Memorias El principal', description: '2015', country: 'Maipo', price: '', price2: '27.000' }, 
-            { id: 11, name: 'Donum', description: 'de Massenez 2015', country: 'Alto Rapel', price: '6.500', price2: '26.000' }, 
+            { id: 11, name: 'Donum', description: 'de Massenez 2015', country: 'Alto Rapel', price: '', price2: '26.000' }, 
             { id: 10, name: 'Transversal', description: 'de Tabalí 2016', country: 'Maipo', price: '', price2: '26.000' }, 
-            { id: 12, name: 'Coyam', description: 'de Emiliana 2014', country: 'Colchagua', price: '5.500', price2: '21.000' },
+            /* { id: 100, name: 'Sincerity', description: 'de Emiliana 2005', country: 'Colchagua', price: '', price2: '21.000' } */ 
+            { id: 12, name: 'Coyam', description: 'de Emiliana 2014', country: 'Colchagua', price: '5.000', price2: '21.000' },
+
             { id: 161, name: 'Petit Inedito', description: 'de Calyptra 2018', country: 'Cachapoal', price: '', price2: '20.000' },
             /* { id: 13, name: 'Encierra', description: '2016', country: 'Colchagua', price: '', price2: '21.000' }, */ 
             { id: 14, name: '3 Monos', description: '2016', country: 'Maule', price: '', price2: '20.000' }, 
