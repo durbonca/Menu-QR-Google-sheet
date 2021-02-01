@@ -182,7 +182,7 @@ const dataWine = [
         [
             /* { id: 3, name: 'Outer Limits', description: 'de Montes 2019', country: 'Maule', price: '', price2: '22.000' }, */
             { id: 3, name: 'Vinista', description: 'de Pedro Parra 2019', country: 'Itata', price: '', price2: '20.000' },
-            { id: 1, name: 'Carmen de Cuchacucha', description: '2019', country: 'Itata', price: '4.500', price2: '18.000' },
+            { id: 1, name: 'Carmen de Cuchacucha', description: '2019', country: 'Itata', price: '', price2: '18.000' },
             { id: 2, name: 'País del Maule', description: 'de Gillmore 2019', country: 'Loncomilla', price: '4.000', price2: '16.000' },
             { id: 3, name: 'Las Veletas', description: '2018', country: 'Maule', price: '', price2: '15.000' }, 
         ]
