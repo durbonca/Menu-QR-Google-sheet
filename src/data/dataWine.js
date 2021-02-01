@@ -168,8 +168,10 @@ const dataWine = [
         products: 
         [
             { id: 1, name: 'Dagaz', description: 'Itatino 2019', country: 'Itata', price: '5.000', price2: '21.000' },
-            { id: 4, name: 'Imaginador', description: 'de Pedro Parra 2018', country: 'Itata', price: '', price2: '20.000' }, 
-            { id: 2, name: 'La Causa', description: '2014', country: 'Itata', price: '', price2: '16.000' }, 
+            { id: 4, name: 'Imaginador', description: 'de Pedro Parra 2018', country: 'Itata', price: '', price2: '21.000' },
+            /* { id: 2, name: 'Tenaz', description: 'de Miguel Torres 2019', country: 'Itata', price: '', price2: '21.000' }, */ 
+            /* { id: 2, name: 'Outer Limits', description: 'de Montes 2018', country: 'Itata', price: '', price2: '19.000' }, */ 
+            { id: 2, name: 'La Causa', description: '2014', country: 'Itata', price: '', price2: '18.000' }, 
             { id: 3, name: 'Gallardía', description: 'de Martino 2018', country: 'Itata', price: '', price2: '15.000' },
         ]
     },
@@ -178,9 +180,10 @@ const dataWine = [
         description:'',
         products: 
         [
+            /* { id: 3, name: 'Outer Limits', description: 'de Montes 2019', country: 'Maule', price: '', price2: '22.000' }, */
             { id: 3, name: 'Vinista', description: 'de Pedro Parra 2019', country: 'Itata', price: '', price2: '20.000' },
             { id: 1, name: 'Carmen de Cuchacucha', description: '2019', country: 'Itata', price: '4.500', price2: '18.000' },
-            { id: 2, name: 'País del Maule', description: 'de Gillmore 2019', country: 'Loncomilla', price: '', price2: '16.000' },
+            { id: 2, name: 'País del Maule', description: 'de Gillmore 2019', country: 'Loncomilla', price: '4.000', price2: '16.000' },
             { id: 3, name: 'Las Veletas', description: '2018', country: 'Maule', price: '', price2: '15.000' }, 
         ]
     },
