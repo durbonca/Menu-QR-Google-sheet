@@ -7,16 +7,16 @@ const dataWine = [
             { id: 1, name: 'Dom Pérignon', description: 'Vintage 2008', country: 'Epernay - FRANCIA', price: '', price2: '240.000' }, 
             /* { id: 2, name: 'Dom Pérignon', description: 'Vintage 2009', country: 'Epernay - FRANCIA', price: '', price2: '240.000' }, */ 
             /* {id: 2, name: 'Ruinard "R"', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '84.000' } ,*/
-            { id: 3, name: 'Veuve Clicquot', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '79.000' }, 
-            { id: 4, name: 'Pommery Brut Royal', description: 'Brut Royal', country: 'Reims - FRANCIA', price: '', price2: '46.000' }, 
-            { id: 5, name: 'Piper Heidsieck', description: 'Brut', country: 'Reims - FRANCIA', price: '7.000', price2: '43.000' },
+            { id: 3, name: 'Veuve Clicquot', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '69.000' }, 
+            { id: 4, name: 'Pommery Brut Royal', description: 'Brut Royal', country: 'Reims - FRANCIA', price: '8.000', price2: '49.000' }, 
+            { id: 5, name: 'Piper Heidsieck', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '42.000' },
         ]
     },{
          title: 'Champagne Rosé', 
          description:'',
          products: 
         [
-            { id: 1, name: 'Krug', description: 'Rosé', country: 'Reims - FRANCIA', price: '', price2: '290.000' }, 
+            { id: 1, name: 'Krug', description: 'Rosé', country: 'Reims - FRANCIA', price: '', price2: '250.000' }, 
             { id: 2, name: 'Veuve Clicquot', description: 'Rosé', country: 'Reims - FRANCIA', price: '', price2: '89.000' },
         ]
     },{ 
@@ -24,12 +24,13 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 2, name: 'Azur "Magnum"', description: 'Brut 1.500 cl', country: 'Limari', price: '', price2: '44.000' }, 
             { id: 0, name: 'Casa Marín', description: 'Brut Nature', country: 'San Antonio', price: '', price2: '37.000' }, 
             { id: 1, name: 'Baron B', description: 'Brut de Chandon', country: 'Mendoza', price: '', price2: '33.000' }, 
+            { id: 2, name: 'Azur "Magnum"', description: 'Brut 1.500 cl', country: 'Limari', price: '', price2: '44.000' }, 
             { id: 3, name: 'Azur', description: 'Brut 750 cl', country: 'Limari', price: '', price2: '22.000' },
-            { id: 31, name: 'Tatié', description: 'Brut de Tabali  y Thiénot', country: 'Limari', price: '4.000', price2: '21.000' }, 
+            { id: 31, name: 'Tatié', description: 'Brut de Tabali  y Thiénot', country: 'Limari', price: '4.500', price2: '21.000' }, 
             { id: 4, name: 'Fervor', description: 'Brut de Casa Silva', country: 'Colchagua', price: '', price2: '20.000' }, 
+            /* { id: 5, name: 'Schwaderer', description: 'Brut Método Tradicional', country: 'Maule', price: '', price2: '17.000' }, */
             { id: 5, name: 'Cono Sur', description: 'Brut', country: 'Bio - Bio', price: '', price2: '14.000' },
         ]
     },{ 
@@ -37,7 +38,7 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Chandon', description: 'Rosé', country: 'Mendoza', price: '', price2: '20.000' }, 
+            { id: 1, name: 'Chandon', description: 'Rosé', country: 'Mendoza', price: '', price2: '22.000' }, 
             /* { id: 2, name: 'Salentein', description: 'Rosé', country: 'Uco Arg.', price: '', price2: '19.000' }, */ 
             { id: 3, name: 'Gemma', description: 'Rosé', country: 'Central', price: '3.500', price2: '17.000' },
         ]
@@ -45,27 +46,24 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 0, name: 'Casa Marín', description: 'Cipreses 2020', country: 'San Antonio', price: '6.000', price2: '25.000' }, 
-            { id: 1, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '', price2: '24.000' }, 
-            { id: 3, name: '20 Barrels', description: 'de Cono Sur - 2017', country: 'Casablanca', price: '', price2: '23.000' }, 
-            { id: 41, name: 'Talinay', description: 'de Tabali 2020', country: 'Limari', price: '', price2: '22.000' }, 
-            { id: 4, name: 'Sol de Sol', description: 'de Aquitania 2018', country: 'Malleco', price: '', price2: '21.000' }, 
-            { id: 51, name: 'Koyle Costa', description: '2018', country: 'Colcagua', price: '', price2: '19.000' }, 
-            /* { id: 5, name: 'Cool Coast', description: 'de Casa Silva 2019', country: 'Colchagua', price: '4.500', price2: '18.000' }, */ 
-            { id: 6, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '4.000', price2: '17.000' }, 
+            { id: 0, name: 'Casa Marín', description: 'Cipreses 2020', country: 'San Antonio', price: '', price2: '26.000' }, 
+            { id: 1, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '6.000', price2: '25.000' }, 
+            { id: 3, name: '20 Barrels', description: 'de Cono Sur - 2017', country: 'Casablanca', price: '', price2: '24.000' }, 
+            { id: 41, name: 'Talinay', description: 'de Tabali 2020', country: 'Limari', price: '', price2: '23.000' }, 
+            { id: 4, name: 'Sol de Sol', description: 'de Aquitania 2018', country: 'Malleco', price: '', price2: '22.000' }, 
+            { id: 51, name: 'Koyle Costa', description: '2018', country: 'Colcagua', price: '5.000', price2: '20.000' }, 
+            { id: 6, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '', price2: '17.000' }, 
             { id: 7, name: 'Little quino', description: 'de William Fèvre 2019', country: 'Malleco', price: '', price2: '16.000' }, 
             { id: 8, name: 'Marina', description: 'de P.S García 2016', country: 'Casablanca', price: '', price2: '16.000'}, 
-            { id: 9, name: 'Clos Andino', description: 'Serie Limiteé 2017', country: 'Curico', price: '', price2: '15.000' }, 
-            /* { id: 10, name: 'Villard', description: 'Expresion 2018', country:'Casablanca', price: '', price2: '16.000' }, */
-            /*{ id: 11, name: 'Armador', description: 'de Odjfell 2018', country: 'Maipo', price: '', price2: '13.000' }, */      
+            { id: 9, name: 'Clos Andino', description: 'Serie Limiteé 2017', country: 'Curico', price: '', price2: '15.000' }     
         ]
     },{ 
         title: 'Sauvignon Gris', 
         description:'',
         products: 
         [
-            { id: 1, name: 'Casa Marín', description: 'Estero 2019', country: 'San Antonio', price:'6.000', price2:'25.000' },
-            { id: 2, name: 'Cool Coast', description: 'de Casa Silva 2019', country: 'Colchagua', price: '', price2: '18.000' },
+            { id: 1, name: 'Casa Marín', description: 'Estero 2019', country: 'San Antonio', price:'6.500', price2:'26.000' },
+            { id: 2, name: 'Cool Coast', description: 'de Casa Silva 2019', country: 'Colchagua', price: '', price2: '19.000' },
         ]
     },{ 
         title: 'Semillón', 
@@ -81,20 +79,19 @@ const dataWine = [
         description:'',
         products: 
         [ 
-            { id: 1, name: 'Los Parientes', description: 'de Baettig 2019', country: 'Traiguén', price: '', price2: '26.000' }, 
-            { id: 2, name: 'Calyptra', description: 'Gran Reserva 2017', country: 'Cachapoal', price: '6.000', price2: '24.000' }, 
+            { id: 1, name: 'Los Parientes', description: 'de Baettig 2019', country: 'Traiguén', price: '7.000', price2: '28.000' }, 
+            { id: 2, name: 'Calyptra', description: 'Gran Reserva 2017', country: 'Cachapoal', price: '', price2: '25.000' }, 
             { id: 3, name: 'Aconcagua Costa', description: 'de Errázuriz 2019', country: 'Aconcagua', price: '', price2: '23.000' }, 
             { id: 4, name: 'Villard', description: 'Grand Vin 2018', country: 'Casablanca', price: '', price2: '20.000' }, 
-            { id: 5, name: 'Lunae', description: 'de Callma 2018', country: 'Casa Blanca', price: '4.500', price2: '18.000' }, 
-            /* { id: 6, name: 'T.H. Limari', description: 'de Undurraga 2017', country: 'Limari', price: '', price2: '18.000' },  */
+            { id: 5, name: 'Lunae', description: 'de Callma 2018', country: 'Casa Blanca', price: '4.500', price2: '19.000' }, 
             { id: 7, name: 'Altum', description: 'de Terramater 2017', country: 'Maipo', price: '', price2: '18.000' }, 
             { id: 8, name: 'Locura 1', description: 'de Terroir de Los Andes 2015', country: 'Cachapoal', price: '', price2: '18.000' }, 
-            { id: 9, name: 'Vetas Blancas', description: 'de Tabali 2018', country: 'Limari', price: '', price2: '17.000' }, 
-            { id: 10, name: 'Ritual', description: 'de Veramonte 2017', country: 'Casablanca', price: '', price2: '16.000' }, 
+            { id: 9, name: 'Vetas Blancas', description: 'de Tabali 2018', country: 'Limari', price: '4.500', price2: '17.000' }, 
+            { id: 10, name: 'Ritual', description: 'de Veramonte 2017', country: 'Casablanca', price: '', price2: '17.000' }, 
             { id: 11, name: 'Larkün', description: 'de Pandolfi Price 2017', country: 'Itata', price: '', price2: '16.000' }, 
-            { id: 12, name: 'Novas', description: 'Gran Reserva de Emiliana 2018', country: 'Casablanca', price: '', price2: '15.000' }, 
-            { id: 10, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '14.000' }, 
-            { id: 12, name: 'Terramater', description: 'Limited Reserve 2017', country: 'Maipo', price: '', price2: '13.000' }
+            { id: 10, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '16.000' }, 
+            { id: 12, name: 'Terramater', description: 'Limited Reserve 2017', country: 'Maipo', price: '', price2: '15.000' },
+            /* { id: 12, name: 'Novas', description: 'Gran Reserva de Emiliana 2018', country: 'Casablanca', price: '', price2: '15.000' }, */ 
         ]
     },
     { 
@@ -102,9 +99,9 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Felicia', description: 'de Clos des Fous 2017', country: 'Malleco', price: '5.000', price2: '27.000' }, 
-            { id: 11, name: 'Casa Marín', description: 'Miramar 2019', country: 'San Antonio', price: '', price2: '25.000' }, 
-            { id: 2, name: 'Lago Ranco', description: 'de Casa Silva 2017', country: 'Futrono', price: '', price2: '20.000' }, 
+            { id: 1, name: 'Felicia', description: 'de Clos des Fous 2017', country: 'Malleco', price: '6.500', price2: '28.000' }, 
+            { id: 11, name: 'Casa Marín', description: 'Miramar 2019', country: 'San Antonio', price: '', price2: '26.000' }, 
+            { id: 2, name: 'Lago Ranco', description: 'de Casa Silva 2017', country: 'Futrono', price: '', price2: '22.000' }, 
             { id: 3, name: 'Block 23', description: 'de Cono Sur 2017', country: 'Bio Bio', price: '', price2: '16.000' }, 
             { id: 4, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '', price2: '16.000' },
         ]
@@ -113,8 +110,8 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Casa Marín', description: 'Casona 2019', country: 'San Antonio', price: '', price2: '25.000' }, 
-            { id: 2, name: 'Corralillo', description: 'de Matetic 2019', country: 'San Antonio', price: '', price2: '16.000' },
+            { id: 1, name: 'Casa Marín', description: 'Casona 2019', country: 'San Antonio', price: '', price2: '26.000' }, 
+            { id: 2, name: 'Corralillo', description: 'de Matetic 2019', country: 'San Antonio', price: '', price2: '17.000' },
         ]
     },
     { 
@@ -125,26 +122,6 @@ const dataWine = [
             { id: 1, name: 'Barranco', description: 'de Tabali 2018', country: 'Limari', price: '', price2: '22.000' }, 
         ]
     },
-    { 
-        title: 'Rosé', 
-        description:'',
-        products: 
-        [
-            { id: 0, name: 'Vivendo', description: 'de Calyptra 2019', country: 'Cachapoal', price: '4.000', price2: '17.000' },
-            /* { id: 1, name: 'Vivendo', description: 'de Calyptra 2018', country: 'Cachapoal', price: '4.000', price2: '17.000' }, */ 
-            { id: 2, name: 'Pedregoso', description: 'de Tabalí 2019', country: 'Limarí', price: '', price2: '15.000' }, 
-            { id: 3, name: 'Calcu', description: 'Reserva Especial 2018', country: 'Colchagua', price: '', price2: '13.000' },
-        ]
-    },
-    /* { 
-        title: 'Vi', 
-        description:'',
-        products: 
-        [
-            { id: 1, name: '', description: '', country: '', price: '', price2: '' }, 
-        ]
-    }, */
-
     /* { 
         title: 'Eb', 
         description:'',
@@ -153,6 +130,17 @@ const dataWine = [
             { id: 1, name: '', description: '', country: '', price: '', price2: '' }, 
         ]
     }, */
+    { 
+        title: 'Rosé', 
+        description:'',
+        products: 
+        [
+            { id: 0, name: 'Vivendo', description: 'de Calyptra 2019', country: 'Cachapoal', price: '4.500', price2: '18.000' },
+            { id: 2, name: 'Pedegoso', description: 'de Tabalí 2019', country: 'Limarí', price: '', price2: '16.000' }, 
+            /* { id: 1, name: 'BOYA', description: 'de Garses Silva - 2019', country: 'Leyda', price: '', price2: '16.000' }, */ 
+            { id: 3, name: 'Calcu', description: 'Reserva Especial 2018', country: 'Colchagua', price: '', price2: '13.000' },
+        ]
+    },
     { 
         title: 'Pinot Noir', 
         description:'',
