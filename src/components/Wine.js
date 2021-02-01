@@ -13,8 +13,8 @@ class Family extends React.Component {
                 {dataWine.map(function (dataProducts){
                     return <div>
                                 <div className="row mt-5 d-flex">
-                                    <h3 style={{color:"#ce321a"}} className="col text-center">{dataProducts.title}</h3>
-                                    <p><i>{dataProducts.description}</i></p>
+                                    <h3 style={{color:"#ce321a"}} className="col-12 text-center">{dataProducts.title}</h3>
+                                    <p className="col-12 text-center"><i className="small">{dataProducts.description}</i></p>
                                 </div>
                                     <div class="row d-flex justify-content-end">
                                         <span style={{fontSize:"25px"}} className="col-2 p-0 emoji" role="img" aria-label={""}>🍷</span>

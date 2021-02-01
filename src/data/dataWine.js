@@ -1,6 +1,7 @@
 const dataWine = [
     { 
         title: 'Champagne', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Dom Pérignon', description: 'Vintage 2008', country: 'Epernay - FRANCIA', price: '', price2: '240.000' }, 
@@ -12,6 +13,7 @@ const dataWine = [
         ]
     },{
          title: 'Champagne Rosé', 
+         description:'',
          products: 
         [
             { id: 1, name: 'Krug', description: 'Rosé', country: 'Reims - FRANCIA', price: '', price2: '290.000' }, 
@@ -19,6 +21,7 @@ const dataWine = [
         ]
     },{ 
         title: 'Espumante', 
+        description:'',
         products: 
         [
             { id: 2, name: 'Azur "Magnum"', description: 'Brut 1.500 cl', country: 'Limari', price: '', price2: '44.000' }, 
@@ -31,6 +34,7 @@ const dataWine = [
         ]
     },{ 
         title: 'Espumante Rosé', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Chandon', description: 'Rosé', country: 'Mendoza', price: '', price2: '20.000' }, 
@@ -38,6 +42,7 @@ const dataWine = [
             { id: 3, name: 'Gemma', description: 'Rosé', country: 'Central', price: '3.500', price2: '17.000' },
         ]
     },{ title: 'Sauvignon Blanc', 
+        description:'',
         products: 
         [
             { id: 0, name: 'Casa Marín', description: 'Cipreses 2020', country: 'San Antonio', price: '6.000', price2: '25.000' }, 
@@ -56,6 +61,7 @@ const dataWine = [
         ]
     },{ 
         title: 'Sauvignon Gris', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Casa Marín', description: 'Estero 2019', country: 'San Antonio', price:'6.000', price2:'25.000' },
@@ -63,6 +69,7 @@ const dataWine = [
         ]
     },{ 
         title: 'Semillón', 
+        description:'',
         products: 
         [
             { id: 1, name: 'JCV', description: 'de Charlie Villard 2019', country: 'Casablanca', price:'', price2:'18.000' },
@@ -71,6 +78,7 @@ const dataWine = [
     },
     { 
         title: 'Chardonnay', 
+        description:'',
         products: 
         [ 
             { id: 1, name: 'Los Parientes', description: 'de Baettig 2019', country: 'Traiguén', price: '', price2: '26.000' }, 
@@ -91,6 +99,7 @@ const dataWine = [
     },
     { 
         title: 'Riesling', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Felicia', description: 'de Clos des Fous 2017', country: 'Malleco', price: '5.000', price2: '27.000' }, 
@@ -101,6 +110,7 @@ const dataWine = [
         ]
     }, { 
         title: 'Gewürztraminer', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Casa Marín', description: 'Casona 2019', country: 'San Antonio', price: '', price2: '25.000' }, 
@@ -109,6 +119,7 @@ const dataWine = [
     },
     { 
         title: 'Viognier', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Barranco', description: 'de Tabali 2018', country: 'Limari', price: '', price2: '22.000' }, 
@@ -116,6 +127,7 @@ const dataWine = [
     },
     { 
         title: 'Rosé', 
+        description:'',
         products: 
         [
             { id: 0, name: 'Vivendo', description: 'de Calyptra 2019', country: 'Cachapoal', price: '4.000', price2: '17.000' },
@@ -126,6 +138,7 @@ const dataWine = [
     },
     /* { 
         title: 'Vi', 
+        description:'',
         products: 
         [
             { id: 1, name: '', description: '', country: '', price: '', price2: '' }, 
@@ -134,6 +147,7 @@ const dataWine = [
 
     /* { 
         title: 'Eb', 
+        description:'',
         products: 
         [
             { id: 1, name: '', description: '', country: '', price: '', price2: '' }, 
@@ -141,6 +155,7 @@ const dataWine = [
     }, */
     { 
         title: 'Pinot Noir', 
+        description:'',
         products: 
         [
             { id: 0, name: 'Pucalán', description: 'de Clos des Fous 2015', country: 'Aconcagua', price: '', price2: '27.000' },
@@ -163,6 +178,7 @@ const dataWine = [
     },
     { 
         title: 'Cinsault', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Dagaz', description: 'Itatino 2019', country: 'Itata', price: '5.000', price2: '21.000' },
@@ -173,6 +189,7 @@ const dataWine = [
     },
     { 
         title: 'País', 
+        description:'',
         products: 
         [
             { id: 3, name: 'Vinista', description: 'de Pedro Parra 2019', country: 'Itata', price: '', price2: '20.000' },
@@ -183,6 +200,7 @@ const dataWine = [
     },
     { 
         title: 'Syrah', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Folly', description: 'de Montes 2013', country: 'Colchagua', price: '', price2: '100.000' }, 
@@ -210,6 +228,7 @@ const dataWine = [
     },
     { 
         title: 'Petite Syrah', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Orzada', description: 'de Odfjell 2016', country: 'Maule', price: '', price2: '14.000' }, 
@@ -218,6 +237,7 @@ const dataWine = [
     },
     { 
         title: 'Ensamblajes Mediterraneos', 
+        description:'',
         products: [
             { id: 1, name: 'Grus', description: 'de Alcohuaz 2017', country: 'Elqui', price: '', price2: '23.000' }, 
             { id: 2, name: 'Polkura GSM+T', description: '2016', country: 'Colchagua', price: '', price2: '22.000' }, 
@@ -230,6 +250,7 @@ const dataWine = [
     },
     { 
         title: 'Carignan', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Cien', description: 'de L.F. Edwards 2012', country: 'Maule', price: '', price2: '32.000' }, 
@@ -245,6 +266,7 @@ const dataWine = [
     },
     { 
         title: 'Mouvèdre', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Mourvèdre', description: 'de P.S. Garcia 2016', country: 'Itata', price: '', price2: '19.000' }, 
@@ -252,12 +274,14 @@ const dataWine = [
         ]
     },{ 
         title: 'Romano', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Romano', description: 'de Casa Silva 2015', country: 'Colchagua', price: '', price2: '18.000' },
         ]
     }, { 
         title: 'Garnacha', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Pérez Cruz', description: 'Limited Edition 2017', country: 'Maipo', price: '', price2: '21.000' },
@@ -265,6 +289,7 @@ const dataWine = [
     },
     { 
         title: 'Tempranillo', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Koyle Royale', description: '2015', country: 'Colchagua', price: '', price2: '20.000' },
@@ -272,6 +297,7 @@ const dataWine = [
     }, 
     { 
         title: 'Merlot', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Cuvée Alexandre', description: 'de Lapostolle 2014', country: 'Colchagua', price: '5.500', price2: '22.000' }, 
@@ -285,6 +311,7 @@ const dataWine = [
     }, 
     { 
         title: 'Carménère', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Carmín de Peumo', description: 'de Concha y Toro 2017', country: 'Peumo', price: '', price2: '89.000' }, 
@@ -305,6 +332,7 @@ const dataWine = [
     },
     { 
         title: 'Cabernet Franc', 
+        description:'',
         products: 
         [
             { id: 0, name: 'Loma Larga', description: '2017', country:'Casablanca',price: '5.000', price2: '22.000' },
@@ -319,6 +347,7 @@ const dataWine = [
     }, 
     { 
         title: 'Petit Verdot', 
+        description:'',
         products: 
         [
             /* { id: 1, name: 'Laura Hartwing', description: '2015', country: 'Colchagua', price: '', price2: '18.000' }, */
@@ -328,6 +357,7 @@ const dataWine = [
         ]
     }, { 
         title: 'Malbec', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Roca Madre', description: 'de Tabalí 2015', country: 'Limarí', price: '', price2: '53.000' }, 
@@ -343,6 +373,7 @@ const dataWine = [
         ]
     }, { 
         title: 'Cabernet Sauvignon', 
+        description:'',
         products: 
         [
             { id: 1, name: 'Don Melchor', description: 'de Concha y Toro 2015', country: 'Maipo', price: '', price2: '93.000' },
@@ -368,6 +399,7 @@ const dataWine = [
         ]
     }, { 
         title: 'Ensamblaje', 
+        description:'',
         products: 
         [
             { id: 1, name: 'El Principal', description: '2014', country: 'Maipo', price: '', price2: '81.000' }, 
@@ -395,21 +427,16 @@ const dataWine = [
         ]
     },{ 
         title: 'Fortificado', 
+        description:'Copa 6cl',
         products: 
         [
             { id: 1, name: "Oporto DOW'S OTP", description: '10 Años', country: 'Potugal', price: '', price2: '28.000' },
             { id: 2, name: 'Fort de Calyptra', description: '2013', country: 'Cachapoal', price: '3.000', price2: '26.000' },
         ]
     },
-    /* { 
-        title: 'Fortificados', 
-        products: 
-        [
-            { id: 1, name: '', description: '', country: '', price: '', price2: '' },
-        ]
-    }, */
     { 
         title: 'Late Harvest', 
+        description:'Copa 6cl - Botella 375 cl',
         products: 
         [
             { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' },
