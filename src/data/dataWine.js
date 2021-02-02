@@ -343,7 +343,7 @@ const dataWine = [
         [
             { id: 1, name: 'Roca Madre', description: 'de Tabalí 2015', country: 'Limarí', price: '', price2: '59.000' }, 
             { id: 3, name: 'Loma Larga', description: '2012', country: 'Casablanca', price: '6.000', price2: '24.000' }, 
-            { id: 4, name: 'Koyle Royale', description: '2015', country: 'Colchagua', price: '', price2: '21.000' }, 
+            /* { id: 4, name: 'Koyle Royale', description: '2015', country: 'Colchagua', price: '', price2: '21.000' }, */ 
             { id: 8, name: 'La Cancha', description: 'de Carmen 2016', country: 'Colchagua', price: '', price2: '21.000' }, 
             { id: 5, name: 'Chocalán', description: 'Vitrum 2015', country: 'Maipo', price: '', price2: '21.000' }, 
             { id: 6, name: 'Polkura', description: '2016', country: 'Colchagua', price: '', price2: '20.000' },
