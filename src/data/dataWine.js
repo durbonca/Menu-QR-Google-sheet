@@ -404,12 +404,18 @@ const dataWine = [
             { id: 17, name: 'Codegua', description: 'de Lagar de Codegua 2017', country: 'Cachapoal', price: '', price2: '18.000' },
         ]
     },{ 
-        title: 'Fortificado', 
+        title: 'Oporto', 
         description:'',
         products: 
         [
             /* { id: 0, name: "DOWS LBV", description: '2009', country: 'Potugal', price: '', price2: '29.000' }, */
             { id: 1, name: "Oporto DOW'S OTP", description: '10 Años', country: 'Potugal', price: '', price2: '29.000' },
+        ]
+    },{ 
+        title: 'Fortificados', 
+        description:'',
+        products: 
+        [
             { id: 2, name: 'Fort de Calyptra', description: '2013', country: 'Cachapoal', price: '3.000', price2: '27.000' },
         ]
     },
