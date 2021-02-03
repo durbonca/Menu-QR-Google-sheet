@@ -405,7 +405,7 @@ const dataWine = [
         ]
     },{ 
         title: 'Fortificado', 
-        description:'Copa 6cl',
+        description:'',
         products: 
         [
             /* { id: 0, name: "DOWS LBV", description: '2009', country: 'Potugal', price: '', price2: '29.000' }, */
@@ -415,7 +415,7 @@ const dataWine = [
     },
     { 
         title: 'Late Harvest', 
-        description:'Copa 6cl - Botella 375 cl',
+        description:'',
         products: 
         [
             { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' },
