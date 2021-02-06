@@ -6,7 +6,7 @@ class Ostras extends React.Component{
                     <div className="d-flex flex-column align-items-center col-6 px-0">
                         {/* <h1>Ostras</h1> */}
                         <small>calibre</small>
-                        <strong>“Victoria”</strong>
+                        <strong>“Mediano”</strong>
                     </div>
                     <div className="d-flex flex-column align-items-center justify-content-end col-6 px-0">
                         <div className="d-flex">
