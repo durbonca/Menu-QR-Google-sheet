@@ -1,10 +1,16 @@
 import React from 'react'
+import Bars from "./bars"
 
 class Ostras extends React.Component{
     render(){
-        return <div className="row d-flex justify-content-between">
+        return <div>
+                    <div className="row mt-5 d-flex align-items-center">                               
+                                    <Bars/> 
+                                    <h3 className="col-auto text-center">Ostras</h3>
+                                    <Bars/>
+                    </div>
+                <div className="row d-flex justify-content-between">
                     <div className="d-flex flex-column align-items-center col-6 px-0">
-                        {/* <h1>Ostras</h1> */}
                         <small>calibre</small>
                         <strong>“Mediano”</strong>
                     </div>
@@ -17,6 +23,7 @@ class Ostras extends React.Component{
                         </div>
                     </div>
                </div>
+            </div>
     }
 }
 export default Ostras
