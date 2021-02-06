@@ -28,7 +28,7 @@ const dataWine = [
             { id: 2, name: 'Azur "Magnum"', description: 'Brut 1.500 cl', country: 'Limari', price: '', price2: '44.000' }, 
             { id: 3, name: 'Azur', description: 'Brut 750 cl', country: 'Limari', price: '', price2: '22.000' },
             { id: 31, name: 'Tatié', description: 'Brut de Tabali  y Thiénot', country: 'Limari', price: '4.500', price2: '21.000' }, 
-            { id: 4, name: 'Fervor', description: 'Brut de Casa Silva', country: 'Colchagua', price: '', price2: '20.000' }, 
+            /* { id: 4, name: 'Fervor', description: 'Brut de Casa Silva', country: 'Colchagua', price: '', price2: '20.000' }, */ 
             { id: 5, name: 'Schwaderer', description: 'Brut Método Tradicional', country: 'Maule', price: '', price2: '17.000' },
             { id: 5, name: 'Cono Sur', description: 'Brut', country: 'Bio - Bio', price: '', price2: '14.000' },
         ]
