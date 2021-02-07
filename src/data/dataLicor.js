@@ -20,7 +20,7 @@ const dataLicor =
             products: 
             [
                 /* { id: 1, name: 'Aperol', description: '', price2: '4.000 '},  */
-                { id: 2, name: 'Saint Germain', description: '', price2: '5.000 '}, 
+                { id: 2, name: 'Saint Germain', description: '', price2: '5.500 '}, 
                 { id: 3, name: 'Libertin', description: 'Vodka, Chartreuse, Saint Germain', price2: '4.000 '}, 
                 { id: 4, name: 'Piscina', description: 'Espumante, Triple Sec, Limón', price2: '4.000'} 
         ]
@@ -98,7 +98,7 @@ const dataLicor =
             description: '', 
             products: 
                 [
-                { id: 0, name: 'Saint Germain', description: '', price2: '5.000 '} ,
+                { id: 0, name: 'Saint Germain', description: '', price2: '5.500 '} ,
                 { id: 1, name: 'Araucano', description: '', cl: '6', price2: '3.000'} , 
                 { id: 2, name: 'Amaretto Luxardo', description: '', cl: '6', price2: '3.500'} , 
                 { id: 3, name: 'Drambuie', description: '', cl: '6', price2: '4.000'} , 
