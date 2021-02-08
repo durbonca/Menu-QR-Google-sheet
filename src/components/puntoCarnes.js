@@ -11,19 +11,19 @@ class PuntoCarne extends React.Component{
                                         <h1 style={{marginTop:"-25px",color:"#732619"}}>.</h1>
                                         <p className="my-0">1/4 Sellado</p>
                                         <small>Bleu / Rare</small>
-                                        <small>12 Min</small>
+                                        
                                     </div>
                                     <div className="col-4 d-flex flex-column">
                                         <h1 style={{marginTop:"-25px",color:"#732619"}}>..</h1>
                                         <p className="my-0">Punto Baco</p>
                                         <small>Sugerido</small>
-                                        <small>16 Min</small>
+                                        
                                     </div>
                                     <div className="col-4 d-flex flex-column">
                                         <h1 style={{marginTop:"-25px",color:"#732619"}}>...</h1>
                                         <p className="my-0">1/2 Jugoso</p>
                                         <small>Saignant / Medium</small>
-                                        <small>20 Min</small>
+                                        
                                     </div>
                                 </div>
                             </div>
