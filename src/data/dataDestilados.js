@@ -17,7 +17,7 @@ const dataDestilados = [
                 products: 
                 [
                     { id: 1, name: 'Lapostolle X.O', description: '', cl: '4', price: '7.000'},
-                    { id: 1, name: 'Laubade V.S.O.P.', description: '', cl: '4', price: '5.000'} 
+                    /* { id: 1, name: 'Laubade V.S.O.P.', description: '', cl: '4', price: '5.000'} */ 
                 ]
                 }, { 
                 title:'Calvados', 
