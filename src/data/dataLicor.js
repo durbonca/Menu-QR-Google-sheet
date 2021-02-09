@@ -72,7 +72,7 @@ const dataLicor =
                 { id: 4, name: 'Fifty Pounds', description: 'Inglaterra', price2: '6.000'} , 
                 { id: 5, name: 'The Botanist', description: 'Escocia', price2: '6.500'} , 
                 { id: 6, name: 'Monkey 47', description: 'Alemanía', price2: '7.500'}, 
-                /* , { id: 7, name: 'Mare', description: 'Cataluña', price2: '6.000'}  */ 
+                { id: 7, name: 'Mare', description: 'Cataluña', price2: '6.000'}, 
                 { id: 8, name: 'Star Of Bombay', description: 'Inglaterra', price2: '5.500'} , 
                 { id: 9, name: 'Hendricks', description: 'Escocia', price2: '5.500'} , 
                 { id: 10, name: 'Republica', description: 'Bolivia', price2: '4.500'} 
