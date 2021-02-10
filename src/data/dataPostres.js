@@ -29,7 +29,7 @@ const dataPostres = [
         }, {
             id: 12, name: 'Crême Glacée', description: 'de Café o Chocolate', price: '4.000'
         }, {
-            id: 13, name: 'Sorbet', description: 'Limón de Pica, Frutos Rojos o Maracuya', price: '4.000'
+            id: 13, name: 'Sorbet', description: 'Limón de Pica, Frutos Rojos y Maracuya', price: '4.000'
         }, {
             id: 14, name: '“Mi Coronel”', description: 'Sorbet Limón de Pica y Vodka', price: '4.000'
         }, {
