@@ -1,9 +1,9 @@
 import React from "react"
-import dataProducts from '../data/data';
 import Product from './Product'
 import {Link} from 'react-router-dom'
 import Bars from "./bars";
 import PuntoCarne from "./puntoCarnes" 
+import Chesse from "./Chesse"
 
 class Family extends React.Component{
     
@@ -36,18 +36,9 @@ class Family extends React.Component{
 
                 {this.state.items.map(function (dataProducts){
                     return  <div>
-                                <div className="row mt-5 d-flex align-items-center">                               
-                                    <Bars/> 
-                                    <h3 className="col-auto text-center">{dataProducts.title}</h3>
-                                    <Bars/>
-                                </div>
-                                    <p><i>{dataProducts.description}</i></p>
-                                <Product product={dataProducts.products}/>
-                            </div> 
-                })}
 
-                {dataProducts.map(function (dataProducts){
-                    return  <div>
+                                { dataProducts.title === 'Café de Grano' && <Chesse /> }
+
                                 <div className="row mt-5 d-flex align-items-center">                               
                                     <Bars/> 
                                     <h3 className="col-auto text-center">{dataProducts.title}</h3>
@@ -55,11 +46,11 @@ class Family extends React.Component{
                                 </div>
                                     <p><i>{dataProducts.description}</i></p>
                                 <Product product={dataProducts.products}/>
+
+                                { dataProducts.title === 'Carnes' && <PuntoCarne/> }
                             </div> 
                 })}
-                <PuntoCarne/>
               </div> 
     }
 }
-
 export default Family

@@ -2,31 +2,46 @@ import React from "react"
 import dataChesse from '../data/dataChesse';
 import dataTablaqueso from '../data/DataTablaqueso';
 import Bars from './bars'
-import Product from './ProductChesse'
+import Product from './Product'
 import Tablaqueso from './Tablaqueso'
 
 class Family extends React.Component {
     
+    constructor(props) {
+        super(props);
+        this.state = {
+          error: null,
+          isLoaded: false,
+          items: []
+        };
+      }
+
+    componentDidMount() {
+        fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr&title_eq=Quesos")
+          .then(res => res.json())
+          .then(
+            (result) => {
+                result.sort(((a, b) => a.price_in_cent - b.price_in_cent));
+                this.setState({
+                    isLoaded: true,
+                    items: result
+                  });
+              });
+      }
+
     render (){
-      return  <div className="container-fluid offset-md-3 col-md-6 mt-5 mb-5 px-4">
-                {dataChesse.map(function (dataProducts){
-                    return <div>
-                                <div className="row mb-0 mt-5 d-flex align-items-center">                               
-                                    <Bars/>
+      return  <div>
+                {this.state.items.map(function (dataProducts){
+                    return  <div>
+                                <div className="row mt-5 d-flex align-items-center">                               
+                                    <Bars/> 
                                     <h3 className="col-auto text-center">{dataProducts.title}</h3>
                                     <Bars/>
-                                    <p><i>{dataProducts.description}</i></p>
                                 </div>
-                                <Product product={dataProducts.products}/>                              
+                                    <p><i>{dataProducts.description}</i></p>
+                                <Product product={dataProducts.products}/>                            
                             </div>
                             })}
-
-                {dataTablaqueso.map(function (dataProducts){
-                    return <div>
-                                <Tablaqueso product={dataProducts.products}/>                              
-                            </div>
-                        })}
-
               </div> 
     }
 }
