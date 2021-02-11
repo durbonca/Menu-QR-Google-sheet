@@ -1,5 +1,4 @@
 import React from "react"
-import dataCoffe from '../data/dataCoffe';
 import Product from './Product'
 import Bars from './bars'
 
@@ -15,7 +14,7 @@ class Family extends React.Component {
       }
 
     componentDidMount() {
-        fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr&title_eq=Caf%C3%A9%20de%20Grano")
+        fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr&title_eq=Caf%C3%A9%20de%20Grano&title_eq=Teteras")
           .then(res => res.json())
           .then(
             (result) => {
