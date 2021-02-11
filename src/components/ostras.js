@@ -3,7 +3,7 @@ import Bars from "./bars"
 
 class Ostras extends React.Component{
     render(){
-        return <div>
+        return <div className="mt-5 px-3">
                     <div className="row d-flex align-items-center">                               
                                     <Bars/> 
                                     <h3 className="col-auto text-center">Ostras</h3>
