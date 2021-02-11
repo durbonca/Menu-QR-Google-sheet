@@ -1,9 +1,6 @@
 import React from "react"
-import dataChesse from '../data/dataChesse';
-import dataTablaqueso from '../data/DataTablaqueso';
 import Bars from './bars'
 import Product from './Product'
-import Tablaqueso from './Tablaqueso'
 
 class Family extends React.Component {
     
