@@ -303,7 +303,7 @@ const dataWine = [
             { id: 4, name: 'CA 2', description: 'Costa de Terranoble 2016', country: 'Colchagua', price: '', price2: '28.000' }, 
             { id: 5, name: 'Pura Fe', description: 'de Antiyal 2016', country: 'Maipo', price: '', price2: '24.000' }, 
             { id: 6, name: 'De Martino', description: 'Alto de Piedras 2017', country: 'Maipo', price: '', price2: '24.000' }, 
-            { id: 7, name: 'Micas', description: 'de Tabalí 2015', country: 'Cachapoal', price: '4.500', price2: '19.000' }, 
+            /* { id: 7, name: 'Micas', description: 'de Tabalí 2015', country: 'Cachapoal', price: '4.500', price2: '19.000' }, */ 
             { id: 8, name: 'Orzada', description: 'de Odfjell 2018', country: 'Maule', price: '', price2: '19.000' }, 
             { id: 10, name: 'Von Siebenthal', description: 'Gran Reserva 2017', country: 'Aconcagua', price: '', price2: '18.000' }, 
             { id: 9, name: 'Errante', description: 'del Maipo 2017', country: 'Maipo', price: '', price2: '18.000' }, 
