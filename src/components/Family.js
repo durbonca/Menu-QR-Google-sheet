@@ -21,7 +21,10 @@ class Family extends React.Component{
           .then(res => res.json())
           .then(
             (result) => {
-                result.sort(((a, b) => a.price_in_cent - b.price_in_cent));
+                /* for ( let i=0; i<result.length ; i++ ) {
+                  console.log(result[i].products.price_in_cent)
+                  result[i].products.sort(((a, b) => a.price_in_cent - b.price_in_cent));
+                } */
                 this.setState({
                     isLoaded: true,
                     items: result
