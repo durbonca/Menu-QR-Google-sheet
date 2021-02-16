@@ -91,7 +91,7 @@ const dataLicor =
             description: '', 
             cl2: '6', 
             products: [
-                { id: 1, name: 'Amarula', description: 'Fruta de Marula', price2: '3.500'} ,
+                /* { id: 1, name: 'Amarula', description: 'Fruta de Marula', price2: '3.500'} , */
                 { id: 2, name: 'Kahlúa', description: '', price2: '3.500'} 
     ]} , {  
             title: 'Licores', 
