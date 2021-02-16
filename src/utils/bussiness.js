@@ -40,6 +40,7 @@ const sanitizedCategories = allCat => {
     const allParents = sortedCat.filter(category => {
       if (category.parent_category === null) {
         // replace child_cats for the one in sorted (with products)
+        // eslint-disable-next-line
         category.child_categories = sortedCat.filter(cat => {
           if (cat.parent_category && cat.parent_category.slug === category.slug)
             return cat
