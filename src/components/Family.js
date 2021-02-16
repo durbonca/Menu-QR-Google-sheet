@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import Bars from "./bars";
 import PuntoCarne from "./puntoCarnes" 
 import Chesse from "./Chesse"
+import { sanitizedCategories } from "../utils/bussiness.js"
 
 class Family extends React.Component{
     
@@ -21,17 +22,15 @@ class Family extends React.Component{
           .then(res => res.json())
           .then(
             (result) => {
-                /* for ( let i=0; i<result.length ; i++ ) {
-                  console.log(result[i].products.price_in_cent)
-                  result[i].products.sort(((a, b) => a.price_in_cent - b.price_in_cent));
-                } */
+              const sanitizedCat = sanitizedCategories(
+                  result.map(obj => obj)
+                )
                 this.setState({
                     isLoaded: true,
-                    items: result
+                    items: sanitizedCat
                   });
               });
       }
-
 
     render (){
       return  <div className="container-fluid offset-md-3 col-md-6 mt-5 mb-5 px-4">
