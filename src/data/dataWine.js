@@ -190,7 +190,7 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Folly', description: 'de Montes 2013', country: 'Colchagua', price: '', price2: '100.000' }, 
+            { id: 1, name: 'Folly', description: 'de Montes 2013', country: 'Colchagua', price: '', price2: '110.000' }, 
             { id: 2, name: 'Matetic', description: '2014', country: 'San Antonio', price: '', price2: '56.000' }, 
             { id: 3, name: 'Payen', description: 'De Tabalí 2011', country: 'Limarí', price: '', price2: '49.000' }, 
             { id: 4, name: 'Tanagra', description: 'De Villard 2017', country: 'Casablanca', price: '', price2: '39.000' }, 
