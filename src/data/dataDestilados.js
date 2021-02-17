@@ -49,7 +49,8 @@ const dataDestilados = [
                 ]
                 } , 
                 { title:'Scotch Islay Single Malt', products: [
-                    { id: 1, name: 'Port Charlotte', description: 'Bruichladdich', cl: 'Islay 6', price: '6.500'} , { id: 2, name: 'Ardbeg Ten', description: '10 años', cl: 'Islay 6', price: '7.000'} 
+                    { id: 1, name: 'Port Charlotte', description: 'Bruichladdich', cl: 'Islay 6', price: '6.500'}, 
+                    /* { id: 2, name: 'Ardbeg Ten', description: '10 años', cl: 'Islay 6', price: '7.000'} */ 
                 ]} , { 
                 title:'Scotch Blend', 
                 products: 

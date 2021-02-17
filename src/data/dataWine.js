@@ -286,7 +286,7 @@ const dataWine = [
             { id: 1, name: 'Cuvée Alexandre', description: 'de Lapostolle 2014', country: 'Colchagua', price: '5.500', price2: '22.000' }, 
             { id: 2, name: 'Ritual', description: 'de Veramonte 2016', country: 'Casablanca', price: '', price2: '21.000' }, 
             { id: 3, name: 'Altum', description: 'de Terramater 2017', country: 'Maipo', price: '', price2: '18.000' }, 
-            { id: 4, name: 'Casa Silva', description: 'Angostura 2017', country: 'Colchagua', price: '', price2: '18.000' }, 
+            /* { id: 4, name: 'Casa Silva', description: 'Angostura 2017', country: 'Colchagua', price: '', price2: '18.000' }, */ 
             { id: 5, name: 'Chateau M', description: 'Gran Cuvée de Massenez 2017', country: 'Cachapoal', price: '', price2: '18.000' }, 
             { id: 6, name: 'Valdivieso', description: 'Single Vineyard 2013', country: 'Lontué', price: '', price2: '17.000' }, 
             { id: 7, name: 'Armador', description: 'de Odfjell 2017', country: 'Maipo', price: '', price2: '17.000' },
