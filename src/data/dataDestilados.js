@@ -63,10 +63,11 @@ const dataDestilados = [
                 [
                     { id: 1, name: 'Akashi Black', description: '', cl: 'Hyogo 6', price: '6.500'} ]}, */ 
                 { 
-                title:'Whisky de Tennessee', 
+                title:'Whisky (U.S.A)', 
                 products: 
                 [
-                     { id: 1, name: 'Jack Daniel’s N°7', description: '', cl: 'Tennessee 6', price: '4.500'}  ]}, 
+                     { id: 1, name: 'Jack Daniel’s N°7', description: '', cl: 'Tennessee 6', price: '4.500'},
+                     { id: 2, name: 'Maker’s Mark', description: '', cl: 'Kentucky', price: '5.500'},  ]}, 
                 { 
                 title:'Bourbon (U.S.A)', 
                 products: 
