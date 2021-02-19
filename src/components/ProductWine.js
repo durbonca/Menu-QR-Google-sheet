@@ -16,7 +16,7 @@ class Family extends React.Component {
                                 <p className="col-6 text-left m-0 p-0">{product.name} <small className="col-auto text-right mr-0 p-0">{product.description}</small></p>
                                 <div class="col-6 d-flex">
                                  {cup}
-                                <p className="col-4 text-right mb-0 ml-2 p-0">{product.price}</p>
+                                <p className="col-4 text-right mb-0 ml-2 mr-2 p-0">{product.price}</p>
                                 <p className="col-5 text-right mb-0 ml-2 p-0">{product.price2}</p>
                                 </div>
                                 <small className="col-12 text-center">{product.country}</small>
