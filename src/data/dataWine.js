@@ -134,7 +134,7 @@ const dataWine = [
         products: 
         [
             { id: 0, name: 'Vivendo', description: 'de Calyptra 2018', country: 'Cachapoal', price: '4.500', price2: '18.000' },
-            { id: 2, name: 'Pedegoso', description: 'de Tabalí 2019', country: 'Limarí', price: '', price2: '16.000' }, 
+            /* { id: 2, name: 'Pedegoso', description: 'de Tabalí 2019', country: 'Limarí', price: '', price2: '16.000' }, */ 
             { id: 1, name: 'BOYA', description: 'de Garses Silva - 2019', country: 'Leyda', price: '', price2: '16.000' }, 
             { id: 3, name: 'Calcu', description: 'Reserva Especial 2018', country: 'Colchagua', price: '', price2: '15.000' },
         ]
