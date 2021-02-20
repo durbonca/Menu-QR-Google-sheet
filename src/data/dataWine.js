@@ -154,7 +154,7 @@ const dataWine = [
             { id: 8, name: 'Trapi', description: '2017', country: 'Osorno', price: '', price2: '21.000' }, 
             { id: 7, name: 'Signos De Origen', description: 'De Emiliana 2018', country: 'Casablanca', price: '', price2: '19.000' },
             { id: 9, name: 'Veneris', description: 'De Callma 2018', country: 'Casablanca', price: '', price2: '19.000' }, 
-            { id: 10, name: 'Sofía', description: 'P.S De García 2017', country: 'Casablanca', price: '', price2: '19.000' }, 
+            /* { id: 10, name: 'Sofía', description: 'P.S De García 2017', country: 'Casablanca', price: '', price2: '19.000' }, */ 
             { id: 11, name: 'Schwaderer', description: '2017', country: 'Itata', price: '', price2: '18.000' }, 
             { id: 12, name: 'Corralillo', description: 'De Matetic 2017', country: 'San Antonio', price: '', price2: '18.000' }, 
             { id: 13, name: 'Villard', description: 'Expresion 2017', country: 'Casablanca', price: '', price2: '16.000' },
