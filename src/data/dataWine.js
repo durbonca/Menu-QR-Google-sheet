@@ -346,7 +346,7 @@ const dataWine = [
             /* { id: 4, name: 'Koyle Royale', description: '2015', country: 'Colchagua', price: '', price2: '21.000' }, */ 
             { id: 8, name: 'La Cancha', description: 'de Carmen 2016', country: 'Colchagua', price: '', price2: '21.000' }, 
             { id: 5, name: 'Chocalán', description: 'Vitrum 2015', country: 'Maipo', price: '', price2: '21.000' }, 
-            { id: 6, name: 'Polkura', description: '2016', country: 'Colchagua', price: '', price2: '20.000' },
+            /* { id: 6, name: 'Polkura', description: '2016', country: 'Colchagua', price: '', price2: '20.000' }, */
             { id: 7, name: 'Vultur Circus', description: 'de Vultur Wines 2015', country: 'Cachapoal', price: '', price2: '20.000' }, 
             { id: 9, name: 'Chamán', description: 'Gr. Rsa de Santa Cruz 2017', country: 'Colchagua', price: '', price2: '17.000' }, 
         ]
@@ -424,7 +424,7 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' },
+            /* { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' }, */
             { id: 3, name: 'Solvita', description: 'de Calyptra (37,5 cl) - 2010', country: 'Coya', price: '', price2: '16.000' },
            /*{ id: 2, name: 'Errazuriz', description: '2016', country: 'Aconcagua', price: '', price2: '14.000' }, */
         ]
