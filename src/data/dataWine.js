@@ -361,7 +361,7 @@ const dataWine = [
             { id: 4, name: 'Manso de Velasco', description: 'de Miguel Torres 2010', country: 'Curico', price: '', price2: '49.000' },
             { id: 5, name: 'Cabo de Hornos', description: 'de San Pedro 2016', country: 'Cachapoal', price: '', price2: '49.000' }, 
             { id: 7, name: 'Antología', description: 'de Emiliana 2013', country: 'Maipo', price: '', price2: '30.000' }, 
-            { id: 8, name: 'De José', description: 'de José Guilisasti 2016', country: 'Maipo', price: '7.000', price2: '28.000' }, 
+            { id: 8, name: 'De José', description: 'de José Guilisasti 2016', country: 'Maipo', price: '7.000', price2: ''/* '28.000' */ }, 
             { id: 81, name: 'S 38 Los Lingues', description: 'de casa Silva 2015', country: 'Colchagua', price: '', price2: '25.000' }, 
             { id: 9, name: 'De Martino', description: 'La Cancha 2017', country: 'Maipo', price: '', price2: '24.000' }, 
             { id: 100, name: 'Surreal', description: 'de 3 Monos 2014', country: 'Itata', price: '', price2: '24.000' },
@@ -389,7 +389,7 @@ const dataWine = [
             { id: 5, name: 'Le Petit Clos', description: 'de Clos Apalta 2016', country: 'Colchagua', price: '', price2: '33.000' }, 
             { id: 6, name: 'Inédito', description: 'de Calyptra 2016', country: 'Coya', price: '7.500', price2: '31.000' }, 
             { id: 91, name: 'Milla Cala', description: 'de Vik 2017', country: 'Millahue', price: '', price2: '31.000' },
-            { id: 7, name: 'Liguai', description: 'de Perez Cruz 2015', country: 'Maipo', price: '', price2: '31.000' }, 
+            /* { id: 7, name: 'Liguai', description: 'de Perez Cruz 2015', country: 'Maipo', price: '', price2: '31.000' }, */ 
             { id: 71, name: 'Memorias El principal', description: '2015', country: 'Maipo', price: '', price2: '28.000' }, 
             { id: 9, name: 'Tupu', description: 'de Santa Cruz 2016', country: 'Colchagua', price: '', price2: '28.000' }, 
             { id: 8, name: 'Cerro Basalto', description: 'de Koyle 2015', country: 'Colchagua', price: '', price2: '27.000' }, 
