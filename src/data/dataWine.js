@@ -300,7 +300,7 @@ const dataWine = [
             { id: 1, name: 'Carmín de Peumo', description: 'de Concha y Toro 2017', country: 'Peumo', price: '', price2: '89.000' }, 
             { id: 2, name: 'Purple Angel', description: 'de Montes 2015', country: 'Colchagua', price: '', price2: '89.000' }, 
             { id: 3, name: 'Microterroir', description: 'de Casa Silva 2006 - 2012', country: 'Colchagua', price: '', price2: '45.000' }, 
-            { id: 4, name: 'CA 2', description: 'Costa de Terranoble 2016', country: 'Colchagua', price: '', price2: '28.000' }, 
+            /* { id: 4, name: 'CA 2', description: 'Costa de Terranoble 2016', country: 'Colchagua', price: '', price2: '28.000' }, */ 
             { id: 5, name: 'Pura Fe', description: 'de Antiyal 2016', country: 'Maipo', price: '', price2: '24.000' }, 
             { id: 6, name: 'De Martino', description: 'Alto de Piedras 2017', country: 'Maipo', price: '', price2: '24.000' }, 
             /* { id: 7, name: 'Micas', description: 'de Tabalí 2015', country: 'Cachapoal', price: '4.500', price2: '19.000' }, */ 
