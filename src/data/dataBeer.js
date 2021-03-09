@@ -4,12 +4,13 @@ const dataBeer = [
         subtitle: 'Botella', 
         products: 
         [
+            { id: 0, name: 'Volcanes del Sur DoppelBock', description: '', price: '3.500'},
             { id: 1, name: 'Peroni', description: 'ALE - Italia - 33 Cl', price: '3.500'}, 
             { id: 2, name: 'Singha', description: 'LAGER - Tailandia - 33 Cl', price: '3.500' }, 
             { id: 3, name: 'La Montaña', description: 'LAGER - Chile - 33 Cl', price: '4.000'}, 
             { id: 4, name: 'Mestra', description: 'LAGER PILSEN - Chile - 33 Cl', price: '4.000'}, 
             { id: 5, name: 'La Montaña', description: 'IPA - Chile - 33 Cl', price: '4.000'}, 
-            { id: 6, name: 'Mestra', description: 'AMBER ALE - Chile - 33 Cl', price: '4.000'}
+            { id: 6, name: 'Mestra', description: 'AMBER ALE - Chile - 33 Cl', price: '4.000'},
         ]
     }, 
     { 
