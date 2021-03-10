@@ -64,6 +64,7 @@ const dataLicor =
             description: 'Negron, Tom Collins, Martini Dry, Le Grand Fizz, ...', 
             cl2: '6', 
             products: [
+                { id: 0, name: 'Green Baboon', description: 'Rusia', price2: '5.000'} ,
                 { id: 1, name: 'Bicho Raro Citrix', description: 'Chile', price2: '5.000'} ,
                 { id: 1, name: 'Bicho Raro Pepinot', description: 'Chile', price2: '5.000'} ,
                 { id: 1, name: 'Lüykün', description: 'Chile', price2: '5.000'} , 
