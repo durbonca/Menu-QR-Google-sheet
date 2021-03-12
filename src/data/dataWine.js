@@ -287,7 +287,7 @@ const dataWine = [
             { id: 2, name: 'Ritual', description: 'de Veramonte 2016', country: 'Casablanca', price: '', price2: '21.000' }, 
             { id: 3, name: 'Altum', description: 'de Terramater 2017', country: 'Maipo', price: '', price2: '18.000' }, 
             /* { id: 4, name: 'Casa Silva', description: 'Angostura 2017', country: 'Colchagua', price: '', price2: '18.000' }, */ 
-            { id: 5, name: 'Chateau M', description: 'Gran Cuvée de Massenez 2017', country: 'Cachapoal', price: '', price2: '18.000' }, 
+            { id: 5, name: 'Chateau M', description: 'Gran Cuvée de Massenez 2017', country: 'Cachapoal', price: '4.500', price2: '18.000' }, 
             { id: 6, name: 'Valdivieso', description: 'Single Vineyard 2013', country: 'Lontué', price: '', price2: '17.000' }, 
             { id: 7, name: 'Armador', description: 'de Odfjell 2017', country: 'Maipo', price: '', price2: '17.000' },
         ]
@@ -306,7 +306,7 @@ const dataWine = [
             /* { id: 7, name: 'Micas', description: 'de Tabalí 2015', country: 'Cachapoal', price: '4.500', price2: '19.000' }, */ 
             { id: 8, name: 'Orzada', description: 'de Odfjell 2018', country: 'Maule', price: '', price2: '19.000' }, 
             { id: 10, name: 'Von Siebenthal', description: 'Gran Reserva 2017', country: 'Aconcagua', price: '', price2: '18.000' }, 
-            { id: 9, name: 'Errante', description: 'del Maipo 2017', country: 'Maipo', price: '4.500', price2: '18.000' }, 
+            { id: 9, name: 'Errante', description: 'del Maipo 2017', country: 'Maipo', price: '', price2: '18.000' }, 
             { id: 11, name: 'Globo Vultur', description: 'de Vultur Wines 2016', country: 'Colchagua', price: '', price2: '18.000' }, 
             { id: 12, name: 'Reserva Ancestral', description: 'de Miguel Torres 2015', country: 'Itata', price: '4.000', price2: '16.000' },
             { id: 14, name: 'Teillery', description: 'Reserva 2018', country: 'Maipo', price: '4.000', price2: '16.000' },
