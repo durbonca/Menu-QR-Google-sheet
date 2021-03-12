@@ -283,7 +283,7 @@ const dataWine = [
         description:'',
         products: 
         [
-            { id: 1, name: 'Cuvée Alexandre', description: 'de Lapostolle 2014', country: 'Colchagua', price: '5.500', price2: '' }, 
+           /*  { id: 1, name: 'Cuvée Alexandre', description: 'de Lapostolle 2014', country: 'Colchagua', price: '5.500', price2: '' },  */
             { id: 2, name: 'Ritual', description: 'de Veramonte 2016', country: 'Casablanca', price: '', price2: '21.000' }, 
             { id: 3, name: 'Altum', description: 'de Terramater 2017', country: 'Maipo', price: '', price2: '18.000' }, 
             /* { id: 4, name: 'Casa Silva', description: 'Angostura 2017', country: 'Colchagua', price: '', price2: '18.000' }, */ 
