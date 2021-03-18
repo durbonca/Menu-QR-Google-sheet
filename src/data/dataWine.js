@@ -365,7 +365,7 @@ const dataWine = [
             { id: 81, name: 'S 38 Los Lingues', description: 'de casa Silva 2015', country: 'Colchagua', price: '', price2: '25.000' }, 
             { id: 9, name: 'De Martino', description: 'La Cancha 2017', country: 'Maipo', price: '', price2: '24.000' }, 
             { id: 100, name: 'Surreal', description: 'de 3 Monos 2014', country: 'Itata', price: '', price2: '24.000' },
-            { id: 101, name: 'Teillery', description: 'Gran Reserva 2017', country: 'Maipo', price: '5.500', price2: ''/* '22.000' */ },
+            /* { id: 101, name: 'Teillery', description: 'Gran Reserva 2017', country: 'Maipo', price: '5.500', price2: '22.000' }, */
             { id: 10, name: 'Koyle Royale', description: '2016', country: 'Colchagua', price: '', price2: '21.000' },
             { id: 11, name: 'Signos de Origen', description: 'de Emiliana 2016', country: 'Maipo', price: '', price2: '20.000' },
             { id: 10, name: 'Cordillera', description: 'de Miguel Torres 2018', country: 'Cachapoal', price: '', price2: '20.000' },
