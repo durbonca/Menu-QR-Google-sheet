@@ -36,7 +36,6 @@ const dataDestilados = [{
     family: [{
             title: 'Scotch Highland Single Malt',
             products: [
-                { id: 0, name: 'Ardberd', description: '10 Años', cl: '', price: '7.000' },
                 { id: 1, name: 'Glenmorangie', description: '10 Años', cl: 'Highland 6', price: '5.000' },
                 { id: 2, name: 'Glenfarclas', description: '105', cl: 'Speyside 6', price: '5.500' },
                 { id: 3, name: 'The Glenlivet', description: '15 Años', cl: 'Highland 6', price: '6.500' }
@@ -45,8 +44,8 @@ const dataDestilados = [{
         {
             title: 'Scotch Islay Single Malt',
             products: [
+                { id: 2, name: 'Ardbeg Ten', description: '10 años', cl: 'Islay 6', price: '7.000' },
                 { id: 1, name: 'Port Charlotte', description: 'Bruichladdich', cl: 'Islay 6', price: '6.500' },
-                /* { id: 2, name: 'Ardbeg Ten', description: '10 años', cl: 'Islay 6', price: '7.000'} */
             ]
         }, {
             title: 'Scotch Blend',
