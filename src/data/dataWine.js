@@ -26,7 +26,8 @@ const dataWine = [{
             { id: 31, name: 'Tatié', description: 'Brut de Tabali  y Thiénot', country: 'Limari', price: '4.500', price2: '21.000' },
             /* { id: 4, name: 'Fervor', description: 'Brut de Casa Silva', country: 'Colchagua', price: '', price2: '20.000' }, */
             { id: 5, name: 'Schwaderer', description: 'Brut Método Tradicional', country: 'Maule', price: '', price2: '17.000' },
-            { id: 5, name: 'Cono Sur', description: 'Brut', country: 'Bio - Bio', price: '', price2: '14.000' },
+            { id: 7, name: 'Jardin del Éden', description: 'Brut', country: '', price: '', price2: '16.000' },
+            { id: 6, name: 'Cono Sur', description: 'Brut', country: 'Bio - Bio', price: '', price2: '14.000' },
         ]
     }, {
         title: 'Espumante Rosé',
@@ -34,6 +35,7 @@ const dataWine = [{
         products: [
             { id: 1, name: 'Chandon', description: 'Rosé', country: 'Mendoza', price: '', price2: '22.000' },
             /* { id: 2, name: 'Salentein', description: 'Rosé', country: 'Uco Arg.', price: '', price2: '19.000' }, */
+            { id: 2, name: 'Wayra Rosé', description: 'By Calyptra', country: 'Uco - Mendoza', price: '', price2: '20.000' },
             { id: 3, name: 'Gemma', description: 'Rosé', country: 'Central', price: '3.500', price2: '17.000' },
         ]
     }, {
