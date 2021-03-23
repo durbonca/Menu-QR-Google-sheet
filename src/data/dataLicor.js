@@ -30,12 +30,13 @@ const dataLicor =
             cl2: '6', 
             products: 
                 [
-                { id: 1, name: 'Los Capellanes', description: 'Ica (PR)', price2: '3.500 '} , 
-                { id: 2, name: 'Cultura 38º', description: 'Elqui', price2: '3.500'} , 
-                { id: 3, name: 'Waqar', description: 'Limarí', price2: '5.000'} , 
-                /*  { id: 4, name: 'Horcón Quemado', description: 'San Félix', price2: '4.000'} , */
-                { id: 5, name: 'Mulet', description: 'San Félix', price2: '4.000'} , 
-                { id: 6, name: 'Black Heron', description: 'Limarí', price2: '4.500'} 
+                    { id: 1, name: 'Los Capellanes', description: 'Ica (PR)', price2: '3.500 '} , 
+                    { id: 2, name: 'Cultura 38º', description: 'Elqui', price2: '3.500'} , 
+                    { id: 3, name: 'Waqar', description: 'Limarí', price2: '5.000'} , 
+                    /*  { id: 4, name: 'Horcón Quemado', description: 'San Félix', price2: '4.000'} , */
+                    { id: 5, name: 'Mulet', description: 'San Félix', price2: '4.000'} , 
+                    { id: 6, name: 'Black Heron', description: 'Limarí', price2: '4.500'}, 
+                    { id: 7, name: 'Republicano', description: '', price2: '3.500 '} ,
         ]} , 
         { 
             title: 'Vodka', 
