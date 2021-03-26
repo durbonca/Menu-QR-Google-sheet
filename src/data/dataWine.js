@@ -289,7 +289,7 @@ const dataWine = [{
             { id: 10, name: 'Von Siebenthal', description: 'Gran Reserva 2017', country: 'Aconcagua', price: '', price2: '18.000' },
             { id: 9, name: 'Errante', description: 'del Maipo 2017', country: 'Maipo', price: '', price2: '18.000' },
             { id: 11, name: 'Globo Vultur', description: 'de Vultur Wines 2016', country: 'Colchagua', price: '', price2: '18.000' },
-            { id: 12, name: 'Reserva Ancestral', description: 'de Miguel Torres 2015', country: 'Itata', price: ''/* 4.000 */, price2: '16.000' },
+            { id: 12, name: 'Reserva Ancestral', description: 'de Miguel Torres 2015', country: 'Itata', price: '4.000', price2: '16.000' },
             { id: 14, name: 'Teillery', description: 'Reserva 2018', country: 'Maipo', price: ''/* 4.000 */, price2: '16.000' },
             { id: 15, name: 'Las Veletas', description: '2017', country: 'Maule', price: '', price2: '15.000' },
         ]
