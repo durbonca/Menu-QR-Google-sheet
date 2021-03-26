@@ -397,7 +397,7 @@ const dataWine = [{
         description: '',
         products: [
             /* { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '4.000', price2: '25.000' }, */
-            { id: 3, name: 'Solvita', description: 'de Calyptra (37,5 cl) - 2010', country: 'Coya', price: '3.000', price2: '16.000' },
+            { id: 3, name: 'Solvita', description: 'de Calyptra (37,5 cl) - 2010', country: 'Coya', price: ''/* 3.000 */, price2: '16.000' },
             /*{ id: 2, name: 'Errazuriz', description: '2016', country: 'Aconcagua', price: '', price2: '14.000' }, */
         ]
     },
