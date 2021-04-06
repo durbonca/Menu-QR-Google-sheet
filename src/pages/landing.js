@@ -7,6 +7,19 @@ class Landing extends React.Component{
                 <img className="col-12 h-25" 
                      alt="Baco logo" 
                      src={process.env.PUBLIC_URL + "logo-baco.svg"} />
+                <a className="btn btn-data col-10 col-md-5 h-25 | 
+                d-flex justify-content-center align-items-center | 
+                mx-3 overflow-hidden rounded"
+                style={{backgroundColor: "#732619"}}
+                href="https://baco.rest/" >
+                    
+                    <div
+                        className="d-flex justify-content-center items-center"
+                        style={{backgroundColor: "#732619"}}
+                    >
+                        <h1 className="text-white text-xl">Delivery Baco</h1>
+                    </div>
+                </a>
                 <a
                 className="btn btn-data col-10 col-md-5 h-25 | 
                 d-flex justify-content-center align-items-center | 
@@ -19,19 +32,6 @@ class Landing extends React.Component{
                         style={{backgroundColor: "#732619"}}
                     >
                         <h1 className="text-white text-xl">Restaurante Baco</h1>
-                    </div>
-                </a>
-                <a className="btn btn-data col-10 col-md-5 h-25 | 
-                d-flex justify-content-center align-items-center | 
-                mx-3 overflow-hidden rounded"
-                style={{backgroundColor: "#732619"}}
-                href="https://baco.rest/" >
-                    
-                    <div
-                        className="d-flex justify-content-center items-center"
-                        style={{backgroundColor: "#732619"}}
-                    >
-                        <h1 className="text-white text-xl">Delivery Baco</h1>
                     </div>
                 </a>
             </div> 
