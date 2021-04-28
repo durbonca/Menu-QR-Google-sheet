@@ -3,9 +3,9 @@ const dataWine = [{
         description: '',
         products: [
             { id: 1, name: 'Dom Pérignon', description: 'Vintage 2008', country: 'Epernay - FRANCIA', price: '', price2: '240.000' },
-            /* {id: 2, name: 'Ruinard "R"', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '84.000' } ,*/
+            {id: 2, name: 'Ruinard "R"', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '79.000' } ,
             { id: 3, name: 'Veuve Clicquot', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '69.000' },
-            { id: 4, name: 'Pommery Brut Royal', description: 'Brut Royal', country: 'Reims - FRANCIA', price: '8.000', price2: '49.000' },
+            { id: 4, name: 'Pommery Brut Royal', description: 'Brut Royal', country: 'Reims - FRANCIA', price: '9.000', price2: '49.000' },
             { id: 5, name: 'Piper Heidsieck', description: 'Brut', country: 'Reims - FRANCIA', price: '', price2: '42.000' },
         ]
     }, {
@@ -19,8 +19,8 @@ const dataWine = [{
         title: 'Espumante',
         description: '',
         products: [
-            { id: 2, name: 'Azur "Magnum"', description: 'Brut 1.500 cl', country: 'Limari', price: '', price2: '44.000' },
             { id: 0, name: 'Casa Marín', description: 'Brut Nature', country: 'San Antonio', price: '', price2: '37.000' },
+            { id: 2, name: 'Azur "Magnum"', description: 'Brut 1.500 cl', country: 'Limari', price: '', price2: '44.000' },
             { id: 1, name: 'Baron B', description: 'Brut de Chandon', country: 'Mendoza', price: '', price2: '33.000' },
             { id: 3, name: 'Azur', description: 'Brut 750 cl', country: 'Limari', price: '', price2: '22.000' },
             { id: 31, name: 'Tatié', description: 'Brut de Tabali  y Thiénot', country: 'Limari', price: '4.500', price2: '21.000' },
