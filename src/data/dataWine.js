@@ -42,13 +42,13 @@ const dataWine = [{
         title: 'Sauvignon Blanc',
         description: '',
         products: [
-            { id: 0, name: 'Casa Marín', description: 'Cipreses 2020', country: 'San Antonio', price: '', price2: '26.000' },
-            { id: 1, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '6.000', price2: '25.000' },
+            { id: 0, name: 'Casa Marín', description: 'Cipreses 2020', country: 'San Antonio', price: '6.500', price2: '26.000' },
+            { id: 1, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '', price2: '25.000' },
             { id: 3, name: '20 Barrels', description: 'de Cono Sur - 2017', country: 'Casablanca', price: '', price2: '24.000' },
             { id: 41, name: 'Talinay', description: 'de Tabali 2020', country: 'Limari', price: '', price2: '23.000' },
             { id: 4, name: 'Sol de Sol', description: 'de Aquitania 2018', country: 'Malleco', price: '', price2: '22.000' },
-            { id: 51, name: 'Koyle Costa', description: '2018', country: 'Colcagua', price: '5.000', price2: '20.000' },
-            { id: 6, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '', price2: '17.000' },
+            { id: 51, name: 'Koyle Costa', description: '2018', country: 'Colcagua', price: '', price2: '20.000' },
+            { id: 6, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '4.000', price2: '17.000' },
             { id: 7, name: 'Little quino', description: 'de William Fèvre 2019', country: 'Malleco', price: '', price2: '16.000' },
             /* { id: 8, name: 'Marina', description: 'de P.S García 2016', country: 'Casablanca', price: '', price2: '16.000'}, */
             /* { id: 9, name: 'Clos Andino', description: 'Serie Limiteé 2017', country: 'Curico', price: '', price2: '15.000' } */
