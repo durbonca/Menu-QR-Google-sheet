@@ -75,7 +75,7 @@ const dataWine = [{
             { id: 1, name: 'Los Parientes', description: 'de Baettig 2019', country: 'Traiguén', price: ''/* 7.000 */, price2: '28.000' },
             { id: 2, name: 'Calyptra', description: 'Gran Reserva 2017', country: 'Cachapoal', price: '', price2: '25.000' },
             { id: 3, name: 'Aconcagua Costa', description: 'de Errázuriz 2019', country: 'Aconcagua', price: '5.500', price2: '23.000' },
-            { id: 4, name: 'Villard', description: 'Grand Vin 2018', country: 'Casablanca', price: '', price2: '20.000' },
+            { id: 4, name: 'Villard', description: 'Grand Vin 2018', country: 'Casablanca', price: '', price2: '21.000' },
             { id: 5, name: 'Lunae', description: 'de Callma 2018', country: 'Casa Blanca', price: '', price2: '19.000' },
             { id: 7, name: 'Altum', description: 'de Terramater 2017', country: 'Maipo', price: '', price2: '18.000' },
             { id: 8, name: 'Locura 1', description: 'de Terroir de Los Andes 2015', country: 'Cachapoal', price: '', price2: '18.000' },
