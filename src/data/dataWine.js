@@ -198,14 +198,14 @@ const dataWine = [{
             { id: 19, name: 'Terramater', description: 'Limited Reserva 2015', country: 'Maipo', price: '', price2: '15.000' },
         ]
     },
-    {
+    /* {
         title: 'Petite Syrah',
         description: '',
         products: [
             { id: 1, name: 'Orzada', description: 'de Odfjell 2016', country: 'Maule', price: '', price2: '16.000' },
             { id: 2, name: 'Carmen', description: 'Gran Reserva 2016', country: 'Maipo', price: '', price2: '16.000' },
         ]
-    },
+    }, */
     {
         title: 'Ensamblajes Mediterraneos',
         description: '',
@@ -281,7 +281,7 @@ const dataWine = [{
             { id: 1, name: 'Carmín de Peumo', description: 'de Concha y Toro 2017', country: 'Peumo', price: '', price2: '89.000' },
             { id: 2, name: 'Purple Angel', description: 'de Montes 2015', country: 'Colchagua', price: '', price2: '89.000' },
             { id: 3, name: 'Microterroir', description: 'de Casa Silva 2006 - 2012', country: 'Colchagua', price: '', price2: '45.000' },
-            { id: 4, name: 'CA 2', description: 'Costa de Terranoble 2016', country: 'Colchagua', price: '', price2: '28.000' },
+            /* { id: 4, name: 'CA 2', description: 'Costa de Terranoble 2016', country: 'Colchagua', price: '', price2: '28.000' }, */
             { id: 5, name: 'Pura Fe', description: 'de Antiyal 2016', country: 'Maipo', price: '', price2: '24.000' },
             { id: 6, name: 'De Martino', description: 'Alto de Piedras 2017', country: 'Maipo', price: '', price2: '24.000' },
             /* { id: 7, name: 'Micas', description: 'de Tabalí 2015', country: 'Cachapoal', price: '4.500', price2: '19.000' }, */
@@ -323,8 +323,8 @@ const dataWine = [{
             { id: 3, name: 'Loma Larga', description: '2012', country: 'Casablanca', price: '6.000', price2: '24.000' },
             /* { id: 4, name: 'Koyle Royale', description: '2015', country: 'Colchagua', price: '', price2: '21.000' }, */
             { id: 8, name: 'La Cancha', description: 'de Carmen 2016', country: 'Colchagua', price: '', price2: '21.000' },
-            { id: 5, name: 'Chocalán', description: 'Vitrum 2015', country: 'Maipo', price: '', price2: '21.000' },
-            { id: 6, name: 'Polkura', description: '2016', country: 'Colchagua', price: '', price2: '20.000' },
+            /* { id: 5, name: 'Chocalán', description: 'Vitrum 2015', country: 'Maipo', price: '', price2: '21.000' }, */
+            /* { id: 6, name: 'Polkura', description: '2016', country: 'Colchagua', price: '', price2: '20.000' }, */
             { id: 7, name: 'Vultur Circus', description: 'de Vultur Wines 2015', country: 'Cachapoal', price: '', price2: '20.000' },
             { id: 9, name: 'Chamán', description: 'Gr. Rsa de Santa Cruz 2017', country: 'Colchagua', price: '', price2: '17.000' },
         ]
@@ -383,8 +383,8 @@ const dataWine = [{
         title: 'Oporto',
         description: '',
         products: [
-            { id: 0, name: "DOWS LBV", description: '2009', country: 'Potugal', price: '', price2: '29.000' },
-            { id: 1, name: "Oporto DOW'S OTP", description: '10 Años', country: 'Potugal', price: '', price2: '29.000' },
+            { id: 0, name: "DOWS LBV", description: '2008', country: 'Potugal', price: '', price2: '29.000' },
+            /* { id: 1, name: "Oporto DOW'S OTP", description: '10 Años', country: 'Potugal', price: '', price2: '29.000' }, */
             /* { id: 2, name: "FORT", description: 'de Calyptra 2013', country: 'Cachapoal', price: '3.000', price2: '27.000' }, */
         ]
     }, {
@@ -398,9 +398,9 @@ const dataWine = [{
         title: 'Late Harvest',
         description: '',
         products: [
-            { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '', price2: '25.000' },
+            /* { id: 1, name: 'Erasmo', description: '2014', country: 'Maule', price: '', price2: '25.000' }, */
             { id: 3, name: 'Solvita', description: 'de Calyptra (37,5 cl) - 2010', country: 'Coya', price: '3.000', price2: '16.000' },
-            { id: 2, name: 'Errazuriz', description: '2016', country: 'Aconcagua', price: '', price2: '14.000' },
+            /* { id: 2, name: 'Errazuriz', description: '2016', country: 'Aconcagua', price: '', price2: '14.000' }, */
         ]
     },
 ]
