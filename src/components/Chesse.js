@@ -1,6 +1,7 @@
 import React from "react"
 import Bars from './bars'
 import Product from './Product'
+import { sanitizedCategories } from "../utils/bussiness.js"
 
 class Family extends React.Component {
     
@@ -18,10 +19,13 @@ class Family extends React.Component {
           .then(res => res.json())
           .then(
             (result) => {
-                result.sort(((a, b) => a.price_in_cent - b.price_in_cent));
+                /* result.sort(((a, b) => a.price_in_cent - b.price_in_cent)); */
+                const sanitizedCat = sanitizedCategories(
+                  result.map(obj => obj)
+                )
                 this.setState({
                     isLoaded: true,
-                    items: result
+                    items: sanitizedCat
                   });
               });
       }
