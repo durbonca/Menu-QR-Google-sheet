@@ -9,7 +9,8 @@ class Ostras extends React.Component{
                                     <h3 className="col-auto text-center">Ostras</h3>
                                     <Bars/>
                     </div>
-                {/* <div className="row d-flex justify-content-between">
+                    
+                <div className="row d-flex justify-content-between">
                     <div className="d-flex flex-column align-items-center col-6 px-0">
                         <small>calibre</small>
                         <strong>“Victoria”</strong>
@@ -22,9 +23,9 @@ class Ostras extends React.Component{
                           <strong className="col mx-0 px-1">30</strong><p className="col mx-0 px-1"><small>Unidades</small></p><strong className="col mx-0 px-1">21.000</strong>
                         </div>
                     </div>
-               </div> */}
+               </div>
                
-               <div className="row mt-3 d-flex justify-content-between">
+               {/* <div className="row mt-3 d-flex justify-content-between">
                     <div className="d-flex flex-column align-items-center col-6 px-0">
                         <small>calibre</small>
                         <strong>“Mediano”</strong>
@@ -37,7 +38,9 @@ class Ostras extends React.Component{
                           <strong className="col mx-0 px-1">24</strong><p className="col mx-0 px-1"><small>Unidades</small></p><strong className="col mx-0 px-1">21.000</strong>
                         </div>
                     </div>
-               </div>
+               </div> */}
+               
+
             </div>
     }
 }
