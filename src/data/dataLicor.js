@@ -103,7 +103,7 @@ const dataLicor =
                 { id: 0, name: 'Saint Germain', description: '', price2: '5.500 '} ,
                 { id: 1, name: 'Araucano', description: '', cl: '6', price2: '3.000'} , 
                 { id: 2, name: 'Amaretto Luxardo', description: '', cl: '6', price2: '3.500'} , 
-                { id: 3, name: 'Drambuie', description: '', cl: '6', price2: '4.000'} , 
+                /* { id: 3, name: 'Drambuie', description: '', cl: '6', price2: '4.000'} , */ 
                 { id: 4, name: 'Cointreau', description: '', cl: '6', price2: '5.500'} , 
                 { id: 5, name: 'Grand Marnier', description: '', cl: '4', price2: '4.500'} , 
                 { id: 6, name: 'Benedictine', description: '', cl: '4', price2: '4.000'} , 
