@@ -54,11 +54,11 @@ const dataDestilados = [{
                 /* { id: 2, name: 'Chivas Regal', description: '18 Años', cl: 'Islay 6', price: '7.000'} */
             ]
         },
-        /* { 
+        { 
                 title:'Japones', 
                 products: 
                 [
-                    { id: 1, name: 'Akashi Black', description: '', cl: 'Hyogo 6', price: '6.500'} ]}, */
+                    { id: 1, name: 'Akashi Black', description: '', cl: 'Hyogo 6', price: '6.500'} ]},
         {
             title: 'Whisky Tennessee',
             products: [
