@@ -32,7 +32,7 @@ const dataDestilados = [{
     }]
 }, {
     title: 'Whisky',
-    description: 'Manhattan, El Padrino, Clavo Oxidado, Sour, Old Fashioned',
+    description: 'Manhattan, El Padrino, Sour, Old Fashioned',
     family: [{
             title: 'Scotch Highland Single Malt',
             products: [
