@@ -1,44 +1,38 @@
-import React from "react"
+import React, {useState, useEffect} from "react"
 import Product from './Product'
 import {Link} from 'react-router-dom'
 import Bars from "./bars";
 import PuntoCarne from "./puntoCarnes" 
 import Chesse from "./Chesse"
 import { sanitizedCategories } from "../utils/bussiness.js"
+import Loading from '../components/loading/'
 
-class Family extends React.Component{
+function Family (){
     
-    constructor(props) {
-        super(props);
-        this.state = {
-          error: null,
-          isLoaded: false,
-          items: []
-        };
-      }
+    const [isLoaded, setIsLoaded] = useState(false)
+    const [items, setItems] = useState([])
 
-    componentDidMount() {
-        fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr")
-          .then(res => res.json())
-          .then(
-            (result) => {
-              const sanitizedCat = sanitizedCategories(
-                  result.map(obj => obj)
-                )
-                this.setState({
-                    isLoaded: true,
-                    items: sanitizedCat
-                  });
-              });
-      }
+    useEffect(() => {
+      fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr")
+        .then(res => res.json())
+        .then(
+          (result) => {
+            const sanitizedCat = sanitizedCategories(
+                result.map(obj => obj)
+              )
+              setIsLoaded(true)
+              setItems(sanitizedCat)
+            });
+    }
+    ,[]) 
 
-    render (){
-      return  <div className="container-fluid offset-md-3 col-md-6 mt-5 mb-5 px-4">
+      return (
+        <>
+        { !isLoaded ? <Loading/> : 
+            <div className="container-fluid offset-md-3 col-md-6 mt-5 mb-5 px-4">
                 <Link className="btn backButtom" to="/home"><span className="emoji" role="img" aria-label={""}>🔙</span></Link>
-
-                {this.state.items.map(function (dataProducts){
+                {items.map(function (dataProducts){
                     return  <div>
-
                                 { dataProducts.title === 'Café de Grano' && <Chesse /> }
 
                                 <div className="row mt-5 d-flex align-items-center">                               
@@ -52,7 +46,8 @@ class Family extends React.Component{
                                 { dataProducts.title === 'Carnes' && <PuntoCarne/> }
                             </div> 
                 })}
-              </div> 
-    }
+              </div> }
+        </>
+        )
 }
 export default Family

@@ -34,7 +34,7 @@ class Landing extends React.Component{
                         <h1 className="text-white text-xl">Restaurante Baco</h1>
                     </div>
                 </a>
-            </div> 
+            </div>
         )
     }
 }
