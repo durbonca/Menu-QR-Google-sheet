@@ -41,7 +41,7 @@ const dataBeer = [
             /* { id: 4, name: 'Ginger Beer', description: 'Fever Tree', price: '3.000' }, */ 
             { id: 5, name: 'Mediterránean', description: 'Fever Tree', price: '3.000' },
             /* { id: 51, name: 'Britvic', description: 'Ginger Ale', price: '3.000' }, */
-            /* { id: 6, name: 'Tónica Light', description: 'Fever Tree', price: '3.000' }, */
+            { id: 6, name: 'Tónica Light', description: 'Fever Tree', price: '3.000' },
             { id: 7, name: 'Eldelflower', description: 'Fever Tree', price: '3.000' }, 
             { id: 8, name: 'Agua Tónica', description: '1724', price: '3.000' },
             /* { id: 9, name: 'Aguas Minerales', description: 'Glenlivet, Perrier', price: '3.000'}, */ 
