@@ -17,7 +17,7 @@ const dataBeer = [
         subtitle: 'Barril', 
         products: 
         [
-            { id: 4, name: 'Mestra', description: 'LAGER PILSEN - Chile', price: '3.000', price2:'1.500'},  
+            /* { id: 4, name: 'Mestra', description: 'LAGER PILSEN - Chile', price: '3.000', price2:'1.500'}, */  
             { id: 6, name: 'Mestra', description: 'AMBER ALE - Chile', price: '3.000', price2:'1.500'},
             { id: 7, name: 'La Montaña', description: 'IPA - Chile', price: '3.000', price2:'1.500'},
         ]
