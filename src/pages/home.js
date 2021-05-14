@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react"
-import { sanitizedCategories } from '../utils/bussiness'
+import { sanitizedFatherCategories } from '../utils/bussiness'
 import {Link} from "react-router-dom"
 
 function Home (){
@@ -7,11 +7,11 @@ function Home (){
     const [items, setItems] = useState([])
 
     useEffect(() => {
-        fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr")
+        fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr&parent_category_null=true")
           .then(res => res.json())
           .then(
             (result) => {
-              const sanitizedCat = sanitizedCategories(
+              const sanitizedCat = sanitizedFatherCategories(
                   result.map(obj => obj)
                 )
                 setItems(sanitizedCat)
