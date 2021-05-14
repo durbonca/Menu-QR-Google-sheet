@@ -13,7 +13,7 @@ function Family (){
     const [items, setItems] = useState([])
 
     useEffect(() => {
-      fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr")
+      fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr&parent_category.title=platos")
         .then(res => res.json())
         .then(
           (result) => {

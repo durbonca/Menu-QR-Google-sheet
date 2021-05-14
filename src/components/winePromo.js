@@ -8,7 +8,7 @@ class WinePromo extends React.Component {
                                     <h5>Se Puede Adquirir Nuestra Selección de Vinos en “Boutique Baco”</h5>
                                 </div>
                             </div>
-                            <img className="col-12 mt-3" src="lol.png" alt="una copa de baco por favor"/>
+                            <img className="col-12 mt-3" src="../lol.png" alt="una copa de baco por favor"/>
                     </div>
             }
 }
