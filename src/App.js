@@ -7,7 +7,7 @@ import Licor from './components/Licor'
 import Wine from './components/Wine'
 import Coffe from './components/Coffe'
 import Home from './pages/home'
-import Menu from "./pages/menu"
+//import Menu from "./pages/menu"
 import Landing from './pages/landing'
 import Destilados from './components/Destilados'
 import Ostras from "./components/ostras"
