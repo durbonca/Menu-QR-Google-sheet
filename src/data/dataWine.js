@@ -82,7 +82,7 @@ const dataWine = [{
             /* { id: 9, name: 'Vetas Blancas', description: 'de Tabali 2018', country: 'Limari', price: '4.000', price2: '17.000' }, */
             { id: 10, name: 'Ritual', description: 'de Veramonte 2017', country: 'Casablanca', price: '', price2: '17.000' },
             { id: 11, name: 'Larkün', description: 'de Pandolfi Price 2017', country: 'Itata', price: '', price2: '16.000' },
-            { id: 10, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '16.000' },
+            /* { id: 10, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '16.000' }, */
             { id: 12, name: 'Terramater', description: 'Limited Reserve 2017', country: 'Maipo', price: '', price2: '15.000' },
         ]
     },
