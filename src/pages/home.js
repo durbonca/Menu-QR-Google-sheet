@@ -26,7 +26,7 @@ function Home (){
                 <div className="navLinks">
                 {items.map((menuItem) => {
                     return (
-                        <Link key={menuItem.slug} className="col-8 d-flex justify-content-center align-items-center btn btn-data rounded" to={`/menu/${menuItem.slug}`}>
+                        <Link key={menuItem.slug} className="col-8 d-flex justify-content-center align-items-center btn btn-data rounded" to={`/menu/${menuItem.title}`}>
                             <div><p><strong>{menuItem.title}</strong></p></div>
                         </Link>
                     )}
