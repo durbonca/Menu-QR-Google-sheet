@@ -239,13 +239,13 @@ const dataWine = [{
             { id: 1, name: 'Mourvèdre', description: 'de P.S. Garcia 2016', country: 'Itata', price: '', price2: '20.000' },
             { id: 2, name: 'Lagar', description: 'de Codegua 2017', country: 'Cachapoal', price: '', price2: '18.000' }
         ]
-    }, {
+    }, /* {
         title: 'Romano',
         description: '',
         products: [
             { id: 1, name: 'Romano', description: 'de Casa Silva 2015', country: 'Colchagua', price: '4.500', price2: '19.000' },
         ]
-    },
+    }, */
     /* { 
            title: 'Garnacha', 
            description:'',
