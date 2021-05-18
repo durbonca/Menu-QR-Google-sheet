@@ -1,5 +1,5 @@
 import React from 'react'
-// import Bars from "./bars"
+import Bars from "./bars"
 
 class Ostras extends React.Component{
     render(){
