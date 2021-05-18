@@ -4,7 +4,7 @@ import React from 'react'
 class Ostras extends React.Component{
     render(){
         return <div className="container-fluid offset-md-3 col-md-6 mt-5 mb-5 px-4">
-                {/*    <div className="row d-flex align-items-center">                               
+                   <div className="row d-flex align-items-center">                               
                                     <Bars/> 
                                     <h3 className="col-auto text-center">Ostras</h3>
                                     <Bars/>
@@ -38,7 +38,7 @@ class Ostras extends React.Component{
                           <strong className="col mx-0 px-1">24</strong><p className="col mx-0 px-1"><small>Unidades</small></p><strong className="col mx-0 px-1">21.000</strong>
                         </div>
                     </div>
-               </div>  */}
+               </div> 
                
 
             </div>
