@@ -350,7 +350,7 @@ const dataWine = [{
             { id: 112, name: 'Orzada', description: 'de Odfjell 2018', country: 'Maule', price: '', price2: '19.000' },
             { id: 12, name: 'Gillmore', description: 'Hacedor de Mundos 2012', country: 'Maule', price: '', price2: '19.000' },
             { id: 131, name: 'Corralillo', description: 'de Matetic 2016', country: 'Maipo', price: '', price2: '19.000' },
-            { id: 14, name: 'Aquitania', description: '2016', country: 'Maipo', price: '4.500', price2: ''/* 18.000 */ },
+            /* { id: 14, name: 'Aquitania', description: '2016', country: 'Maipo', price: '4.500', price2: '18.000'   }, */
             { id: 15, name: 'Clos Andino', description: 'Serie Limitée 2014', country: 'Alto Cachapoal', price: '', price2: '18.000' },
             { id: 10, name: 'In Situ', description: 'Single Parcel 2017', country: 'Aconcagua', price: '', price2: '17.000' },
         ]
