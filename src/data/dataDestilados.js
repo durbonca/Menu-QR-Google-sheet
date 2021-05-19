@@ -36,9 +36,11 @@ const dataDestilados = [{
     family: [{
             title: 'Scotch Highland Single Malt',
             products: [
-                { id: 1, name: 'Glenmorangie', description: '10 Años', cl: 'Highland 6', price: '5.000' },
-                { id: 2, name: 'Glenfarclas', description: '105', cl: 'Speyside 6', price: '5.500' },
-                { id: 3, name: 'The Glenlivet', description: '15 Años', cl: 'Highland 6', price: '6.500' }
+                { id: 11, name: 'Dalmore', description: '15 Años', cl: 'Highland', price: '12.000' },
+                { id: 11, name: 'Glenmorangie', description: '12 Años', cl: 'Highland', price: '8.000' },
+                { id: 1, name: 'Glenmorangie', description: '10 Años', cl: 'Highland', price: '5.000' },
+                { id: 2, name: 'Glenfarclas', description: '105', cl: 'Speyside', price: '5.500' },
+                { id: 3, name: 'The Glenlivet', description: '15 Años', cl: 'Highland', price: '6.500' }
             ]
         },
         {

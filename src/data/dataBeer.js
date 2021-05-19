@@ -4,6 +4,7 @@ const dataBeer = [
         subtitle: 'Botella', 
         products: 
         [
+            { id: 10, name: '1664 Blanc', description: '', price: '3.500'},
             { id: 0, name: 'Volcanes del Sur DoppelBock', description: '', price: '3.500'},
             { id: 1, name: 'Peroni', description: 'ALE - Italia - 33 Cl', price: '3.500'}, 
             { id: 2, name: 'Singha', description: 'LAGER - Tailandia - 33 Cl', price: '3.500' }, 
