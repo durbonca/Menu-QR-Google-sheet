@@ -12,7 +12,7 @@ const dataWine = [{
         title: 'Champagne Rosé',
         description: '',
         products: [
-            { id: 1, name: 'Krug', description: 'Rosé', country: 'Reims - FRANCIA', price: '', price2: '250.000' },
+            /* { id: 1, name: 'Krug', description: 'Rosé', country: 'Reims - FRANCIA', price: '', price2: '250.000' }, */
             { id: 2, name: 'Veuve Clicquot', description: 'Rosé', country: 'Reims - FRANCIA', price: '', price2: '89.000' },
         ]
     }, {
@@ -35,7 +35,7 @@ const dataWine = [{
         products: [
             { id: 1, name: 'Chandon', description: 'Rosé', country: 'Mendoza', price: '', price2: '22.000' },
             /* { id: 2, name: 'Salentein', description: 'Rosé', country: 'Uco Arg.', price: '', price2: '19.000' }, */
-            { id: 2, name: 'Wayra Rosé', description: 'By Calyptra', country: 'Uco - Mendoza', price: '', price2: '20.000' },
+            /* { id: 2, name: 'Wayra Rosé', description: 'By Calyptra', country: 'Uco - Mendoza', price: '', price2: '20.000' }, */
             { id: 3, name: 'Gemma', description: 'Rosé', country: 'Central', price: '4.000', price2: '17.000' },
         ]
     }, {
@@ -46,6 +46,7 @@ const dataWine = [{
             { id: 1, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '', price2: '25.000' },
             { id: 3, name: '20 Barrels', description: 'de Cono Sur - 2017', country: 'Casablanca', price: '', price2: '24.000' },
             { id: 41, name: 'Talinay', description: 'de Tabali 2020', country: 'Limari', price: '', price2: '23.000' },
+            { id: 42, name: 'Lago Ranco', description: '2016', country: '', price: '', price2: '23.000' },
             { id: 4, name: 'Sol de Sol', description: 'de Aquitania 2018', country: 'Malleco', price: '', price2: '22.000' },
             { id: 51, name: 'Koyle Costa', description: '2018', country: 'Colcagua', price: '', price2: '20.000' },
             { id: 6, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '4.000', price2: '17.000' },
@@ -265,7 +266,7 @@ const dataWine = [{
         title: 'Merlot',
         description: '',
         products: [
-            { id: 1, name: 'Cuvée Alexandre', description: 'de Lapostolle 2014', country: 'Colchagua', price: '', price2: '22.000' }, 
+            /* { id: 1, name: 'Cuvée Alexandre', description: 'de Lapostolle 2014', country: 'Colchagua', price: '', price2: '22.000' }, */ 
             { id: 2, name: 'Ritual', description: 'de Veramonte 2016', country: 'Casablanca', price: '', price2: '21.000' },
             { id: 3, name: 'Altum', description: 'de Terramater 2017', country: 'Maipo', price: '', price2: '18.000' },
             /* { id: 4, name: 'Casa Silva', description: 'Angostura 2017', country: 'Colchagua', price: '', price2: '18.000' }, */
@@ -304,7 +305,7 @@ const dataWine = [{
             { id: 3, name: 'Antu', description: 'Limited de Montgras 2015', country: 'Maipo', price: '', price2: '20.000' },
             { id: 6, name: 'Vetas Blancas', description: 'de Tabalí 2016', country: 'Limarí', price: '', price2: '19.000' },
             { id: 5, name: 'Gillmore', description: 'Hacedor de Mundos 2014', country: 'Maule', price: '', price2: '19.000' },
-            { id: 7, name: 'Maquis', description: 'Gran Reserva 2016', country: 'Colchagua', price: '', price2: '17.000' },
+            /* { id: 7, name: 'Maquis', description: 'Gran Reserva 2016', country: 'Colchagua', price: '', price2: '17.000' }, */
         ]
     },
     {
@@ -313,7 +314,7 @@ const dataWine = [{
         products: [
             { id: 2, name: 'Toknar', description: 'de Von Siebenthal 2011', country: 'Aconcagua', price: '', price2: '42.000' },
             { id: 3, name: 'Chaski', description: 'de Peréz Cruz 2016', country: 'Maipo', price: '', price2: '30.000' },
-            { id: 4, name: 'Casa Silva', description: 'Edición Limitada 2016', country: 'Colchagua', price: '', price2: '18.000' },
+            /* { id: 4, name: 'Casa Silva', description: 'Edición Limitada 2016', country: 'Colchagua', price: '', price2: '18.000' }, */
         ]
     }, {
         title: 'Malbec',
