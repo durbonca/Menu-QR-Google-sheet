@@ -35,7 +35,7 @@ const dataWine = [{
         products: [
             { id: 1, name: 'Chandon', description: 'Rosé', country: 'Mendoza', price: '', price2: '22.000' },
             /* { id: 2, name: 'Salentein', description: 'Rosé', country: 'Uco Arg.', price: '', price2: '19.000' }, */
-            /* { id: 2, name: 'Wayra Rosé', description: 'By Calyptra', country: 'Uco - Mendoza', price: '', price2: '20.000' }, */
+            { id: 2, name: 'Wayra Rosé', description: 'By Calyptra', country: 'Uco - Mendoza', price: '', price2: '20.000' },
             { id: 3, name: 'Gemma', description: 'Rosé', country: 'Central', price: '4.000', price2: '17.000' },
         ]
     }, {
