@@ -46,7 +46,7 @@ const dataWine = [{
             { id: 1, name: 'Calyptra', description: 'Gran Reserva 2016', country: 'Cachapoal', price: '', price2: '25.000' },
             { id: 3, name: '20 Barrels', description: 'de Cono Sur - 2017', country: 'Casablanca', price: '', price2: '24.000' },
             { id: 41, name: 'Talinay', description: 'de Tabali 2020', country: 'Limari', price: '', price2: '23.000' },
-            { id: 42, name: 'Lago Ranco', description: '2016', country: '', price: '', price2: '23.000' },
+            { id: 42, name: 'Lago Ranco', description: '2016', country: 'Futrono', price: '', price2: '23.000' },
             { id: 4, name: 'Sol de Sol', description: 'de Aquitania 2018', country: 'Malleco', price: '', price2: '22.000' },
             { id: 51, name: 'Koyle Costa', description: '2018', country: 'Colcagua', price: '', price2: '20.000' },
             { id: 6, name: 'Larkün', description: 'de Pandolfi Price 2018', country: 'Itata', price: '4.000', price2: '17.000' },
