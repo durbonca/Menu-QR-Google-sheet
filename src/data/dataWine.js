@@ -79,7 +79,7 @@ const dataWine = [{
             { id: 5, name: 'Lunae', description: 'de Callma 2018', country: 'Casablanca', price: '4.500', price2: '19.000' },
             { id: 7, name: 'Altum', description: 'de Terramater 2017', country: 'Maipo', price: '', price2: '18.000' },
             { id: 8, name: 'Locura 1', description: 'de Terroir de Los Andes 2015', country: 'Cachapoal', price: '', price2: '18.000' },
-            /* { id: 9, name: 'Vetas Blancas', description: 'de Tabali 2018', country: 'Limari', price: '4.000', price2: '17.000' }, */
+            { id: 9, name: 'Vetas Blancas', description: 'de Tabali 2018', country: 'Limari', price: '',/* 4.000 */ price2: '17.000' },
             { id: 10, name: 'Ritual', description: 'de Veramonte 2017', country: 'Casablanca', price: '', price2: '17.000' },
             { id: 11, name: 'Larkün', description: 'de Pandolfi Price 2017', country: 'Itata', price: '', price2: '16.000' },
             /* { id: 10, name: 'Corralillo', description: 'de Matetic 2018', country: 'San Antonio', price: '', price2: '16.000' }, */

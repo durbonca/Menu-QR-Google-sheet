@@ -84,7 +84,7 @@ const dataLicor =
             description: 'Daiquiri, Mojito, ...', 
             cl2: '6', 
             products: [
-                { id: 0, name: 'Diplomático', description: '12 Años', price2: '5.000'} ,
+                /* { id: 0, name: 'Diplomático', description: '12 Años', price2: '5.000'} , */
                 { id: 1, name: 'Santiago de Cuba', description: '12 Años', price2: '5.000'} , 
                 { id: 2, name: 'Bacardí', description: '8 Años', price2: '4.000'} , 
                 { id: 3, name: 'Mount Gay', description: 'Black Eclipse', price2: '4.000'} , 
