@@ -6,6 +6,7 @@ import PuntoCarne from "./puntoCarnes"
 import Chesse from "./Chesse"
 import { sanitizedCategories } from "../utils/bussiness.js"
 import Loading from '../components/loading/'
+// import axios from 'axios';
 
 function Family (){
     
@@ -25,6 +26,18 @@ function Family (){
             });
     }
     ,[]) 
+
+
+    /* useEffect(() => {
+      axios.get('https://docs.google.com/spreadsheets/d/105CwjCT4ocNcCZXeTzmWejPGpG_JOX3moE-aVixp2v4', {headers: {'key': 'AIzaSyB1haxOGQKIKAce8tEpfOnNC2UjcBMknmA', 'access-control-allow-origin': '*', 'Vary': 'Origin'}})
+        .then(res => res.json())
+        .then(
+          (result) => {
+            console.log(result)
+            })
+        .catch(err=> console.log(err))
+    }
+    ,[])  */
 
       return (
         <>
