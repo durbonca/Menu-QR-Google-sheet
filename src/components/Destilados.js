@@ -15,7 +15,7 @@ class Family extends React.Component {
                                     <h3 className="col-auto text-center">{dataDestilados.title}</h3>
                                     <Bars/>
                                 </div>
-                                <div class="row">
+                                <div className="row">
                                     <i className="col-12 text-right">{dataDestilados.description}</i>
                                 </div>
                                 <ProductDestilados product={dataDestilados.family}/>
