@@ -16,7 +16,7 @@ class Family extends React.Component {
                                     <h3 style={{color:"#ce321a"}} className="col-12 text-center">{dataProducts.title}</h3>
                                     <p className="col-12 text-center"><i className="small">{dataProducts.description}</i></p>
                                 </div>
-                                    <div class="row d-flex justify-content-end">
+                                    <div className="row d-flex justify-content-end">
                                         {/* <span style={{fontSize:"25px"}} className="col-2 p-0 emoji" role="img" aria-label={""}>🍷</span> */}
                                         <span style={{fontSize:"25px"}} className="col-2 p-0 emoji" role="img" aria-label={""}>🍾</span>
                                     </div>

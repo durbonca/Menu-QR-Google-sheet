@@ -1,0 +1,8 @@
+export { default as Family } from './Family'
+export { default as Ostras } from './ostras'
+export { default as Loading } from './loading'
+export { default as Wine} from './Wine'
+export { default as Destilados } from './Destilados'
+export { default as Coffe } from './Coffe'
+export { default as Licor } from './Licor'
+export { default as Beer} from './Beer'

@@ -1,66 +1,32 @@
 import React, {useState, useEffect} from "react"
 import Product from './Product'
-import {Link} from 'react-router-dom'
 import Bars from "./bars";
 import PuntoCarne from "./puntoCarnes" 
 import Chesse from "./Chesse"
-import { sanitizedCategories } from "../utils/bussiness.js"
-import Loading from '../components/loading/'
-// import axios from 'axios';
 
-function Family (){
+function Family (props){
     
-    const [isLoaded, setIsLoaded] = useState(false)
-    const [items, setItems] = useState([])
-
-    useEffect(() => {
-      fetch("https://bc-backend-prod.herokuapp.com/product-categories/?rest.rest_id_eq=bc-qr&parent_category.title=platos")
-        .then(res => res.json())
-        .then(
-          (result) => {
-            const sanitizedCat = sanitizedCategories(
-                result.map(obj => obj)
-              )
-              setIsLoaded(true)
-              setItems(sanitizedCat)
-            });
-    }
-    ,[]) 
-
-
-    /* useEffect(() => {
-      axios.get('https://docs.google.com/spreadsheets/d/105CwjCT4ocNcCZXeTzmWejPGpG_JOX3moE-aVixp2v4', {headers: {'key': 'AIzaSyB1haxOGQKIKAce8tEpfOnNC2UjcBMknmA', 'access-control-allow-origin': '*', 'Vary': 'Origin'}})
-        .then(res => res.json())
-        .then(
-          (result) => {
-            console.log(result)
-            })
-        .catch(err=> console.log(err))
-    }
-    ,[])  */
-
-      return (
+    console.log(props.items)
+    
+    return (
         <>
-        { !isLoaded ? <Loading/> : 
-            <div className="container-fluid offset-md-3 col-md-6 mt-5 mb-5 px-4">
-                <Link className="btn backButtom" to="/home"><span className="emoji" role="img" aria-label={""}>🔙</span></Link>
-                {items.map(function (dataProducts){
-                    return  <div>
+              
+               {/*  {props.items.map(function (dataProducts, index){
+                    return  <div key={index}>
                                 { dataProducts.title === 'Café de Grano' && <Chesse /> }
 
                                 <div className="row mt-5 d-flex align-items-center">                               
                                     <Bars/> 
-                                    <h3 className="col-auto text-center">{dataProducts.title}</h3>
+                                    <h3 key={index} className="col-auto text-center">{dataProducts.title}</h3>
                                     <Bars/>
                                 </div>
                                     <p><i>{dataProducts.description}</i></p>
-                                <Product product={dataProducts.products}/>
+                                <Product key={dataProducts.slug} product={dataProducts.products}/>
 
                                 { dataProducts.title === 'Carnes' && <PuntoCarne/> }
                             </div> 
-                })}
-              </div> }
-        </>
-        )
+                })} */}
+      </>       
+      )
 }
 export default Family

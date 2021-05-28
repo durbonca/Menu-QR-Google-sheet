@@ -20,7 +20,7 @@ class Family extends React.Component {
                                 <div class="row">
                                     <i>{dataLicor.description}</i>
                                 </div>
-                                <div class="row d-flex justify-content-end">
+                                <div className="row d-flex justify-content-end">
                                         <span className="col-3 p-0 text-right">{dataLicor.cl} {dataLicor.cl?'cl':''}</span>
                                         <span className="col-2 p-0 text-right">{dataLicor.cl2} {dataLicor.cl2?'cl':''}</span>
                                 </div>

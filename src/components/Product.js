@@ -7,7 +7,7 @@ class Family extends React.Component {
                  {this.props.product.map(function (product){ 
                     return <div>
                      { product.visible &&
-                          <div className="row d-flex mt-1 item">
+                          <div key={product.slug} className="row d-flex mt-1 item">
                                 <p className="col text-left pl-0 mb-0">{product.name} <small className="col-12">{product.description}</small></p>
                                 <p className="col-auto pr-0 text-right mb-0">{new Intl.NumberFormat('ca-ES').format(product.price_in_cent)}</p>
                             </div>
