@@ -1,7 +1,6 @@
 import React from "react"
 
 function FamiliaVinos (items) {
-    console.log(items)
         return (
                 <div>
                     <div className="row mt-5 d-flex">

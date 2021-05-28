@@ -57,7 +57,7 @@ export const sanitizedCategories = Items => {
     const arrayItemsByCat = []
 
     // Check if the categories is active
-    const activeItems = Items.filter( item => item.activo === "TRUE")
+    const activeItems = Items.filter( item => item.activo === "VERDADERO")
 
     //extract all the categories with active items
     activeItems.map( item => {
