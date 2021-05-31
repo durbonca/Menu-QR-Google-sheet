@@ -1,5 +1,1 @@
 export { default as Home } from './home'
-export { default as Landing } from './landing'
-export { default as Bar } from './bar'
-export { default as Platos } from './platos'
-export { default as Vinos } from './vinos'

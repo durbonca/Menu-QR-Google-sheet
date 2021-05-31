@@ -1,26 +1,46 @@
-import {Link} from "react-router-dom"
-function Home (){
+import { useEffect, useState } from 'react'
+import { FamiliaPlatos } from '../components'
+import { sanitizedCategories } from '../utils/bussiness'
+import { Link } from 'react-router-dom'
 
-        return( 
+export default function Platos() {
 
-            <div className="vh-100">
-                <img src={process.env.PUBLIC_URL + "logo-baco.svg"} alt="logo" className="col-10 h-50"/>
-                
-                <div className="navLinks">
-                
-                            <Link className="col-8 d-flex justify-content-center align-items-center btn btn-data rounded" to={`/menu/platos`}>
-                                <div><p><strong>Platos</strong></p></div>
-                            </Link>
-                            <Link className="col-8 d-flex justify-content-center align-items-center btn btn-data rounded" to={`/menu/vinos`}>
-                                <div><p><strong>Vinos</strong></p></div>
-                            </Link>
-                            <Link className="col-8 d-flex justify-content-center align-items-center btn btn-data rounded" to={`/menu/bar`}>
-                                <div><p><strong>Bar</strong></p></div>
-                            </Link>
-                        
-                </div>
-                
-            </div> 
-        )   
+    const [items, setItems] = useState([])
+    
+
+    useEffect(() => {
+        const GSheetReader = require('g-sheets-api');
+        const options = {
+          sheetId: '161qN9zp3vGNAT_K-iZ1RYl2hTLhyvOcrCa94RiYMHiY',
+          sheetNumber: 1,
+          returnAllResults: true,
+          filter: {},
+          filterOptions: {}
+        }
+        
+        GSheetReader(
+          options,
+          results => {
+            const sanitizedItems = sanitizedCategories(
+                  results.map(obj => obj)
+                )
+            setItems(sanitizedItems)
+            setIsLoaded(true)
+          },
+          error => {
+            console.error(error)
+          })
+      }
+      ,[])
+    
+    return (
+        <div>
+            <div className="container-fluid offset-md-3 col-md-6 mt-5 mb-5 px-4">
+            <Link className="btn backButtom" to="/home"><span className="emoji" role="img" aria-label={""}>🔙</span></Link>
+                {
+                    items.map((props, index)=> <FamiliaPlatos key={index} {...props}/>)
+                }
+            </div>
+        </div>
+    )
 }
-export default Home

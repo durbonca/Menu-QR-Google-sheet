@@ -1,7 +1,3 @@
 export { default as FamiliaPlatos } from './FamiliaPlatos'
-export { default as FamiliaVinos } from './FamiliaVinos'
-export { default as FamiliaBar } from './FamiliaBar'
 export { default as Loading } from './loading'
-export { default as Licor } from './Licor'
 export { default as Bars } from './bars'
-export { default as WinePromo } from './winePromo'
