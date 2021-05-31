@@ -37,8 +37,7 @@ export default function Bar() {
             <Link className="btn backButtom" to="/home"><span className="emoji" role="img" aria-label={""}>🔙</span></Link>
             { isLoaded ?
             <>
-              <h1 className="mt-5 mb-3">BAR</h1> 
-                
+              <h1 className="mt-5 mb-3">BAR</h1>
                 {
                     items.map((props, index)=> <FamiliaBar key={index} {...props}/>)
                 }
