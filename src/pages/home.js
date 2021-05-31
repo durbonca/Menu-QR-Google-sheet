@@ -36,7 +36,7 @@ export default function Platos() {
     return (
         <div>
             <div className="container-fluid offset-md-3 col-md-6 mt-5 mb-5 px-4">
-            <Link className="btn backButtom" to="/home"><span className="emoji" role="img" aria-label={""}>🔙</span></Link>
+            <Link className="btn backButtom" to="/https://api.whatsapp.com/send?phone=56940574486&text=Hola!%20Quisiera%20hacer%20mi%20pedido!"><span className="emoji" role="img" aria-label={""}>🔙</span></Link>
                 {
                     items.map((props, index)=> <FamiliaPlatos key={index} {...props}/>)
                 }
