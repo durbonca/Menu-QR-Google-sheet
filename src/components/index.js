@@ -1,5 +1,6 @@
 export { default as FamiliaPlatos } from './FamiliaPlatos'
 export { default as FamiliaVinos } from './FamiliaVinos'
+export { default as FamiliaBar } from './FamiliaBar'
 export { default as Loading } from './loading'
 export { default as Destilados } from './Destilados'
 export { default as Coffe } from './Coffe'
