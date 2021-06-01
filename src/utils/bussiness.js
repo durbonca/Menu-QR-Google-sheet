@@ -12,11 +12,22 @@ export const sanitizedCategories = Items => {
 
   //fill all the array by category
   categories.map( categoryName => {
+    
      let itemsGroup = activeItems.filter(item => categoryName === item.categoria)
-     let objectArray = {categoryName: categoryName ,items: itemsGroup}
+
+     let descripcion = ''
+     let cl1 = ''
+     let cl2 = ''
+     if(categoryName.includes('|')){
+       cl2 = categoryName.split('|')[3]
+       cl1 = categoryName.split('|')[2]
+       descripcion = categoryName.split('|')[1]
+       categoryName = categoryName.split('|')[0]
+     }
+
+     let objectArray = {categoryName: categoryName, descripcion: descripcion, cl1: cl1, cl2: cl2 ,items: itemsGroup}
      arrayItemsByCat.push(objectArray)
      return null
     })
-    
   return arrayItemsByCat
 }

@@ -31,16 +31,19 @@
   }
 }
 .backButtom{
+  color: white;
   position: fixed;
-  background-color:rgba(170, 77, 61, .5) !important;
+  background-color:#056162 !important;
   bottom: 10px;
-  right: 10px;
+  width: 100%;
+  right: 15px;
+  border-radius: 25px;
   z-index: 1000;
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
 .backButtom:hover{
-  background-color:rgb(115, 38, 25, .8) !important;
+  background-color:#044d4e !important;
 }
 .navLinks{
   display: flex;
@@ -57,7 +60,7 @@ padding-right: 10px;
   font-size: 2.5em;
 }
 .btn-data{
- background: #732619 !important;
+ background: #056162 !important;
  color:white!important;
  font-weight: bolder!important;
  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
