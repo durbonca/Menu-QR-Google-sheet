@@ -17,9 +17,10 @@ function FamiliaPlatos (items) {
             { items.items.map( function (dataProducts, index){
                 return  <div key={index}>
                             <div key={dataProducts.slug} className="row d-flex mt-1 item">
-                                <p className="col text-left pl-0 mb-0">{dataProducts.titulo} <small className="col-12">{dataProducts.descripcion}</small></p>
+                                <p className="col text-left pl-0 mb-0">{dataProducts.titulo} </p>
                                 <p className="col-3 pr-0 text-right mb-0">{dataProducts.precio1}</p>
-                                <p className="col-3 ml-auto pr-0 text-right mb-0">{dataProducts.precio2}</p>
+                                {/* <p className="col-3 ml-auto pr-0 text-right mb-0">{dataProducts.precio2}</p> */}
+                                <small className="text-left col-9">{dataProducts.descripcion}</small>
                             </div>
                         </div> 
                 })

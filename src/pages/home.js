@@ -10,7 +10,7 @@ export default function Platos() {
     useEffect(() => {
         const GSheetReader = require('g-sheets-api');
         const options = {
-          sheetId: '161qN9zp3vGNAT_K-iZ1RYl2hTLhyvOcrCa94RiYMHiY',
+          sheetId: '1_Zfw27wPBj57vc-eC0Cm1FJVeb0WyL0wy5oTDhvcGoA',
           sheetNumber: 1,
           returnAllResults: true,
           filter: {},
@@ -40,7 +40,7 @@ export default function Platos() {
             </div>
 
             <a
-                href="https://api.whatsapp.com/send?phone=56940574486&text=Hola!%20Quisiera%20hacer%20mi%20pedido!"><span className="emoji" role="img" aria-label={""}>
+                href="https://api.whatsapp.com/send?phone=56921968142&text=Hola!%20Quisiera%20hacer%20mi%20pedido!"><span className="emoji" role="img" aria-label={""}>
                  <WhatsappIcon text="HACER MI PEDIDO!" /> 
             </span></a>
 
