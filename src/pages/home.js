@@ -37,12 +37,12 @@ export default function Platos() {
                 {
                     items.map((props, index)=> <FamiliaPlatos key={index} {...props}/>)
                 }
-            </div>
-
             <a
                 href="https://api.whatsapp.com/send?phone=56921968142&text=Hola!%20Quisiera%20hacer%20mi%20pedido!"><span className="emoji" role="img" aria-label={""}>
                  <WhatsappIcon text="HACER MI PEDIDO!" /> 
             </span></a>
+            </div>
+
 
         </div>
     )

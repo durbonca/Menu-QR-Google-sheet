@@ -35,8 +35,7 @@
   position: fixed;
   background-color:#056162 !important;
   bottom: 10px;
-  width: 100%;
-  right: 15px;
+  right: 25px;
   border-radius: 25px;
   z-index: 1000;
   padding-top: 0px !important;
@@ -57,7 +56,7 @@ padding-right: 10px;
 }
 .emoji{
   display: block;
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 .btn-data{
  background: #056162 !important;
